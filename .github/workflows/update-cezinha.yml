@@ -1,0 +1,52 @@
+name: Update Cezinha (Meta)
+
+on:
+  schedule:
+    # a cada 15 min (minutos 8/23/38/53 pra nao colidir com os workflows do festival)
+    - cron: '8,23,38,53 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Cezinha update script
+        env:
+          META_TOKEN_CEZINHA: ${{ secrets.META_TOKEN_CEZINHA }}
+        run: python update-cezinha.py
+
+      - name: Commit cezinha data (com retry loop)
+        run: |
+          git config user.name  "GitHub Actions"
+          git config user.email "actions@github.com"
+          [ -f cezinha-data.json ] && git add cezinha-data.json || true
+          if git diff --staged --quiet; then
+            echo "Sem mudancas em cezinha-data.json"
+            exit 0
+          fi
+          git commit -m "chore: update cezinha data [skip ci]"
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            git pull --rebase origin main 2>&1 || {
+              git rebase --abort 2>/dev/null || true
+              [ -f cezinha-data.json ] && git add cezinha-data.json || true
+              git diff --staged --quiet || git commit -m "chore: update cezinha data [skip ci]" --allow-empty
+            }
+            if git push 2>&1; then
+              echo "Push OK na tentativa $attempt"
+              exit 0
+            fi
+            echo "Push falhou na tentativa $attempt, aguardando..."
+            sleep $((RANDOM % 15 + 5))
+          done
+          echo "ERRO: push falhou apos 10 tentativas"
+          exit 1

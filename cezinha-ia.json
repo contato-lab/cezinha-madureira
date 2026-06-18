@@ -1,0 +1,42 @@
+{
+ "gerado_em": "2026-06-18T14:40:00-03:00",
+ "tipo": "diagnostico_redes",
+ "diagnostico": {
+  "titulo": "Institucional demais: falta mostrar entrega e ampliar a base",
+  "panorama": "As redes do Cezinha são sólidas no nicho evangélico, mas com tom institucional demais: falam pouco do trabalho concreto dele (projetos, relatorias, entregas). Num momento em que o apoio da igreja não é mais total, o desafio é mostrar realização e abrir a comunicação para o conservador que não é evangélico, sem perder a base atual.",
+  "destaques": [
+   "Base evangélica fiel e posicionamento claro, credibilidade que poucos têm.",
+   "Já domina Reels e vídeo, o formato que mais entrega alcance hoje.",
+   "Munição subaproveitada: é Secretário de Transparência e mexe com transporte e infraestrutura, pautas que falam com público amplo."
+  ],
+  "atencao": [
+   "Comunicação institucional demais: mostra pouco o trabalho concreto (projetos que assinou, relatorias, entregas pra população).",
+   "Concentrado na base evangélica num momento em que o apoio da igreja não é total. Falta conteúdo pro conservador não evangélico.",
+   "Posta pouco (cerca de 420 publicações) e reage devagar à pauta do dia, então perde alcance."
+  ],
+  "proximos_passos": [
+   "Mostrar entrega: transformar projetos, relatorias e conquistas em Reels simples e diretos (o que mudou na vida das pessoas), sem tom de comunicado oficial.",
+   "Ampliar a base: pautas conservadoras amplas (segurança, família, economia, transparência) em linguagem que não dependa do código evangélico.",
+   "Subir a cadência e montar pauta rápida pra reagir ao tema do dia, mantendo a base de fé bem servida."
+  ],
+  "trabalho_parlamentar": {
+   "resumo": "Ele tem entrega legislativa concreta e verificável que quase não aparece nas redes. Cada item destes vira conteúdo de gabinete que trabalha, e ajuda a ampliar a imagem além da pauta religiosa.",
+   "itens": [
+    { "titulo": "Secretário de Transparência da Câmara", "tipo": "conquista", "descricao": "Cargo que fiscaliza o acesso à informação na Câmara. É dele a missão de cobrar uma Casa mais aberta e transparente com o cidadão, uma bandeira que conversa com todo conservador." },
+    { "titulo": "Lei do tratamento de saúde fora da lista da ANS", "tipo": "autoria", "descricao": "Autor do projeto que virou a Lei 14.454/2022, garantindo cobertura de exames e tratamentos que o plano antes negava por não estarem na lista oficial. Mexe na vida de quem depende de plano." },
+    { "titulo": "Presidiu a Comissão de Viação e Transportes", "tipo": "comissão", "descricao": "Comandou a comissão que decide sobre trânsito, transporte e segurança nas estradas, tema que afeta todo mundo que pega a estrada ou o ônibus todo dia." },
+    { "titulo": "Projeto de transparência nas filas do SUS", "tipo": "autoria", "descricao": "Apresentou o projeto que cria um painel para mostrar o tamanho das filas nas emergências do SUS, dando ao paciente o direito de saber quanto vai esperar pelo atendimento." },
+    { "titulo": "Reforço à Lei Maria da Penha", "tipo": "autoria", "descricao": "Assinou propostas que apertam o cerco contra agressores, com monitoramento eletrônico e distância mínima de segurança para proteger melhor as mulheres ameaçadas." },
+    { "titulo": "Projetos para modernizar o rádio", "tipo": "autoria", "descricao": "Radialista de carreira, é autor de projetos que atualizam as regras do rádio brasileiro, como levar a faixa FM estendida aos aparelhos, defendendo o setor que informa milhões." }
+   ]
+  },
+  "comparativo": {
+   "resumo": "Os concorrentes mostram que dá pra alcançar o conservador amplo, não só o evangélico. O caminho do Cezinha é mostrar entrega e ter uma bandeira própria que vá além da igreja.",
+   "linhas": [
+    { "nome": "Sóstenes Cavalcante", "arroba": "@sostenescavalcante", "seguidores": "829 mil", "destaque": "Volume diário e pauta de embate que alcança o conservador amplo.", "o_que_aprender": "Cadência alta e reação rápida ao tema do dia, indo além da fé." },
+    { "nome": "Marco Feliciano", "arroba": "@marcofeliciano", "seguidores": "~4 milhões", "destaque": "Reels de pregação emocional que seguram a base evangélica.", "o_que_aprender": "Manter a base de fé com conteúdo de vídeo bem feito." },
+    { "nome": "Damares Alves", "arroba": "@damaresalvesoficial", "seguidores": "~4 milhões", "destaque": "Bandeira-assinatura (proteção à infância) que une conservadores além da igreja.", "o_que_aprender": "Eleger uma bandeira própria ampla (ex: transparência) e martelar." }
+   ]
+  }
+ }
+}
