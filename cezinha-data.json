@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-06-18T23:21:09-03:00",
+  "atualizado_em": "2026-06-19T04:34:00-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,8 +9,8 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 106718,
-    "ig_atual": 191477,
+    "fb_atual": 106716,
+    "ig_atual": 191474,
     "ig_posts": 421,
     "serie": [
       {
@@ -22,9 +22,14 @@
         "data": "2026-06-18",
         "fb": 106718,
         "ig": 191477
+      },
+      {
+        "data": "2026-06-19",
+        "fb": 106716,
+        "ig": 191474
       }
     ],
-    "ig_follows": 4145
+    "ig_follows": 4146
   },
   "campanhas": [
     {
@@ -34,27 +39,27 @@
       "objetivo_label": "Engajamento",
       "desde": "2026-06-17",
       "totais": {
-        "impressions": 16057,
-        "reach": 15555,
-        "frequency": 1.0323,
-        "spend": 113.85,
-        "cpm": 7.0904,
-        "cpc": 0.4705,
-        "ctr": 1.5071,
+        "impressions": 16065,
+        "reach": 15585,
+        "frequency": 1.0308,
+        "spend": 113.92,
+        "cpm": 7.0912,
+        "cpc": 0.4707,
+        "ctr": 1.5064,
         "clicks": 242,
-        "engajamentos": 10624,
+        "engajamentos": 10630,
         "reacoes": 78,
         "comentarios": 2,
         "salvamentos": 1,
         "compartilhamentos": 0,
         "link_clicks": 0,
-        "video_plays": 15212,
-        "video_views": 10543,
-        "thruplays": 2297,
+        "video_plays": 15221,
+        "video_views": 10549,
+        "thruplays": 2299,
         "custo_engajamento": 0.0107,
         "custo_link_click": 0.0,
         "ad_recallers": 300,
-        "ad_recall_rate": 1.92864
+        "ad_recall_rate": 1.924928
       },
       "serie": [
         {
@@ -82,27 +87,27 @@
           "data": "2026-06-17"
         },
         {
-          "impressions": 7442,
-          "reach": 7385,
-          "frequency": 1.0077,
-          "spend": 59.49,
-          "cpm": 7.9938,
-          "cpc": 0.4721,
-          "ctr": 1.6931,
+          "impressions": 7450,
+          "reach": 7401,
+          "frequency": 1.0066,
+          "spend": 59.56,
+          "cpm": 7.9946,
+          "cpc": 0.4727,
+          "ctr": 1.6913,
           "clicks": 126,
-          "engajamentos": 4837,
+          "engajamentos": 4843,
           "reacoes": 40,
           "comentarios": 2,
           "salvamentos": 0,
           "compartilhamentos": 0,
           "link_clicks": 0,
-          "video_plays": 7041,
-          "video_views": 4795,
-          "thruplays": 1037,
+          "video_plays": 7050,
+          "video_views": 4801,
+          "thruplays": 1039,
           "custo_engajamento": 0.0123,
           "custo_link_click": 0.0,
           "ad_recallers": 140,
-          "ad_recall_rate": 1.895735,
+          "ad_recall_rate": 1.891636,
           "data": "2026-06-18"
         }
       ]
