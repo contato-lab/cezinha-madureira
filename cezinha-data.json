@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-06-19T14:01:46-03:00",
+  "atualizado_em": "2026-06-19T16:05:19-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 106713,
-    "ig_atual": 191471,
+    "ig_atual": 191449,
     "ig_posts": 422,
     "serie": [
       {
@@ -26,10 +26,10 @@
       {
         "data": "2026-06-19",
         "fb": 106713,
-        "ig": 191471
+        "ig": 191449
       }
     ],
-    "ig_follows": 4152
+    "ig_follows": 4160
   },
   "campanhas": [
     {
