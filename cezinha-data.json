@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-06-19T04:34:00-03:00",
+  "atualizado_em": "2026-06-19T08:51:42-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,8 +9,8 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 106716,
-    "ig_atual": 191474,
+    "fb_atual": 106714,
+    "ig_atual": 191452,
     "ig_posts": 421,
     "serie": [
       {
@@ -25,11 +25,11 @@
       },
       {
         "data": "2026-06-19",
-        "fb": 106716,
-        "ig": 191474
+        "fb": 106714,
+        "ig": 191452
       }
     ],
-    "ig_follows": 4146
+    "ig_follows": 4152
   },
   "campanhas": [
     {
@@ -39,23 +39,23 @@
       "objetivo_label": "Engajamento",
       "desde": "2026-06-17",
       "totais": {
-        "impressions": 16065,
+        "impressions": 16068,
         "reach": 15585,
-        "frequency": 1.0308,
-        "spend": 113.92,
-        "cpm": 7.0912,
-        "cpc": 0.4707,
-        "ctr": 1.5064,
+        "frequency": 1.031,
+        "spend": 113.94,
+        "cpm": 7.0911,
+        "cpc": 0.4708,
+        "ctr": 1.5061,
         "clicks": 242,
-        "engajamentos": 10630,
+        "engajamentos": 10634,
         "reacoes": 78,
         "comentarios": 2,
         "salvamentos": 1,
         "compartilhamentos": 0,
         "link_clicks": 0,
-        "video_plays": 15221,
-        "video_views": 10549,
-        "thruplays": 2299,
+        "video_plays": 15225,
+        "video_views": 10553,
+        "thruplays": 2300,
         "custo_engajamento": 0.0107,
         "custo_link_click": 0.0,
         "ad_recallers": 300,
@@ -87,23 +87,23 @@
           "data": "2026-06-17"
         },
         {
-          "impressions": 7450,
+          "impressions": 7453,
           "reach": 7401,
-          "frequency": 1.0066,
-          "spend": 59.56,
-          "cpm": 7.9946,
-          "cpc": 0.4727,
-          "ctr": 1.6913,
+          "frequency": 1.007,
+          "spend": 59.58,
+          "cpm": 7.9941,
+          "cpc": 0.4729,
+          "ctr": 1.6906,
           "clicks": 126,
-          "engajamentos": 4843,
+          "engajamentos": 4847,
           "reacoes": 40,
           "comentarios": 2,
           "salvamentos": 0,
           "compartilhamentos": 0,
           "link_clicks": 0,
-          "video_plays": 7050,
-          "video_views": 4801,
-          "thruplays": 1039,
+          "video_plays": 7054,
+          "video_views": 4805,
+          "thruplays": 1040,
           "custo_engajamento": 0.0123,
           "custo_link_click": 0.0,
           "ad_recallers": 140,
