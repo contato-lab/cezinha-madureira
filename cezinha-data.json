@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-06-19T11:34:07-03:00",
+  "atualizado_em": "2026-06-19T14:01:46-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 106713,
-    "ig_atual": 191448,
+    "ig_atual": 191471,
     "ig_posts": 422,
     "serie": [
       {
@@ -26,7 +26,7 @@
       {
         "data": "2026-06-19",
         "fb": 106713,
-        "ig": 191448
+        "ig": 191471
       }
     ],
     "ig_follows": 4152
@@ -263,16 +263,16 @@
         "cpc": 0.3839,
         "ctr": 2.9327,
         "clicks": 426,
-        "engajamentos": 3014,
+        "engajamentos": 3015,
         "reacoes": 58,
         "comentarios": 2,
         "salvamentos": 0,
         "compartilhamentos": 3,
         "link_clicks": 407,
-        "video_plays": 13816,
-        "video_views": 2544,
+        "video_plays": 13818,
+        "video_views": 2545,
         "thruplays": 572,
-        "custo_engajamento": 0.0543,
+        "custo_engajamento": 0.0542,
         "custo_link_click": 0.4018,
         "ad_recallers": 0,
         "ad_recall_rate": 0.0
@@ -311,16 +311,16 @@
           "cpc": 0.399,
           "ctr": 3.1684,
           "clicks": 162,
-          "engajamentos": 1165,
+          "engajamentos": 1166,
           "reacoes": 19,
           "comentarios": 1,
           "salvamentos": 0,
           "compartilhamentos": 1,
           "link_clicks": 154,
-          "video_plays": 4864,
-          "video_views": 990,
+          "video_plays": 4866,
+          "video_views": 991,
           "thruplays": 265,
-          "custo_engajamento": 0.0555,
+          "custo_engajamento": 0.0554,
           "custo_link_click": 0.4197,
           "ad_recallers": 0,
           "ad_recall_rate": 0.0,
