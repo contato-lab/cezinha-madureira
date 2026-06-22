@@ -134,6 +134,15 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 .foll-delta.up{color:var(--green)} .foll-delta.down{color:var(--red)} .foll-delta.neu{color:var(--text3)}
 .foll-sub{font-size:11px;color:var(--text3);margin-top:8px}
 
+/* RESULTADO UNIFICADO */
+.cons-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.cons-chip{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:4px 13px;border-radius:20px;background:var(--lime-dim);border:1px solid var(--lime-border);color:var(--lime)}
+.cons-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+.cons-metric{background:var(--card);border:1px solid var(--lime-border);border-radius:var(--radius);padding:16px 18px;box-shadow:0 0 0 1px rgba(200,255,0,0.05);transition:all .2s;animation:rise .5s ease both}
+.cons-metric:hover{border-color:var(--lime);transform:translateY(-2px)}
+.cons-metric .l{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--text3);margin-bottom:7px}
+.cons-metric .v{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;color:var(--text);line-height:1}
+
 /* PUBLICO */
 .pub-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:16px}
 .pub-stat{background:var(--card);border:1px solid var(--lime-border);border-radius:var(--radius);padding:16px 18px;box-shadow:0 0 0 1px rgba(200,255,0,0.06)}
@@ -268,25 +277,14 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
     <div class="kpi-strip" id="kpiStrip"></div>
   </section>
 
-  <!-- CAMPANHAS -->
+  <!-- RESULTADO UNIFICADO -->
   <section>
     <div class="section-header">
-      <div class="section-title">🎯 Campanhas por objetivo</div>
-      <div class="section-sub">Cada campanha mostra a métrica principal do seu objetivo. Nenhuma é de venda.</div>
+      <div class="section-title">🎯 Resultado unificado das campanhas</div>
+      <div class="section-sub" id="consSub">Todas as campanhas somadas · segue o filtro de período</div>
     </div>
-    <div class="camp-grid" id="campGrid"></div>
-  </section>
-
-  <!-- COMPARATIVO -->
-  <section>
-    <div class="section-header">
-      <div class="section-title">⚖️ Comparativo entre campanhas</div>
-      <div class="section-sub">Por campanha · segue o filtro de período</div>
-    </div>
-    <div class="charts-grid">
-      <div class="chart-card"><div class="ct">Alcance por campanha</div><div class="chart-wrap"><canvas id="chReach"></canvas></div></div>
-      <div class="chart-card"><div class="ct">Investimento por campanha</div><div class="chart-wrap"><canvas id="chSpend"></canvas></div></div>
-    </div>
+    <div class="cons-chips" id="consChips"></div>
+    <div class="cons-grid" id="consGrid"></div>
   </section>
 
   <!-- CRESCIMENTO SEGUIDORES -->
@@ -349,13 +347,12 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 // ── fallback embutido (renderiza mesmo offline; fetch sobrescreve com dado vivo) ──
 const DATA_FALLBACK = {
   "cliente":"Cezinha de Madureira","atualizado_em":"2026-06-17T17:15:00-03:00",
-  "seguidores":{"fb_atual":106722,"ig_atual":191464,"ig_posts":420,"ig_follows":4143,"serie":[{"data":"2026-06-17","fb":106722,"ig":191464}]},
-  "campanhas":[
-    {"id":"52562360720227","nome":"Engajamento","objetivo":"OUTCOME_ENGAGEMENT","objetivo_label":"Engajamento","totais":{"impressions":8314,"reach":8204,"frequency":1.0134,"spend":52.14,"cpm":6.27,"cpc":0.4655,"ctr":1.347,"clicks":112,"engajamentos":5465,"reacoes":35,"comentarios":0,"salvamentos":1,"compartilhamentos":0,"link_clicks":0,"video_plays":7744,"video_views":5429,"thruplays":1194,"custo_engajamento":0.0095},"serie":[{"data":"2026-06-17","impressions":8314,"reach":8204,"spend":52.14,"engajamentos":5465,"clicks":112,"link_clicks":0}]},
-    {"id":"52562338465227","nome":"Reconhecimento","objetivo":"OUTCOME_AWARENESS","objetivo_label":"Reconhecimento de marca","totais":{"impressions":60658,"reach":58677,"frequency":1.0338,"spend":93.59,"cpm":1.5429,"cpc":7.7992,"ctr":0.0198,"clicks":12,"engajamentos":1336,"reacoes":3,"comentarios":0,"salvamentos":0,"compartilhamentos":0,"link_clicks":0,"video_plays":57767,"video_views":1333,"thruplays":168,"custo_engajamento":0.0701,"ad_recall_rate":0.032528,"ad_recallers":20},"serie":[{"data":"2026-06-17","impressions":60658,"reach":58677,"spend":93.59,"engajamentos":1336,"clicks":12,"link_clicks":0}]},
-    {"id":"52562600820027","nome":"Reconhecimento Bragança","objetivo":"OUTCOME_AWARENESS","objetivo_label":"Reconhecimento de marca","totais":{"impressions":0,"reach":0,"frequency":0,"spend":0,"cpm":0,"cpc":0,"ctr":0,"clicks":0,"engajamentos":0,"video_plays":0,"video_views":0,"thruplays":0,"link_clicks":0,"ad_recall_rate":0,"ad_recallers":0},"serie":[]},
-    {"id":"52562318873627","nome":"Tráfego para o Instagram e Facebook","objetivo":"OUTCOME_TRAFFIC","objetivo_label":"Tráfego (Instagram e Facebook)","totais":{"impressions":9195,"reach":8270,"frequency":1.1119,"spend":95.64,"cpm":10.4013,"cpc":0.3721,"ctr":2.795,"clicks":257,"engajamentos":1777,"reacoes":37,"comentarios":1,"salvamentos":0,"compartilhamentos":0,"link_clicks":243,"video_plays":8587,"video_views":1494,"thruplays":292,"custo_link_click":0.3936},"serie":[{"data":"2026-06-17","impressions":9195,"reach":8270,"spend":95.64,"engajamentos":1777,"clicks":257,"link_clicks":243}]}
-  ]
+  "seguidores":{"fb_atual":106697,"ig_atual":191465,"ig_posts":421,"ig_follows":4145,"serie":[{"data":"2026-06-22","fb":106697,"ig":191465}]},
+  "consolidado":{
+    "totais":{"impressions":420,"reach":144,"frequency":2.9,"spend":2.6,"cpm":6.19,"cpc":0.43,"ctr":1.4,"clicks":6,"engajamentos":10,"reacoes":1,"comentarios":0,"salvamentos":0,"compartilhamentos":0,"link_clicks":1,"video_plays":300,"video_views":120,"thruplays":20,"custo_engajamento":0.26,"custo_link_click":2.6,"ad_recallers":0,"ad_recall_rate":0},
+    "serie":[{"data":"2026-06-22","impressions":420,"reach":144,"spend":2.6,"engajamentos":10,"clicks":6,"link_clicks":1}],
+    "campanhas":{"ativas":3,"total":3,"objetivos":["Engajamento","Tráfego","Reconhecimento"]}
+  }
 };
 
 let DATA = DATA_FALLBACK;
@@ -402,9 +399,10 @@ function aggregate(serie){
   o.ad_recall_rate = o.reach ? o.ad_recallers/o.reach : 0;
   return o;
 }
-function campPeriod(camp){
-  if(RANGE.mode==='all') return camp.totais||{};
-  return aggregate(filterSerie(camp.serie));
+function consPeriod(){
+  const C = DATA.consolidado || {};
+  if(RANGE.mode==='all') return C.totais || {};
+  return aggregate(filterSerie(C.serie));
 }
 function periodLabel(){
   if(RANGE.mode==='all') return 'acumulado desde o início';
@@ -414,22 +412,19 @@ function periodLabel(){
   return br(RANGE.from)+' a '+br(RANGE.to);
 }
 
-// ── KPI consolidado (acumulado) ──
+// ── KPI consolidado (unificado, todas as campanhas) ──
 function renderKPIs(){
-  const c = DATA.campanhas||[];
-  const per = c.map(campPeriod);
-  const sum = k => per.reduce((a,t)=>a+(+t[k]||0),0);
-  const spend=sum('spend'), impr=sum('impressions'), reach=sum('reach'), eng=sum('engajamentos');
+  const t = consPeriod();
   const seg = DATA.seguidores||{};
   const totalSeg = (+seg.fb_atual||0)+(+seg.ig_atual||0);
   const g = growthInPeriod();
   const segSub = (g.total!=null) ? ((g.total>0?'+':'')+fmtN(g.total)+' no período') : 'Facebook + Instagram';
   const kpis=[
-    {ic:'💰', l:'Investimento total', v:fmtBRL(spend), sub:'soma das campanhas', accent:true},
+    {ic:'💰', l:'Investimento total', v:fmtBRL(t.spend), sub:'todas as campanhas', accent:true},
     {ic:'👥', l:'Seguidores (FB + IG)', v:fmtN(totalSeg), sub:segSub},
-    {ic:'📣', l:'Pessoas alcançadas', v:fmtN(reach), sub:'soma das campanhas'},
-    {ic:'👁️', l:'Impressões', v:fmtN(impr), sub:'total de exibições'},
-    {ic:'💬', l:'Engajamentos', v:fmtN(eng), sub:'interações com as publicações'}
+    {ic:'📣', l:'Pessoas alcançadas', v:fmtN(t.reach), sub:'todas as campanhas'},
+    {ic:'👁️', l:'Impressões', v:fmtN(t.impressions), sub:'total de exibições'},
+    {ic:'💬', l:'Engajamentos', v:fmtN(t.engajamentos), sub:'interações com as publicações'}
   ];
   document.getElementById('kpiStrip').innerHTML = kpis.map((k,i)=>
     `<div class="kpi-card${k.accent?' accent':''}" style="animation-delay:${i*60}ms">
@@ -437,79 +432,41 @@ function renderKPIs(){
       <div class="kpi-value${k.accent?' lime':''}">${esc(k.v)}</div>
       <div class="kpi-sub">${esc(k.sub)}</div>
     </div>`).join('');
-  const sub=document.getElementById('resumoSub'); if(sub) sub.textContent=(DATA.campanhas||[]).length+' campanhas ativas · '+periodLabel();
+  const meta=(DATA.consolidado||{}).campanhas||{};
+  const camps = meta.ativas!=null ? meta.ativas+' campanha'+(meta.ativas===1?'':'s')+' ativa'+(meta.ativas===1?'':'s') : 'Campanhas';
+  const sub=document.getElementById('resumoSub'); if(sub) sub.textContent=camps+' · '+periodLabel();
 }
 
-// ── cards de campanha (por objetivo) ──
-function metricsFor(camp){
-  const t = campPeriod(camp);
-  const obj = camp.objetivo;
-  if(obj==='OUTCOME_ENGAGEMENT'){
-    return {hero:{v:fmtN(t.engajamentos),l:'engajamentos'}, items:[
-      ['Custo / engajamento', fmtCusto(t.custo_engajamento)],
-      ['Alcance', fmtN(t.reach)],
-      ['Reações', fmtN(t.reacoes)],
-      ['Views de vídeo', fmtN(t.video_views)]
-    ]};
-  }
-  if(obj==='OUTCOME_AWARENESS'){
-    return {hero:{v:fmtN(t.reach),l:'pessoas alcançadas'}, items:[
-      ['Impressões', fmtN(t.impressions)],
-      ['CPM', fmtBRL(t.cpm)],
-      ['Frequência', (t.frequency||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})],
-      ['Reproduções de vídeo', fmtN(t.video_plays)]
-    ]};
-  }
-  // OUTCOME_TRAFFIC (tráfego para Instagram e Facebook) — só métricas automáticas da API
-  return {hero:{v:fmtN(t.link_clicks||t.clicks),l:'cliques no link (acessos ao perfil)'}, items:[
-    ['Custo / clique', fmtCusto(t.custo_link_click||t.cpc)],
-    ['CTR', fmtPct(t.ctr)],
+// ── visão unificada das campanhas (dados somados, sem separar por nome) ──
+function renderConsolidado(){
+  const t = consPeriod();
+  const meta = (DATA.consolidado||{}).campanhas||{};
+  const chips=[];
+  if(meta.ativas!=null) chips.push(meta.ativas+' campanha'+(meta.ativas===1?'':'s')+' ativa'+(meta.ativas===1?'':'s'));
+  (meta.objetivos||[]).forEach(o=>chips.push(o));
+  const chipEl=document.getElementById('consChips');
+  if(chipEl) chipEl.innerHTML = chips.map(c=>`<span class="cons-chip">${esc(c)}</span>`).join('');
+  const freq=(t.frequency||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const M=[
     ['Alcance', fmtN(t.reach)],
-    ['CPM', fmtBRL(t.cpm)]
-  ]};
-}
-function renderCampaigns(){
-  const OBJ_STYLE={'OUTCOME_ENGAGEMENT':{cls:'',ic:'💬'},'OUTCOME_AWARENESS':{cls:'blue',ic:'📣'},'OUTCOME_TRAFFIC':{cls:'orange',ic:'🔗'}};
-  const html = (DATA.campanhas||[]).map((c,i)=>{
-    const m = metricsFor(c); const t=campPeriod(c);
-    const st = OBJ_STYLE[c.objetivo]||{cls:'',ic:''};
-    return `<div class="camp-card" style="animation-delay:${i*70}ms">
-      <span class="camp-obj ${st.cls}">${esc(st.ic)} ${esc(c.objetivo_label||c.nome)}</span>
-      <div class="camp-name">${esc(c.nome)}</div>
-      <div class="camp-hero"><div class="camp-hero-val ${st.cls}">${m.hero.v}</div><div class="camp-hero-lbl">${esc(m.hero.l)}</div></div>
-      <div class="camp-metrics">${m.items.map(it=>`<div class="cm"><div class="cm-lbl">${esc(it[0])}</div><div class="cm-val">${it[1]}</div></div>`).join('')}</div>
-      ${m.note?`<div class="camp-note">${esc(m.note)}</div>`:''}
-      <div class="camp-foot"><span>Investido</span><b>${fmtBRL(t.spend)}</b></div>
-    </div>`;
-  }).join('');
-  document.getElementById('campGrid').innerHTML = html;
+    ['Impressões', fmtN(t.impressions)],
+    ['Frequência', freq],
+    ['CPM', fmtBRL(t.cpm)],
+    ['Cliques no link', fmtN(t.link_clicks||t.clicks)],
+    ['CTR', fmtPct(t.ctr)],
+    ['Engajamentos', fmtN(t.engajamentos)],
+    ['Reproduções de vídeo', fmtN(t.video_plays)],
+    ['Custo / engajamento', fmtCusto(t.custo_engajamento)],
+    ['Custo / clique', fmtCusto(t.custo_link_click||t.cpc)]
+  ];
+  const gridEl=document.getElementById('consGrid');
+  if(gridEl) gridEl.innerHTML = M.map(m=>`<div class="cons-metric"><div class="l">${esc(m[0])}</div><div class="v">${m[1]}</div></div>`).join('');
+  const sub=document.getElementById('consSub'); if(sub) sub.textContent='Todas as campanhas somadas · '+periodLabel();
 }
 
 // ── charts ──
 const GRID={color:'rgba(255,255,255,0.06)'}, TICK={color:'#888',font:{family:'Inter',size:11}};
 function destroy(k){ if(charts[k]){ charts[k].destroy(); charts[k]=null; } }
-
-function renderCompare(){
-  const c = DATA.campanhas||[];
-  const labels = c.map(x=>x.nome);
-  destroy('reach');
-  charts.reach = new Chart(document.getElementById('chReach'),{
-    type:'bar',
-    data:{labels,datasets:[{label:'Alcance',data:c.map(x=>campPeriod(x).reach||0),backgroundColor:'#C8FF00',borderRadius:6,maxBarThickness:46}]},
-    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
-      tooltip:{callbacks:{label:ctx=>' '+fmtN(ctx.raw)+' pessoas'}}},
-      scales:{x:{grid:GRID,ticks:{...TICK,callback:v=>fmtN(v)}},y:{grid:{display:false},ticks:TICK}}}
-  });
-  destroy('spend');
-  const cols=['#C8FF00','#7B2D8B','#5B9BD5','#FF8A3D'];
-  charts.spend = new Chart(document.getElementById('chSpend'),{
-    type:'doughnut',
-    data:{labels,datasets:[{data:c.map(x=>campPeriod(x).spend||0),backgroundColor:cols,borderColor:'#141414',borderWidth:3}]},
-    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{
-      legend:{position:'bottom',labels:{color:'#CCC',font:{family:'Inter',size:12},padding:14,boxWidth:12}},
-      tooltip:{callbacks:{label:ctx=>' '+ctx.label+': '+fmtBRL(ctx.raw)}}}}
-  });
-}
 
 function renderFollowers(){
   const s = filterSerie((DATA.seguidores||{}).serie);
@@ -548,22 +505,17 @@ function renderFollowers(){
 }
 
 function renderDaily(){
-  // une as datas de todas as campanhas; soma impressões e investimento por dia
-  const map = {};
-  (DATA.campanhas||[]).forEach(c=>filterSerie(c.serie).forEach(p=>{
-    const d=String(p.data).slice(0,10); map[d]=map[d]||{impr:0,spend:0};
-    map[d].impr+=(+p.impressions||0); map[d].spend+=(+p.spend||0);
-  }));
-  const dates = Object.keys(map).sort();
-  const labels = dates.map(brDate);
+  // série diária já vem unificada (conta inteira); só aplica o filtro de período
+  const serie = filterSerie((DATA.consolidado||{}).serie);
+  const labels = serie.map(p=>brDate(p.data));
   destroy('daily');
   const wrapD=document.getElementById('chDaily').parentElement;
   if(!labels.length){ wrapD.classList.add('empty'); return; }
   wrapD.classList.remove('empty');
   charts.daily = new Chart(document.getElementById('chDaily'),{
     data:{labels,datasets:[
-      {type:'line',label:'Impressões',data:dates.map(d=>map[d].impr),borderColor:'#C8FF00',backgroundColor:'rgba(200,255,0,.10)',tension:.3,fill:true,yAxisID:'y',pointRadius:3,borderWidth:2},
-      {type:'bar',label:'Investimento (R$)',data:dates.map(d=>map[d].spend),backgroundColor:'rgba(123,45,139,.55)',borderColor:'#7B2D8B',borderWidth:1,yAxisID:'y1',maxBarThickness:38}
+      {type:'line',label:'Impressões',data:serie.map(p=>+p.impressions||0),borderColor:'#C8FF00',backgroundColor:'rgba(200,255,0,.10)',tension:.3,fill:true,yAxisID:'y',pointRadius:3,borderWidth:2},
+      {type:'bar',label:'Investimento (R$)',data:serie.map(p=>+p.spend||0),backgroundColor:'rgba(123,45,139,.55)',borderColor:'#7B2D8B',borderWidth:1,yAxisID:'y1',maxBarThickness:38}
     ]},
     options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
       plugins:{legend:{position:'top',labels:{color:'#CCC',font:{family:'Inter',size:12},boxWidth:12}},
@@ -680,7 +632,7 @@ function renderPublico(){
 }
 
 function renderAll(){
-  renderIA(); renderKPIs(); renderCampaigns(); renderCompare(); renderFollowers(); renderPublico(); renderDaily();
+  renderIA(); renderKPIs(); renderConsolidado(); renderFollowers(); renderPublico(); renderDaily();
   const dt = DATA.atualizado_em ? new Date(DATA.atualizado_em) : null;
   document.getElementById('genDate').textContent = dt ? 'Atualizado '+dt.toLocaleDateString('pt-BR')+' '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}) : '';
 }
@@ -700,7 +652,7 @@ function applyRange(mode){
     RANGE.from=fmt(from); RANGE.to=fmt(to);
     dF.value=RANGE.from; dT.value=RANGE.to; note.textContent='';
   }
-  renderKPIs(); renderCampaigns(); renderCompare(); renderFollowers(); renderDaily();
+  renderKPIs(); renderConsolidado(); renderFollowers(); renderDaily();
 }
 document.querySelectorAll('.fpill').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.fpill').forEach(x=>x.classList.remove('active'));

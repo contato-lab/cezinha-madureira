@@ -3,9 +3,11 @@
 Cezinha de Madureira — captura diária Meta (campanhas + crescimento de seguidores).
 
 Gera/atualiza cezinha-data.json:
-  - seguidores.serie : 1 ponto por dia (FB + IG) -> gráfico de crescimento de hoje pra frente.
-  - campanhas[].totais: acumulado desde o lançamento (date_preset=maximum, reach deduplicado).
-  - campanhas[].serie : série diária (time_increment=1) por campanha.
+  - seguidores.serie     : 1 ponto por dia (FB + IG) -> gráfico de crescimento.
+  - consolidado.totais   : métricas UNIFICADAS de todas as campanhas da conta (date_preset=maximum).
+  - consolidado.serie    : série diária unificada (time_increment=1) da conta inteira.
+  - consolidado.campanhas: quantas ativas e quais objetivos rodando (sem detalhar por nome).
+  - publico              : demografia do IG (gênero/idade/cidade), alcance/views e top posts.
 
 Token: variável de ambiente META_TOKEN_CEZINHA (user token long-lived, sem expiração).
 Usa só stdlib (urllib) — sem dependências externas. Idempotente: roda 2x no mesmo dia
@@ -20,7 +22,7 @@ TOKEN       = os.environ.get('META_TOKEN_CEZINHA', '')
 
 FB_PAGE_ID = '1401978510018003'
 IG_ID      = '17841400472685855'
-AD_ACCOUNT = 'act_1395564544098811'
+AD_ACCOUNT = 'act_3515790661909032'
 
 BRT = timezone(timedelta(hours=-3))
 HOJE = datetime.now(BRT).strftime('%Y-%m-%d')
@@ -28,12 +30,15 @@ HOJE = datetime.now(BRT).strftime('%Y-%m-%d')
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(HERE, 'cezinha-data.json')
 
-CAMPAIGNS = [
-    {'id': '52562360720227', 'nome': 'Engajamento',             'objetivo': 'OUTCOME_ENGAGEMENT', 'objetivo_label': 'Engajamento',              'desde': '2026-06-17'},
-    {'id': '52562338465227', 'nome': 'Reconhecimento',          'objetivo': 'OUTCOME_AWARENESS',  'objetivo_label': 'Reconhecimento de marca', 'desde': '2026-06-17'},
-    {'id': '52562600820027', 'nome': 'Reconhecimento Bragança', 'objetivo': 'OUTCOME_AWARENESS',  'objetivo_label': 'Reconhecimento de marca', 'desde': '2026-06-18'},
-    {'id': '52562318873627', 'nome': 'Tráfego para o Instagram e Facebook', 'objetivo': 'OUTCOME_TRAFFIC', 'objetivo_label': 'Tráfego (Instagram e Facebook)', 'desde': '2026-06-17'},
-]
+OBJ_LABEL = {
+    'OUTCOME_ENGAGEMENT':    'Engajamento',
+    'OUTCOME_AWARENESS':     'Reconhecimento',
+    'OUTCOME_TRAFFIC':       'Tráfego',
+    'OUTCOME_LEADS':         'Leads',
+    'OUTCOME_SALES':         'Vendas',
+    'OUTCOME_APP_PROMOTION': 'Promoção de app',
+    'OUTCOME_VIDEO_VIEWS':   'Views de vídeo',
+}
 
 INSIGHT_FIELDS = ','.join([
     'impressions', 'reach', 'frequency', 'spend', 'cpm', 'cpc', 'ctr',
@@ -96,17 +101,17 @@ def parse_row(row):
     }
 
 
-def fetch_totais(camp_id):
-    data = api_get(f'{camp_id}/insights', {'fields': INSIGHT_FIELDS, 'date_preset': 'maximum'})
+def fetch_conta_totais():
+    """Totais UNIFICADOS de todas as campanhas da conta (acumulado desde sempre)."""
+    data = api_get(f'{AD_ACCOUNT}/insights', {'fields': INSIGHT_FIELDS, 'date_preset': 'maximum'})
     rows = data.get('data') or []
     return parse_row(rows[0]) if rows else None
 
 
-def fetch_serie(camp_id, desde):
-    # série diária COMPLETA (todos os campos por dia), pra tela poder somar qualquer período
-    data = api_get(f'{camp_id}/insights', {
-        'fields': INSIGHT_FIELDS,
-        'time_range': json.dumps({'since': desde, 'until': HOJE}),
+def fetch_conta_serie():
+    """Série diária UNIFICADA da conta (soma de todas as campanhas por dia)."""
+    data = api_get(f'{AD_ACCOUNT}/insights', {
+        'fields': INSIGHT_FIELDS, 'date_preset': 'maximum',
         'time_increment': '1', 'limit': '500',
     })
     serie = []
@@ -115,6 +120,20 @@ def fetch_serie(camp_id, desde):
         rec['data'] = row.get('date_start')
         serie.append(rec)
     return serie
+
+
+def fetch_campanhas_meta():
+    """Quantas campanhas ativas e quais objetivos estão rodando (sem detalhar por nome)."""
+    data = api_get(f'{AD_ACCOUNT}/campaigns',
+                   {'fields': 'id,name,objective,effective_status', 'limit': '200'})
+    camps = data.get('data') or []
+    ativas = [c for c in camps if c.get('effective_status') == 'ACTIVE']
+    objetivos = []
+    for c in ativas:
+        lbl = OBJ_LABEL.get(c.get('objective'), c.get('objective'))
+        if lbl and lbl not in objetivos:
+            objetivos.append(lbl)
+    return {'ativas': len(ativas), 'total': len(camps), 'objetivos': objetivos}
 
 
 def fetch_followers():
@@ -293,7 +312,7 @@ def main():
                 'fonte': 'Meta Marketing API + Graph API',
                 'contas': {'ad_account': AD_ACCOUNT, 'fb_page_id': FB_PAGE_ID,
                            'ig_id': IG_ID, 'ig_username': 'cezinhademadureira'},
-                'seguidores': {'serie': []}, 'campanhas': []}
+                'seguidores': {'serie': []}, 'consolidado': {}}
 
     # ── seguidores ──
     fb, ig, ig_posts, ig_follows = fetch_followers()
@@ -312,26 +331,26 @@ def main():
                  'ig': ig if ig is not None else seg.get('ig_atual')}
         seg['serie'] = upsert_by_date(seg.get('serie'), ponto)
 
-    # ── campanhas ──
-    by_id = {c.get('id'): c for c in data.get('campanhas', [])}
-    novas = []
-    for cfg in CAMPAIGNS:
-        c = by_id.get(cfg['id'], {})
-        c.update({k: cfg[k] for k in ('id', 'nome', 'objetivo', 'objetivo_label', 'desde')})
-        try:
-            tot = fetch_totais(cfg['id'])
-            if tot:
-                c['totais'] = tot
-        except Exception as e:
-            print(f"[warn] totais {cfg['nome']}: {e}", file=sys.stderr)
-        try:
-            serie = fetch_serie(cfg['id'], cfg['desde'])
-            if serie:
-                c['serie'] = serie
-        except Exception as e:
-            print(f"[warn] serie {cfg['nome']}: {e}", file=sys.stderr)
-        novas.append(c)
-    data['campanhas'] = novas
+    # ── consolidado (todas as campanhas da conta unificadas, sem separar por nome) ──
+    cons = data.get('consolidado') or {}
+    try:
+        tot = fetch_conta_totais()
+        if tot:
+            cons['totais'] = tot
+    except Exception as e:
+        print(f'[warn] totais conta: {e}', file=sys.stderr)
+    try:
+        serie = fetch_conta_serie()
+        if serie:
+            cons['serie'] = serie
+    except Exception as e:
+        print(f'[warn] serie conta: {e}', file=sys.stderr)
+    try:
+        cons['campanhas'] = fetch_campanhas_meta()
+    except Exception as e:
+        print(f'[warn] campanhas meta: {e}', file=sys.stderr)
+    data['consolidado'] = cons
+    data.pop('campanhas', None)   # estrutura antiga (por nome de campanha) aposentada
 
     # ── público (demografia IG + alcance/views + posts) ──
     try:
@@ -346,7 +365,8 @@ def main():
     with open(tmp, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(tmp, DATA_FILE)
-    print(f'OK {HOJE} | FB={seg.get("fb_atual")} IG={seg.get("ig_atual")} | campanhas={len(novas)}')
+    print(f'OK {HOJE} | FB={seg.get("fb_atual")} IG={seg.get("ig_atual")} | '
+          f'campanhas_ativas={(cons.get("campanhas") or {}).get("ativas")}')
 
 
 if __name__ == '__main__':
