@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-06-22T14:59:26-03:00",
+  "atualizado_em": "2026-06-22T16:35:32-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,8 +9,8 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 106698,
-    "ig_atual": 191514,
+    "fb_atual": 106697,
+    "ig_atual": 191512,
     "ig_posts": 429,
     "serie": [
       {
@@ -40,324 +40,256 @@
       },
       {
         "data": "2026-06-22",
-        "fb": 106698,
-        "ig": 191514
+        "fb": 106697,
+        "ig": 191512
       }
     ],
     "ig_follows": 4173
   },
-  "campanhas": [
-    {
-      "id": "52562360720227",
-      "nome": "Engajamento",
-      "objetivo": "OUTCOME_ENGAGEMENT",
-      "objetivo_label": "Engajamento",
-      "desde": "2026-06-17",
-      "totais": {
-        "impressions": 16070,
-        "reach": 15585,
-        "frequency": 1.0311,
-        "spend": 113.96,
-        "cpm": 7.0915,
-        "cpc": 0.4709,
-        "ctr": 1.5059,
-        "clicks": 242,
-        "engajamentos": 10635,
-        "reacoes": 78,
-        "comentarios": 2,
-        "salvamentos": 1,
-        "compartilhamentos": 0,
-        "link_clicks": 0,
-        "video_plays": 15226,
-        "video_views": 10554,
-        "thruplays": 2300,
-        "custo_engajamento": 0.0107,
-        "custo_link_click": 0.0,
-        "ad_recallers": 300,
-        "ad_recall_rate": 1.924928
-      },
-      "serie": [
-        {
-          "impressions": 8615,
-          "reach": 8569,
-          "frequency": 1.0054,
-          "spend": 54.36,
-          "cpm": 6.3099,
-          "cpc": 0.4686,
-          "ctr": 1.3465,
-          "clicks": 116,
-          "engajamentos": 5787,
-          "reacoes": 38,
-          "comentarios": 0,
-          "salvamentos": 1,
-          "compartilhamentos": 0,
-          "link_clicks": 0,
-          "video_plays": 8171,
-          "video_views": 5748,
-          "thruplays": 1260,
-          "custo_engajamento": 0.0094,
-          "custo_link_click": 0.0,
-          "ad_recallers": 170,
-          "ad_recall_rate": 1.983895,
-          "data": "2026-06-17"
-        },
-        {
-          "impressions": 7455,
-          "reach": 7401,
-          "frequency": 1.0073,
-          "spend": 59.6,
-          "cpm": 7.9946,
-          "cpc": 0.473,
-          "ctr": 1.6901,
-          "clicks": 126,
-          "engajamentos": 4848,
-          "reacoes": 40,
-          "comentarios": 2,
-          "salvamentos": 0,
-          "compartilhamentos": 0,
-          "link_clicks": 0,
-          "video_plays": 7055,
-          "video_views": 4806,
-          "thruplays": 1040,
-          "custo_engajamento": 0.0123,
-          "custo_link_click": 0.0,
-          "ad_recallers": 140,
-          "ad_recall_rate": 1.891636,
-          "data": "2026-06-18"
-        }
-      ]
-    },
-    {
-      "id": "52562338465227",
-      "nome": "Reconhecimento",
-      "objetivo": "OUTCOME_AWARENESS",
-      "objetivo_label": "Reconhecimento de marca",
-      "desde": "2026-06-17",
-      "totais": {
-        "impressions": 85937,
-        "reach": 85937,
-        "frequency": 1.0,
-        "spend": 136.03,
-        "cpm": 1.5829,
-        "cpc": 6.8015,
-        "ctr": 0.0233,
-        "clicks": 20,
-        "engajamentos": 1925,
-        "reacoes": 6,
-        "comentarios": 0,
-        "salvamentos": 0,
-        "compartilhamentos": 0,
-        "link_clicks": 0,
-        "video_plays": 83870,
-        "video_views": 1919,
-        "thruplays": 244,
-        "custo_engajamento": 0.0707,
-        "custo_link_click": 0.0,
-        "ad_recallers": 20,
-        "ad_recall_rate": 0.023273
-      },
-      "serie": [
-        {
-          "impressions": 61893,
-          "reach": 61344,
-          "frequency": 1.009,
-          "spend": 95.64,
-          "cpm": 1.5452,
-          "cpc": 7.3569,
-          "ctr": 0.021,
-          "clicks": 13,
-          "engajamentos": 1396,
-          "reacoes": 3,
-          "comentarios": 0,
-          "salvamentos": 0,
-          "compartilhamentos": 0,
-          "link_clicks": 0,
-          "video_plays": 60264,
-          "video_views": 1393,
-          "thruplays": 177,
-          "custo_engajamento": 0.0685,
-          "custo_link_click": 0.0,
-          "ad_recallers": 20,
-          "ad_recall_rate": 0.032603,
-          "data": "2026-06-17"
-        },
-        {
-          "impressions": 24044,
-          "reach": 24044,
-          "frequency": 1.0,
-          "spend": 40.39,
-          "cpm": 1.6798,
-          "cpc": 5.77,
-          "ctr": 0.0291,
-          "clicks": 7,
-          "engajamentos": 529,
-          "reacoes": 3,
-          "comentarios": 0,
-          "salvamentos": 0,
-          "compartilhamentos": 0,
-          "link_clicks": 0,
-          "video_plays": 23606,
-          "video_views": 526,
-          "thruplays": 67,
-          "custo_engajamento": 0.0764,
-          "custo_link_click": 0.0,
-          "ad_recallers": 0,
-          "ad_recall_rate": 0.0,
-          "data": "2026-06-18"
-        }
-      ]
-    },
-    {
-      "id": "52562600820027",
-      "nome": "Reconhecimento Bragança",
-      "objetivo": "OUTCOME_AWARENESS",
-      "objetivo_label": "Reconhecimento de marca",
-      "desde": "2026-06-18",
-      "totais": {
-        "impressions": 35498,
-        "reach": 27775,
-        "frequency": 1.2781,
-        "spend": 92.75,
-        "cpm": 2.6128,
-        "cpc": 9.275,
-        "ctr": 0.0282,
-        "clicks": 10,
-        "engajamentos": 1363,
-        "reacoes": 6,
-        "comentarios": 0,
-        "salvamentos": 0,
-        "compartilhamentos": 0,
-        "link_clicks": 0,
-        "video_plays": 34585,
-        "video_views": 1357,
-        "thruplays": 171,
-        "custo_engajamento": 0.068,
-        "custo_link_click": 0.0,
-        "ad_recallers": 250,
-        "ad_recall_rate": 0.90009
-      },
-      "serie": [
-        {
-          "impressions": 35498,
-          "reach": 27775,
-          "frequency": 1.2781,
-          "spend": 92.75,
-          "cpm": 2.6128,
-          "cpc": 9.275,
-          "ctr": 0.0282,
-          "clicks": 10,
-          "engajamentos": 1363,
-          "reacoes": 6,
-          "comentarios": 0,
-          "salvamentos": 0,
-          "compartilhamentos": 0,
-          "link_clicks": 0,
-          "video_plays": 34585,
-          "video_views": 1357,
-          "thruplays": 171,
-          "custo_engajamento": 0.068,
-          "custo_link_click": 0.0,
-          "ad_recallers": 250,
-          "ad_recall_rate": 0.90009,
-          "data": "2026-06-18"
-        }
-      ]
-    },
-    {
-      "id": "52562318873627",
-      "nome": "Tráfego para o Instagram e Facebook",
-      "objetivo": "OUTCOME_TRAFFIC",
-      "objetivo_label": "Tráfego (Instagram e Facebook)",
-      "desde": "2026-06-17",
-      "totais": {
-        "impressions": 14526,
-        "reach": 12584,
-        "frequency": 1.1543,
-        "spend": 163.52,
-        "cpm": 11.2571,
-        "cpc": 0.3839,
-        "ctr": 2.9327,
-        "clicks": 426,
-        "engajamentos": 3015,
-        "reacoes": 58,
-        "comentarios": 2,
-        "salvamentos": 0,
-        "compartilhamentos": 3,
-        "link_clicks": 407,
-        "video_plays": 13818,
-        "video_views": 2545,
-        "thruplays": 572,
-        "custo_engajamento": 0.0542,
-        "custo_link_click": 0.4018,
-        "ad_recallers": 0,
-        "ad_recall_rate": 0.0
-      },
-      "serie": [
-        {
-          "impressions": 9413,
-          "reach": 8440,
-          "frequency": 1.1153,
-          "spend": 98.88,
-          "cpm": 10.5046,
-          "cpc": 0.3745,
-          "ctr": 2.8046,
-          "clicks": 264,
-          "engajamentos": 1849,
-          "reacoes": 39,
-          "comentarios": 1,
-          "salvamentos": 0,
-          "compartilhamentos": 2,
-          "link_clicks": 253,
-          "video_plays": 8952,
-          "video_views": 1554,
-          "thruplays": 307,
-          "custo_engajamento": 0.0535,
-          "custo_link_click": 0.3908,
-          "ad_recallers": 0,
-          "ad_recall_rate": 0.0,
-          "data": "2026-06-17"
-        },
-        {
-          "impressions": 5113,
-          "reach": 4748,
-          "frequency": 1.0769,
-          "spend": 64.64,
-          "cpm": 12.6423,
-          "cpc": 0.399,
-          "ctr": 3.1684,
-          "clicks": 162,
-          "engajamentos": 1166,
-          "reacoes": 19,
-          "comentarios": 1,
-          "salvamentos": 0,
-          "compartilhamentos": 1,
-          "link_clicks": 154,
-          "video_plays": 4866,
-          "video_views": 991,
-          "thruplays": 265,
-          "custo_engajamento": 0.0554,
-          "custo_link_click": 0.4197,
-          "ad_recallers": 0,
-          "ad_recall_rate": 0.0,
-          "data": "2026-06-18"
-        }
-      ]
-    }
-  ],
   "publico": {
-    "atualizado_em": "2026-06-22T14:59:26-03:00",
+    "atualizado_em": "2026-06-22T16:35:32-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
-      "genero": [],
-      "idade": [],
-      "cidades": []
+      "genero": [
+        {
+          "k": "U",
+          "v": 76669
+        },
+        {
+          "k": "M",
+          "v": 42111
+        },
+        {
+          "k": "F",
+          "v": 37486
+        }
+      ],
+      "idade": [
+        {
+          "k": "35-44",
+          "v": 44325
+        },
+        {
+          "k": "25-34",
+          "v": 37438
+        },
+        {
+          "k": "45-54",
+          "v": 35597
+        },
+        {
+          "k": "18-24",
+          "v": 20193
+        },
+        {
+          "k": "55-64",
+          "v": 13074
+        },
+        {
+          "k": "65+",
+          "v": 3647
+        },
+        {
+          "k": "13-17",
+          "v": 1992
+        }
+      ],
+      "cidades": [
+        {
+          "k": "São Paulo, São Paulo (state)",
+          "v": 15134
+        },
+        {
+          "k": "Rio de Janeiro, Rio de Janeiro (state)",
+          "v": 2358
+        },
+        {
+          "k": "Guarulhos, São Paulo (state)",
+          "v": 1581
+        },
+        {
+          "k": "Saint Petersburg, Saint Petersburg",
+          "v": 1228
+        },
+        {
+          "k": "Campinas, São Paulo (state)",
+          "v": 1037
+        },
+        {
+          "k": "New York, New York",
+          "v": 887
+        },
+        {
+          "k": "Goiânia, Goiás",
+          "v": 872
+        },
+        {
+          "k": "Belo Horizonte, Minas Gerais",
+          "v": 851
+        },
+        {
+          "k": "Delhi, Delhi",
+          "v": 819
+        },
+        {
+          "k": "Salvador, Bahia",
+          "v": 801
+        },
+        {
+          "k": "Osasco, São Paulo (state)",
+          "v": 798
+        },
+        {
+          "k": "Piracicaba, São Paulo (state)",
+          "v": 777
+        }
+      ]
     },
     "engajados": {
       "genero": [],
       "cidades": []
     },
-    "alcance_30d": null,
-    "views_30d": null,
-    "top_posts": []
+    "alcance_30d": 189794,
+    "views_30d": 505801,
+    "top_posts": [
+      {
+        "permalink": "https://www.instagram.com/reel/DZ2C096J49d/",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/726987746_2269954647076631_513671615130329943_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHhfeXwKSVOOsIQsJiK-DjYGMeFZd9Eu48Yx4Vl30S7j1ISVcS6bdqxBavYKPKhITGUOILqyr-d1wCAWdJ09fVF&_nc_ohc=lsOx5zY6evYQ7kNvwGtTXyn&_nc_oc=AdreEp_euhobPF7fFcYCLCp32QdL3G23NfkElX8FFD2GMJAlFlW_2KzTthg0OpboH5k&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=bawhfn3O7JQ754H9LMgTMg&_nc_tpa=Q5bMBQHJToclHPI-IgHn_LK3ml43-R-7lk0354jGwyWipsAQTh9qh9hbjmqGshSX5aOCYXWk8NgXJOGlBA&oh=00_Af9PKpncbOpdyfQdvnvqFcApA8xSCxGhPTK5CuvxWL0JAw&oe=6A3F554F",
+        "data": "2026-06-21",
+        "tipo": "Reel",
+        "likes": 494,
+        "comentarios": 19,
+        "reach": 7702,
+        "shares": 13,
+        "saved": 12,
+        "interacoes": 559,
+        "legenda": "Aviva Zona Leste, noite de comunhão revendo nossos irmãos e amigos da região, com nosso líder @oficialbisposamuelferreir"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/DZsGp3FhJvh/",
+        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.71878-15/723976966_1299916738980452_7623761591379626786_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeF6FfYfIPx28zhPWklF5lBTn7SiDtcFxVaftKIO1wXFVhGZQRswO8WEJdFepN6jBx35ZHNq81wxY5xzqZpuhI3e&_nc_ohc=HxEFAjaNDkAQ7kNvwHpuJO4&_nc_oc=AdrD2fAetz58oeBaSZjUsLbSSywzJvfy2JblLxsp8CqDb-G8_jQ_Npss6FXeVJIgZYs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=bawhfn3O7JQ754H9LMgTMg&_nc_tpa=Q5bMBQFDp7Rk0eiHHgWCTu4GvUWDCtBfsgTX5FCPdRudncC2JXZQzpvb3JPuegjWkRYN1-IhCY02onrZTA&oh=00_Af-pDM_-i9h894-ySr6dUIjnUGWA02eyjzQ7KVb651lnFA&oe=6A3F7849",
+        "data": "2026-06-17",
+        "tipo": "Reel",
+        "likes": 251,
+        "comentarios": 80,
+        "reach": 3795,
+        "shares": 35,
+        "saved": 5,
+        "interacoes": 407,
+        "legenda": "Nenhuma mãe deveria ter que lutar sozinha para garantir o tratamento do seu filho.  Mas milhares de famílias brasileiras"
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DZ3DE5NifTW/",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/728950874_18591039736015757_25377545064922277_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeG6Xw1VGzdpBbATAIZTREqITi1Mq-pgBqdOLUyr6mAGp-K0W37t_kvvS6vXN0s4Bb4N0QeSL1Z-o8M42ESLpSCe&_nc_ohc=TQ-jZ6YGE3IQ7kNvwGwhs-h&_nc_oc=AdrhPNoR-XOWQqroONkp-0yTbe2Te2xRidG3Mn1T8N5LKJMDmsBRs5s06ju9Cr7Ls6o&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=bawhfn3O7JQ754H9LMgTMg&oh=00_Af-EAaXMAXx2yrdLhyPHIZGJi1bupEypdrAIS9HqYXdibw&oe=6A3F6C76",
+        "data": "2026-06-21",
+        "tipo": "Carrossel",
+        "likes": 262,
+        "comentarios": 12,
+        "reach": 4243,
+        "shares": 1,
+        "saved": 1,
+        "interacoes": 284,
+        "legenda": "Reunião de obreiros na @adbrasguarulhos celebrando a vida do meu amigo Pr. @prigornunesferreira com minha irmã Pra. @pra"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/DZvjCJxJrFM/",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/726659723_18590091322015757_4912022305171031673_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEftLMLNQd_o_hYXIcF7o4cBZra-b0m1BEFmtr5vSbUEQvBRGfx2K_bRfq4yK9ijw1YPxrhm62kkM8gyP4opoJn&_nc_ohc=xIKaoTGQm5cQ7kNvwHkqqq-&_nc_oc=AdrEkp7qmBW_JPHRyUZ-TZnmXBTb0Ft8P1wWQND32isdZcSg865tzVLnWLHA0TDeg8w&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=bawhfn3O7JQ754H9LMgTMg&_nc_tpa=Q5bMBQGsisNZ4CMK9WudEDYlAa90iRCpkd9CIvAUTGD4eVFRN4tnTflk-ezMW6y8H_u0I_0JBACEcetQBA&oh=00_Af_N9cqHJ7swCxn9ljFX7B5jqRMTzGFD98stVXZ5jCtx3A&oe=6A3F4D47",
+        "data": "2026-06-18",
+        "tipo": "Reel",
+        "likes": 163,
+        "comentarios": 51,
+        "reach": 3299,
+        "shares": 34,
+        "saved": 2,
+        "interacoes": 265,
+        "legenda": "Ouvir pessoas continua sendo uma das partes mais importantes do meu trabalho.  Hoje foi dia de atender demandas da popul"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/DZpgSrnB_4B/",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/724350076_1761742058529274_5199267733588792643_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGTPGuOk7nsE0OwOhz4tClBuUfOhodopXy5R86Gh2ilfGkXbsSd1LqBnNO-3OK01UyDwStt-nzk_MRVwPR9oRY3&_nc_ohc=tHR51OLCfh4Q7kNvwHBCnxp&_nc_oc=Adrpis_lmFjslbKSj-Z2_88v8rHYGJeNWw6zgGGJgpcSrDF050dhmqhXCEvVwbYEdUk&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=bawhfn3O7JQ754H9LMgTMg&_nc_tpa=Q5bMBQH1pWDsDo5NguNaAGJJdS9DSIi8vb5RXFOR7QfF809X3dRgIJj51ZkglvxinhI3JUYz1Wjs9cRGCA&oh=00_Af-OnTomRKMYnc5ODsU7dbgFUs0p3k67rqqdgCQhZFiVww&oe=6A3F6B1F",
+        "data": "2026-06-16",
+        "tipo": "Reel",
+        "likes": 209,
+        "comentarios": 12,
+        "reach": 5251,
+        "shares": 11,
+        "saved": 7,
+        "interacoes": 250,
+        "legenda": "Campanha - Inverno Quente na @ad_bras com Bispo @oficialbisposamuelferreira culto de ensino. Deus seja louvado!"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/DZpckd4uB72/",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/723190582_1324888006419338_7983111282391951563_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGq3E56QV0BNAL40KvMQAIlElJgJ-bQkfASUmAn5tCR8KlmoTSR-grFd-luGOk3FB2UkWGgnYDTQSwbGHabd3qc&_nc_ohc=T_kKgEc53LcQ7kNvwFbvKBp&_nc_oc=AdqIrafdNrLy3-MHM8CYvG-8XAAKzDwdTj-ADWAXD_4RoCEcD3Bc6SjhXjgaJoy-hH0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=bawhfn3O7JQ754H9LMgTMg&_nc_tpa=Q5bMBQGkzkDzH3ggk_5ksKEy7zgZ5eKptWjmgsqy5QsD83R1bojTToEtOKP61V81q_Gcqf3o_ttYFiTE3A&oh=00_Af8PQeqw2AkdYvLG0kczehca5oL4CjpOXh6XoRgtqNjiOA&oe=6A3F4DED",
+        "data": "2026-06-16",
+        "tipo": "Reel",
+        "likes": 141,
+        "comentarios": 54,
+        "reach": 2121,
+        "shares": 21,
+        "saved": 2,
+        "interacoes": 236,
+        "legenda": "Começando a semana atendendo nossos irmãos queridos. Uma semana abençoada e produtiva para todos!"
+      }
+    ]
+  },
+  "consolidado": {
+    "totais": {
+      "impressions": 886,
+      "reach": 426,
+      "frequency": 2.0798,
+      "spend": 4.18,
+      "cpm": 4.7178,
+      "cpc": 0.4644,
+      "ctr": 1.0158,
+      "clicks": 9,
+      "engajamentos": 96,
+      "reacoes": 0,
+      "comentarios": 1,
+      "salvamentos": 0,
+      "compartilhamentos": 0,
+      "link_clicks": 6,
+      "video_plays": 303,
+      "video_views": 89,
+      "thruplays": 24,
+      "custo_engajamento": 0.0435,
+      "custo_link_click": 0.6967,
+      "ad_recallers": 0,
+      "ad_recall_rate": 0.0
+    },
+    "serie": [
+      {
+        "impressions": 886,
+        "reach": 426,
+        "frequency": 2.0798,
+        "spend": 4.18,
+        "cpm": 4.7178,
+        "cpc": 0.4644,
+        "ctr": 1.0158,
+        "clicks": 9,
+        "engajamentos": 96,
+        "reacoes": 0,
+        "comentarios": 1,
+        "salvamentos": 0,
+        "compartilhamentos": 0,
+        "link_clicks": 6,
+        "video_plays": 303,
+        "video_views": 89,
+        "thruplays": 24,
+        "custo_engajamento": 0.0435,
+        "custo_link_click": 0.6967,
+        "ad_recallers": 0,
+        "ad_recall_rate": 0.0,
+        "data": "2026-06-22"
+      }
+    ],
+    "campanhas": {
+      "ativas": 3,
+      "total": 3,
+      "objetivos": [
+        "Engajamento",
+        "Tráfego",
+        "Reconhecimento"
+      ]
+    }
   }
 }
