@@ -157,12 +157,12 @@ def fetch_followers():
 IG_DEMO_TIMEFRAME = 'last_30_days'
 
 
-def _demographics(metric, breakdown):
+def _demographics(metric, breakdown, timeframe=IG_DEMO_TIMEFRAME):
     """[{'k':dim,'v':valor}] desc. [] se falhar ou sem dado (ex: conta <100 seguidores)."""
     try:
         d = api_get(f'{IG_ID}/insights', {
             'metric': metric, 'period': 'lifetime', 'metric_type': 'total_value',
-            'timeframe': IG_DEMO_TIMEFRAME, 'breakdown': breakdown,
+            'timeframe': timeframe, 'breakdown': breakdown,
         })
     except Exception as e:
         print(f'[warn] {metric}/{breakdown}: {e}', file=sys.stderr)
@@ -264,8 +264,9 @@ def fetch_publico(prev):
     gen     = _demographics('follower_demographics', 'gender')
     age     = _demographics('follower_demographics', 'age')
     city    = _demographics('follower_demographics', 'city')
-    eng_gen = _demographics('engaged_audience_demographics', 'gender')
-    eng_cty = _demographics('engaged_audience_demographics', 'city')
+    # engaged/reached só aceitam this_month/this_week (last_30_days foi descontinuado na v20+)
+    eng_gen = _demographics('engaged_audience_demographics', 'gender', 'this_month')
+    eng_cty = _demographics('engaged_audience_demographics', 'city', 'this_month')
     reach30 = _account_total('reach')
     views30 = _account_total('views')
     tops    = fetch_top_posts()
