@@ -126,6 +126,143 @@ def fetch_followers():
     return fb, ig, ig_posts, ig_follows
 
 
+# ── público: demografia do IG + alcance/views + posts que mais bombam ──
+IG_DEMO_TIMEFRAME = 'last_30_days'
+
+
+def _demographics(metric, breakdown):
+    """[{'k':dim,'v':valor}] desc. [] se falhar ou sem dado (ex: conta <100 seguidores)."""
+    try:
+        d = api_get(f'{IG_ID}/insights', {
+            'metric': metric, 'period': 'lifetime', 'metric_type': 'total_value',
+            'timeframe': IG_DEMO_TIMEFRAME, 'breakdown': breakdown,
+        })
+    except Exception as e:
+        print(f'[warn] {metric}/{breakdown}: {e}', file=sys.stderr)
+        return []
+    out = []
+    for m in (d.get('data') or []):
+        for bd in ((m.get('total_value') or {}).get('breakdowns') or []):
+            for res in (bd.get('results') or []):
+                dv = res.get('dimension_values') or []
+                out.append({'k': dv[0] if dv else '?', 'v': int(res.get('value') or 0)})
+    out.sort(key=lambda x: x['v'], reverse=True)
+    return out
+
+
+def _account_total(metric):
+    """Total dos últimos 30 dias (reach/views). None se falhar."""
+    until = datetime.now(BRT)
+    since = until - timedelta(days=28)   # janela <=30d inclusiva (limite da API de conta)
+    try:
+        d = api_get(f'{IG_ID}/insights', {
+            'metric': metric, 'period': 'day', 'metric_type': 'total_value',
+            'since': since.strftime('%Y-%m-%d'), 'until': until.strftime('%Y-%m-%d'),
+        })
+    except Exception as e:
+        print(f'[warn] account {metric}: {e}', file=sys.stderr)
+        return None
+    for m in (d.get('data') or []):
+        tv = m.get('total_value') or {}
+        if tv.get('value') is not None:
+            return int(tv['value'])
+    return None
+
+
+def _media_vals(ins):
+    out = {}
+    for x in (ins.get('data') or []):
+        v = None
+        if x.get('values'):
+            v = x['values'][0].get('value')
+        elif x.get('total_value'):
+            v = x['total_value'].get('value')
+        out[x.get('name')] = v
+    return out
+
+
+def fetch_top_posts(limit=12, keep=6):
+    """Últimos posts do IG ordenados por interações; tenta reach/shares/saved por post."""
+    try:
+        media = api_get(f'{IG_ID}/media', {
+            'fields': ('id,caption,permalink,media_type,media_product_type,'
+                       'thumbnail_url,media_url,timestamp,like_count,comments_count'),
+            'limit': str(limit),
+        })
+    except Exception as e:
+        print(f'[warn] media list: {e}', file=sys.stderr)
+        return []
+    posts = []
+    for m in (media.get('data') or []):
+        likes = int(m.get('like_count') or 0)
+        comments = int(m.get('comments_count') or 0)
+        vals = {}
+        for mset in ('reach,shares,saved,total_interactions', 'reach,shares,total_interactions',
+                     'reach,total_interactions', 'reach'):
+            try:
+                vals = _media_vals(api_get(f"{m['id']}/insights", {'metric': mset}))
+                break
+            except Exception:
+                continue
+        reach  = int(vals['reach'])  if vals.get('reach')  is not None else None
+        shares = int(vals['shares']) if vals.get('shares') is not None else None
+        saved  = int(vals['saved'])  if vals.get('saved')  is not None else None
+        ti = vals.get('total_interactions')
+        interacoes = int(ti) if ti is not None else likes + comments + (saved or 0) + (shares or 0)
+        mt, mpt = m.get('media_type'), m.get('media_product_type')
+        if m.get('thumbnail_url'):
+            thumb = m['thumbnail_url']
+        elif mt in ('IMAGE', 'CAROUSEL_ALBUM'):
+            thumb = m.get('media_url')
+        else:
+            thumb = None
+        tipo = ('Reel' if mpt == 'REELS' else 'Carrossel' if mt == 'CAROUSEL_ALBUM'
+                else 'Vídeo' if mt == 'VIDEO' else 'Foto' if mt == 'IMAGE' else (mpt or mt))
+        posts.append({
+            'permalink': m.get('permalink'),
+            'thumb': thumb,
+            'data': (m.get('timestamp') or '')[:10],
+            'tipo': tipo,
+            'likes': likes, 'comentarios': comments,
+            'reach': reach, 'shares': shares, 'saved': saved,
+            'interacoes': interacoes,
+            'legenda': (m.get('caption') or '').replace('\n', ' ')[:120],
+        })
+    posts.sort(key=lambda p: p.get('interacoes') or 0, reverse=True)
+    return posts[:keep]
+
+
+def fetch_publico(prev):
+    """Monta o bloco 'publico'. Preserva o anterior quando uma chamada falha/volta vazia."""
+    gen     = _demographics('follower_demographics', 'gender')
+    age     = _demographics('follower_demographics', 'age')
+    city    = _demographics('follower_demographics', 'city')
+    eng_gen = _demographics('engaged_audience_demographics', 'gender')
+    eng_cty = _demographics('engaged_audience_demographics', 'city')
+    reach30 = _account_total('reach')
+    views30 = _account_total('views')
+    tops    = fetch_top_posts()
+    prev = prev or {}
+    pseg = prev.get('seguidores') or {}
+    peng = prev.get('engajados') or {}
+    return {
+        'atualizado_em': datetime.now(BRT).isoformat(timespec='seconds'),
+        'timeframe': IG_DEMO_TIMEFRAME,
+        'seguidores': {
+            'genero':  gen  or pseg.get('genero')  or [],
+            'idade':   age  or pseg.get('idade')   or [],
+            'cidades': (city[:12] if city else pseg.get('cidades')) or [],
+        },
+        'engajados': {
+            'genero':  eng_gen or peng.get('genero')  or [],
+            'cidades': (eng_cty[:12] if eng_cty else peng.get('cidades')) or [],
+        },
+        'alcance_30d': reach30 if reach30 is not None else prev.get('alcance_30d'),
+        'views_30d':   views30 if views30 is not None else prev.get('views_30d'),
+        'top_posts':   tops or prev.get('top_posts') or [],
+    }
+
+
 def upsert_by_date(serie, ponto, campo='data'):
     """Substitui o ponto da mesma data ou adiciona; mantém ordenado por data."""
     serie = [p for p in (serie or []) if p.get(campo) != ponto.get(campo)]
@@ -187,6 +324,12 @@ def main():
             print(f"[warn] serie {cfg['nome']}: {e}", file=sys.stderr)
         novas.append(c)
     data['campanhas'] = novas
+
+    # ── público (demografia IG + alcance/views + posts) ──
+    try:
+        data['publico'] = fetch_publico(data.get('publico'))
+    except Exception as e:
+        print(f'[warn] publico: {e}', file=sys.stderr)
 
     data['atualizado_em'] = datetime.now(BRT).isoformat(timespec='seconds')
 

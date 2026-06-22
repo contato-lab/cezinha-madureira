@@ -134,6 +134,35 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 .foll-delta.up{color:var(--green)} .foll-delta.down{color:var(--red)} .foll-delta.neu{color:var(--text3)}
 .foll-sub{font-size:11px;color:var(--text3);margin-top:8px}
 
+/* PUBLICO */
+.pub-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:16px}
+.pub-stat{background:var(--card);border:1px solid var(--lime-border);border-radius:var(--radius);padding:16px 18px;box-shadow:0 0 0 1px rgba(200,255,0,0.06)}
+.pub-stat .l{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3);margin-bottom:6px}
+.pub-stat .v{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:30px;color:var(--lime);line-height:1}
+.pub-stat .s{font-size:11px;color:var(--text3);margin-top:5px}
+.pub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
+.pub-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+.pub-card .ct{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--text2);margin-bottom:14px}
+.gsplit{display:flex;height:38px;border-radius:8px;overflow:hidden;border:1px solid var(--border)}
+.gseg{display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:14px;color:#0A0A0A}
+.glegend{display:flex;gap:16px;margin-top:11px;flex-wrap:wrap}
+.glegend span{font-size:12px;color:var(--text2);display:flex;align-items:center;gap:6px}
+.gdot{width:10px;height:10px;border-radius:3px;display:inline-block}
+.barlist{display:flex;flex-direction:column;gap:11px}
+.barrow .bhead{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--text2);margin-bottom:4px}
+.barrow .bhead b{color:var(--text);font-weight:700;white-space:nowrap}
+.bartrack{height:8px;background:var(--card2);border-radius:6px;overflow:hidden}
+.barfill{height:100%;border-radius:6px;background:var(--lime)}
+.barfill.eng{background:var(--purple)}
+.toppost-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px}
+.toppost{background:var(--card2);border:1px solid var(--border);border-radius:var(--rad-sm);overflow:hidden;display:flex;flex-direction:column;text-decoration:none;transition:border-color .15s}
+.toppost:hover{border-color:var(--lime-border)}
+.toppost .th{width:100%;height:130px;object-fit:cover;background:#0A0A0A;display:block}
+.toppost .tb{padding:10px 12px;display:flex;flex-direction:column;gap:5px}
+.toppost .tdate{font-size:10.5px;color:var(--text3)}
+.toppost .tmain{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:21px;color:var(--lime);line-height:1}
+.toppost .tmeta{display:flex;flex-wrap:wrap;gap:8px;font-size:11px;color:var(--text2)}
+
 /* FOOTER */
 .footer{display:flex;align-items:center;gap:10px;justify-content:center;flex-wrap:wrap;padding:28px 24px;margin-top:8px;border-top:1px solid var(--border);color:var(--text3);font-size:12px}
 .footer-sep{color:var(--border)}
@@ -279,6 +308,20 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
         <div class="foll-sub" id="igSub"></div>
       </div>
       <div class="chart-card"><div class="ct">Evolução de seguidores (dia a dia)</div><div class="chart-wrap"><canvas id="chFollow"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- PERFIL DO PUBLICO -->
+  <section id="pubSec" style="display:none">
+    <div class="section-header">
+      <div class="section-title">👤 Perfil do público</div>
+      <div class="section-sub" id="pubSub">Quem segue e quem mais interage · Instagram</div>
+    </div>
+    <div class="pub-stats" id="pubStats"></div>
+    <div class="pub-grid" id="pubGrid"></div>
+    <div class="pub-card" id="pubPostsCard" style="margin-top:16px;display:none">
+      <div class="ct">Posts que mais bombaram</div>
+      <div class="toppost-grid" id="pubPosts"></div>
     </div>
   </section>
 
@@ -555,8 +598,76 @@ function renderIA(){
   const dt = IA.gerado_em ? new Date(IA.gerado_em) : null;
   const de=document.getElementById('iaDate'); if(de) de.textContent = dt ? 'Atualizado '+dt.toLocaleDateString('pt-BR') : '';
 }
+// ── perfil do público (IG) — independe do filtro de período ──
+const GMAP={F:'Mulheres',M:'Homens',U:'Não informado'};
+const GCOL={F:'#E85D9A',M:'#5B9BD5',U:'#888888'};
+const cityName = k => String(k).split(',')[0];
+function genderCard(title, arr){
+  const tot = arr.reduce((a,x)=>a+(+x.v||0),0)||1;
+  const order = ['F','M','U'].map(k=>arr.find(x=>x.k===k)).filter(Boolean)
+    .concat(arr.filter(x=>!['F','M','U'].includes(x.k)));
+  const segs = order.map(x=>{ const p=(+x.v||0)/tot*100;
+    return `<div class="gseg" style="flex:${(+x.v||0)||0.001};background:${GCOL[x.k]||'#888'}" title="${esc(GMAP[x.k]||x.k)}: ${fmtN(x.v)}">${p>=12?Math.round(p)+'%':''}</div>`;
+  }).join('');
+  const leg = order.map(x=>`<span><i class="gdot" style="background:${GCOL[x.k]||'#888'}"></i>${esc(GMAP[x.k]||x.k)} ${Math.round((+x.v||0)/tot*100)}%</span>`).join('');
+  return `<div class="pub-card"><div class="ct">${esc(title)}</div><div class="gsplit">${segs}</div><div class="glegend">${leg}</div></div>`;
+}
+function barCard(title, arr, eng, fmtKey){
+  const max = Math.max(...arr.map(x=>+x.v||0), 1);
+  const tot = arr.reduce((a,x)=>a+(+x.v||0),0)||1;
+  const rows = arr.map(x=>{
+    const w = Math.max(2, (+x.v||0)/max*100), pc=(+x.v||0)/tot*100;
+    return `<div class="barrow"><div class="bhead"><span>${esc(fmtKey?fmtKey(x.k):x.k)}</span><b>${fmtN(x.v)} <span style="color:var(--text3);font-weight:400">(${pc.toFixed(0)}%)</span></b></div><div class="bartrack"><div class="barfill${eng?' eng':''}" style="width:${w}%"></div></div></div>`;
+  }).join('');
+  return `<div class="pub-card"><div class="ct">${esc(title)}</div><div class="barlist">${rows}</div></div>`;
+}
+function postCard(p){
+  const meta=[];
+  if(p.shares!=null) meta.push('↗ '+fmtN(p.shares)+' compart.');
+  if(p.reach!=null)  meta.push('📣 '+fmtN(p.reach)+' alcance');
+  meta.push('❤ '+fmtN((+p.likes||0)+(+p.comentarios||0)));
+  const thumb = p.thumb ? `<img class="th" src="${esc(p.thumb)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '';
+  return `<a class="toppost" href="${esc(p.permalink||'#')}" target="_blank" rel="noopener">${thumb}
+    <div class="tb">
+      <div class="tdate">${esc(brDate(p.data))}${p.tipo?' · '+esc(p.tipo):''}</div>
+      <div class="tmain">${fmtN(p.interacoes||0)} <span style="font-size:11px;color:var(--text3);font-weight:400">interações</span></div>
+      <div class="tmeta">${meta.map(m=>`<span>${esc(m)}</span>`).join('')}</div>
+    </div></a>`;
+}
+function renderPublico(){
+  const P = DATA.publico, sec = document.getElementById('pubSec');
+  if(!sec) return;
+  const seg = (P&&P.seguidores)||{}, eng = (P&&P.engajados)||{};
+  const has = arr => Array.isArray(arr) && arr.length;
+  const hasAny = !!P && (has(seg.genero)||has(seg.idade)||has(seg.cidades)||has(eng.cidades)||P.alcance_30d!=null||P.views_30d!=null||has(P.top_posts));
+  if(!hasAny){ sec.style.display='none'; return; }
+  sec.style.display='';
+
+  const stats=[];
+  if(P.alcance_30d!=null) stats.push(['Alcance (30 dias)', fmtN(P.alcance_30d), 'contas alcançadas no Instagram']);
+  if(P.views_30d!=null)   stats.push(['Visualizações (30 dias)', fmtN(P.views_30d), 'a antiga "impressões"']);
+  document.getElementById('pubStats').innerHTML = stats.map(s=>
+    `<div class="pub-stat"><div class="l">${esc(s[0])}</div><div class="v">${esc(s[1])}</div><div class="s">${esc(s[2])}</div></div>`).join('');
+
+  const cards=[];
+  if(has(seg.genero))  cards.push(genderCard('Gênero dos seguidores', seg.genero));
+  if(has(seg.idade))   cards.push(barCard('Faixa etária dos seguidores', seg.idade, false, null));
+  if(has(seg.cidades)) cards.push(barCard('Top cidades dos seguidores', seg.cidades.slice(0,7), false, cityName));
+  if(has(eng.cidades)) cards.push(barCard('Onde o público mais interage', eng.cidades.slice(0,7), true, cityName));
+  else if(has(eng.genero)) cards.push(genderCard('Quem mais interage (gênero)', eng.genero));
+  document.getElementById('pubGrid').innerHTML = cards.join('');
+
+  const tp = (P.top_posts||[]).filter(p=>p && (p.thumb||p.permalink));
+  const tpCard = document.getElementById('pubPostsCard');
+  if(tp.length){ tpCard.style.display=''; document.getElementById('pubPosts').innerHTML = tp.map(postCard).join(''); }
+  else tpCard.style.display='none';
+
+  const sub=document.getElementById('pubSub');
+  if(sub) sub.textContent='Quem segue e quem mais interage · Instagram, últimos 30 dias · demografia da Meta tem atraso de até 48h';
+}
+
 function renderAll(){
-  renderIA(); renderKPIs(); renderCampaigns(); renderCompare(); renderFollowers(); renderDaily();
+  renderIA(); renderKPIs(); renderCampaigns(); renderCompare(); renderFollowers(); renderPublico(); renderDaily();
   const dt = DATA.atualizado_em ? new Date(DATA.atualizado_em) : null;
   document.getElementById('genDate').textContent = dt ? 'Atualizado '+dt.toLocaleDateString('pt-BR')+' '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}) : '';
 }
