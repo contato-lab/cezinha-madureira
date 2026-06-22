@@ -293,6 +293,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
       <div class="section-title">📈 Crescimento de seguidores</div>
       <div class="section-sub" id="growthSub">Medição diária iniciada em 17/06/2026 · cresce a cada dia</div>
     </div>
+    <div class="pub-stats" id="newFollowers" style="margin-bottom:16px"></div>
     <div class="foll-grid">
       <div class="foll-card">
         <div class="foll-net"><span class="foll-ic fb">▸ Facebook</span></div>
@@ -468,7 +469,24 @@ function renderConsolidado(){
 const GRID={color:'rgba(255,255,255,0.06)'}, TICK={color:'#888',font:{family:'Inter',size:11}};
 function destroy(k){ if(charts[k]){ charts[k].destroy(); charts[k]=null; } }
 
+function renderNewFollowers(){
+  const el=document.getElementById('newFollowers'); if(!el) return;
+  const g = growthInPeriod();
+  const col = v => v==null?'var(--text3)': v>0?'var(--lime)': v<0?'var(--red)':'var(--text3)';
+  const d = v => v==null?'—':(v>0?'+':'')+fmtN(v);
+  if(g.total==null){
+    el.innerHTML=`<div class="pub-stat"><div class="l">Novos seguidores no período</div><div class="v" style="color:var(--text3)">—</div><div class="s">aguardando 2º dia de medição</div></div>`;
+    return;
+  }
+  const cards=[
+    ['Novos no Instagram', d(g.ig), 'no período', g.ig],
+    ['Novos no Facebook', d(g.fb), 'no período', g.fb],
+    ['Total de novos seguidores', d(g.total), 'enquanto as campanhas rodam', g.total]
+  ];
+  el.innerHTML = cards.map(c=>`<div class="pub-stat"><div class="l">${esc(c[0])}</div><div class="v" style="color:${col(c[3])}">${esc(c[1])}</div><div class="s">${esc(c[2])}</div></div>`).join('');
+}
 function renderFollowers(){
+  renderNewFollowers();
   const s = filterSerie((DATA.seguidores||{}).serie);
   const labels = s.map(p=>brDate(p.data));
   const fb = s.map(p=>p.fb), ig = s.map(p=>p.ig);
