@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-06-22T10:22:24-03:00",
+  "atualizado_em": "2026-06-22T11:15:23-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,8 +9,8 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 106695,
-    "ig_atual": 191462,
+    "fb_atual": 106696,
+    "ig_atual": 191463,
     "ig_posts": 428,
     "serie": [
       {
@@ -40,8 +40,8 @@
       },
       {
         "data": "2026-06-22",
-        "fb": 106695,
-        "ig": 191462
+        "fb": 106696,
+        "ig": 191463
       }
     ],
     "ig_follows": 4173
@@ -343,5 +343,21 @@
         }
       ]
     }
-  ]
+  ],
+  "publico": {
+    "atualizado_em": "2026-06-22T11:15:23-03:00",
+    "timeframe": "last_30_days",
+    "seguidores": {
+      "genero": [],
+      "idade": [],
+      "cidades": []
+    },
+    "engajados": {
+      "genero": [],
+      "cidades": []
+    },
+    "alcance_30d": null,
+    "views_30d": null,
+    "top_posts": []
+  }
 }
