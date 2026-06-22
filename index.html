@@ -448,7 +448,10 @@ function renderConsolidado(){
   const chipEl=document.getElementById('consChips');
   if(chipEl) chipEl.innerHTML = chips.map(c=>`<span class="cons-chip">${esc(c)}</span>`).join('');
   const freq=(t.frequency||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const g=growthInPeriod();
+  const nf = g.total!=null ? ((g.total>0?'+':'')+fmtN(g.total)) : '—';
   const M=[
+    ['Novos seguidores', nf],
     ['Alcance', fmtN(t.reach)],
     ['Impressões', fmtN(t.impressions)],
     ['Frequência', freq],
