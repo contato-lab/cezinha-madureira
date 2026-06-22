@@ -12,7 +12,7 @@ Usa só stdlib (urllib) — sem dependências externas. Idempotente: roda 2x no 
 faz upsert pela data, não duplica. Falha de uma chamada não derruba o resto (mantém o que já existe).
 """
 
-import os, json, sys, urllib.request, urllib.parse
+import os, json, sys, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timezone, timedelta
 
 API_VERSION = 'v23.0'
@@ -47,8 +47,16 @@ def api_get(path, params):
     params = dict(params)
     params['access_token'] = TOKEN
     url = f'https://graph.facebook.com/{API_VERSION}/{path}?{urllib.parse.urlencode(params)}'
-    with urllib.request.urlopen(url, timeout=30) as resp:
-        return json.loads(resp.read())
+    try:
+        with urllib.request.urlopen(url, timeout=30) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body = ''
+        try:
+            body = e.read().decode('utf-8', 'replace')
+        except Exception:
+            pass
+        raise RuntimeError(f'HTTP {e.code}: {body[:400]}') from None
 
 
 def _action(arr, action_type):
