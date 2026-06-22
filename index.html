@@ -640,7 +640,20 @@ function renderPublico(){
   const seg = (P&&P.seguidores)||{}, eng = (P&&P.engajados)||{};
   const has = arr => Array.isArray(arr) && arr.length;
   const hasAny = !!P && (has(seg.genero)||has(seg.idade)||has(seg.cidades)||has(eng.cidades)||P.alcance_30d!=null||P.views_30d!=null||has(P.top_posts));
-  if(!hasAny){ sec.style.display='none'; return; }
+  if(!hasAny){
+    sec.style.display='';
+    document.getElementById('pubStats').innerHTML='';
+    document.getElementById('pubGrid').innerHTML =
+      `<div class="pub-card" style="grid-column:1/-1;text-align:center;padding:34px 22px">
+        <div class="ct" style="margin-bottom:10px">Perfil do público em breve</div>
+        <div style="color:var(--text3);font-size:13px;line-height:1.6;max-width:600px;margin:0 auto">
+          Aqui vão entrar <b style="color:var(--text2)">gênero, faixa etária e cidades</b> de quem segue e de quem mais interage, além de <b style="color:var(--text2)">alcance, visualizações e os posts que mais bombaram</b> no Instagram do Cezinha. Preenche automaticamente assim que a coleta estiver ativa.
+        </div>
+      </div>`;
+    document.getElementById('pubPostsCard').style.display='none';
+    const subE=document.getElementById('pubSub'); if(subE) subE.textContent='Quem segue e quem mais interage · Instagram';
+    return;
+  }
   sec.style.display='';
 
   const stats=[];
