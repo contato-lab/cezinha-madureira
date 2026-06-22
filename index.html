@@ -157,6 +157,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 .glegend{display:flex;gap:16px;margin-top:11px;flex-wrap:wrap}
 .glegend span{font-size:12px;color:var(--text2);display:flex;align-items:center;gap:6px}
 .gdot{width:10px;height:10px;border-radius:3px;display:inline-block}
+.gnote{margin-top:9px;font-size:11px;color:var(--text3);line-height:1.4}
 .barlist{display:flex;flex-direction:column;gap:11px}
 .barrow .bhead{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--text2);margin-bottom:4px}
 .barrow .bhead b{color:var(--text);font-weight:700;white-space:nowrap}
@@ -576,14 +577,18 @@ const GMAP={F:'Mulheres',M:'Homens',U:'Não informado'};
 const GCOL={F:'#E85D9A',M:'#5B9BD5',U:'#888888'};
 const cityName = k => String(k).split(',')[0];
 function genderCard(title, arr){
-  const tot = arr.reduce((a,x)=>a+(+x.v||0),0)||1;
-  const order = ['F','M','U'].map(k=>arr.find(x=>x.k===k)).filter(Boolean)
-    .concat(arr.filter(x=>!['F','M','U'].includes(x.k)));
-  const segs = order.map(x=>{ const p=(+x.v||0)/tot*100;
-    return `<div class="gseg" style="flex:${(+x.v||0)||0.001};background:${GCOL[x.k]||'#888'}" title="${esc(GMAP[x.k]||x.k)}: ${fmtN(x.v)}">${p>=12?Math.round(p)+'%':''}</div>`;
-  }).join('');
-  const leg = order.map(x=>`<span><i class="gdot" style="background:${GCOL[x.k]||'#888'}"></i>${esc(GMAP[x.k]||x.k)} ${Math.round((+x.v||0)/tot*100)}%</span>`).join('');
-  return `<div class="pub-card"><div class="ct">${esc(title)}</div><div class="gsplit">${segs}</div><div class="glegend">${leg}</div></div>`;
+  // igual ao app do Insta: só Mulheres x Homens (renormalizado), "U" vira nota de rodapé
+  const val = k => (arr.find(x=>x.k===k)||{}).v || 0;
+  const f=val('F'), m=val('M');
+  const u = arr.filter(x=>!['F','M'].includes(x.k)).reduce((a,x)=>a+(+x.v||0),0);
+  const total = f+m+u, known = (f+m)||1;
+  const pF = Math.round(f/known*100), pM = 100-pF;
+  const segs = `<div class="gseg" style="flex:${f||0.001};background:${GCOL.F}">${pF>=12?pF+'%':''}</div>`+
+               `<div class="gseg" style="flex:${m||0.001};background:${GCOL.M}">${pM>=12?pM+'%':''}</div>`;
+  const leg = `<span><i class="gdot" style="background:${GCOL.F}"></i>Mulheres ${pF}%</span>`+
+              `<span><i class="gdot" style="background:${GCOL.M}"></i>Homens ${pM}%</span>`;
+  const note = (u>0 && total) ? `<div class="gnote">${Math.round(u/total*100)}% dos seguidores não têm gênero declarado na Meta (não entram na conta acima)</div>` : '';
+  return `<div class="pub-card"><div class="ct">${esc(title)}</div><div class="gsplit">${segs}</div><div class="glegend">${leg}</div>${note}</div>`;
 }
 function barCard(title, arr, eng, fmtKey){
   const max = Math.max(...arr.map(x=>+x.v||0), 1);
