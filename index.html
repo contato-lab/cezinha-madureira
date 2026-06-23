@@ -380,10 +380,22 @@ function inRange(d){
 }
 function filterSerie(serie){ return (serie||[]).filter(p=>inRange(p.data)); }
 function growthInPeriod(){
-  const s = filterSerie((DATA.seguidores||{}).serie);
-  if(s.length<2) return {fb:null, ig:null, total:null};
-  const a=s[0], b=s[s.length-1];
-  const fb=(+b.fb||0)-(+a.fb||0), ig=(+b.ig||0)-(+a.ig||0);
+  // crescimento liquido de seguidores: compara o fim do periodo com a medicao
+  // ANTERIOR ao inicio do periodo (assim "Hoje" mostra o ganho vs ontem, sem "—")
+  const serie = ((DATA.seguidores||{}).serie)||[];
+  if(serie.length<2) return {fb:null, ig:null, total:null};
+  const inR = serie.filter(p=>inRange(p.data));
+  if(!inR.length) return {fb:null, ig:null, total:null};
+  const last = inR[inR.length-1];
+  let base;
+  if(RANGE.mode==='all'){ base = serie[0]; }
+  else {
+    const before = serie.filter(p=>String(p.data) < String(inR[0].data));
+    base = before.length ? before[before.length-1] : (inR.length>1 ? inR[0] : null);
+  }
+  if(!base){ const i=serie.indexOf(last); base = i>0 ? serie[i-1] : null; }
+  if(!base || base===last) return {fb:null, ig:null, total:null};
+  const fb=(+last.fb||0)-(+base.fb||0), ig=(+last.ig||0)-(+base.ig||0);
   return {fb, ig, total:fb+ig};
 }
 // ── métricas por período (somam a série diária; 'tudo' usa o acumulado) ──
