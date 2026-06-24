@@ -22,7 +22,8 @@ TOKEN       = os.environ.get('META_TOKEN_CEZINHA', '')
 
 FB_PAGE_ID = '1401978510018003'
 IG_ID      = '17841400472685855'
-AD_ACCOUNT = 'act_3515790661909032'
+AD_ACCOUNTS = ['act_3515790661909032', 'act_1395564544098811']  # atual + a 8811 (voltou)
+CONS_SINCE  = '2026-06-01'  # operacao atual; evita misturar historico antigo da 8811 (desde 2023)
 
 BRT = timezone(timedelta(hours=-3))
 HOJE = datetime.now(BRT).strftime('%Y-%m-%d')
@@ -101,39 +102,89 @@ def parse_row(row):
     }
 
 
+_AGG_BASE = ['impressions', 'reach', 'clicks', 'link_clicks', 'engajamentos', 'reacoes',
+             'comentarios', 'salvamentos', 'compartilhamentos', 'video_plays', 'video_views',
+             'thruplays', 'ad_recallers']
+
+
+def _agg_rows(rows):
+    """Soma as métricas-base de varias contas/dias e recalcula as derivadas."""
+    if not rows:
+        return None
+    o = {}
+    for k in _AGG_BASE:
+        o[k] = sum(int(r.get(k, 0) or 0) for r in rows)
+    spend = round(sum(float(r.get('spend', 0) or 0) for r in rows), 2)
+    o['spend'] = spend
+    o['cpm'] = round(spend / o['impressions'] * 1000, 4) if o['impressions'] else 0
+    o['cpc'] = round(spend / o['clicks'], 4) if o['clicks'] else 0
+    o['ctr'] = round(o['clicks'] / o['impressions'] * 100, 4) if o['impressions'] else 0
+    o['frequency'] = round(o['impressions'] / o['reach'], 4) if o['reach'] else 0
+    o['custo_engajamento'] = round(spend / o['engajamentos'], 4) if o['engajamentos'] else 0
+    o['custo_link_click'] = round(spend / o['link_clicks'], 4) if o['link_clicks'] else 0
+    o['ad_recall_rate'] = round(o['ad_recallers'] / o['reach'], 6) if o['reach'] else 0
+    return o
+
+
+def _range():
+    return json.dumps({'since': CONS_SINCE, 'until': HOJE})
+
+
 def fetch_conta_totais():
-    """Totais UNIFICADOS de todas as campanhas da conta (acumulado desde sempre)."""
-    data = api_get(f'{AD_ACCOUNT}/insights', {'fields': INSIGHT_FIELDS, 'date_preset': 'maximum'})
-    rows = data.get('data') or []
-    return parse_row(rows[0]) if rows else None
+    """Totais UNIFICADOS somando TODAS as contas de anuncio (desde CONS_SINCE)."""
+    parts = []
+    for acct in AD_ACCOUNTS:
+        try:
+            d = api_get(f'{acct}/insights', {'fields': INSIGHT_FIELDS, 'time_range': _range()})
+            rows = d.get('data') or []
+            if rows:
+                parts.append(parse_row(rows[0]))
+        except Exception as e:
+            print(f'[warn] totais {acct}: {e}', file=sys.stderr)
+    return _agg_rows(parts)
 
 
 def fetch_conta_serie():
-    """Série diária UNIFICADA da conta (soma de todas as campanhas por dia)."""
-    data = api_get(f'{AD_ACCOUNT}/insights', {
-        'fields': INSIGHT_FIELDS, 'date_preset': 'maximum',
-        'time_increment': '1', 'limit': '500',
-    })
+    """Serie diaria UNIFICADA: soma todas as contas por dia (desde CONS_SINCE)."""
+    by_date = {}
+    for acct in AD_ACCOUNTS:
+        try:
+            d = api_get(f'{acct}/insights', {
+                'fields': INSIGHT_FIELDS, 'time_range': _range(),
+                'time_increment': '1', 'limit': '500',
+            })
+            for row in (d.get('data') or []):
+                by_date.setdefault(row.get('date_start'), []).append(parse_row(row))
+        except Exception as e:
+            print(f'[warn] serie {acct}: {e}', file=sys.stderr)
     serie = []
-    for row in (data.get('data') or []):
-        rec = parse_row(row)
-        rec['data'] = row.get('date_start')
+    for dt in sorted(k for k in by_date if k):
+        rec = _agg_rows(by_date[dt])
+        rec['data'] = dt
         serie.append(rec)
     return serie
 
 
 def fetch_campanhas_meta():
-    """Quantas campanhas ativas e quais objetivos estão rodando (sem detalhar por nome)."""
-    data = api_get(f'{AD_ACCOUNT}/campaigns',
-                   {'fields': 'id,name,objective,effective_status', 'limit': '200'})
-    camps = data.get('data') or []
-    ativas = [c for c in camps if c.get('effective_status') == 'ACTIVE']
+    """Campanhas ativas e objetivos somando TODAS as contas."""
+    ativas = 0
+    total = 0
     objetivos = []
-    for c in ativas:
-        lbl = OBJ_LABEL.get(c.get('objective'), c.get('objective'))
-        if lbl and lbl not in objetivos:
-            objetivos.append(lbl)
-    return {'ativas': len(ativas), 'total': len(camps), 'objetivos': objetivos}
+    for acct in AD_ACCOUNTS:
+        try:
+            d = api_get(f'{acct}/campaigns',
+                        {'fields': 'id,name,objective,effective_status', 'limit': '200'})
+            camps = d.get('data') or []
+            total += len(camps)
+            for c in camps:
+                if c.get('effective_status') == 'ACTIVE':
+                    ativas += 1
+                    lbl = OBJ_LABEL.get(c.get('objective'), c.get('objective'))
+                    if lbl and lbl not in objetivos:
+                        objetivos.append(lbl)
+        except Exception as e:
+            print(f'[warn] campanhas {acct}: {e}', file=sys.stderr)
+    return {'ativas': ativas, 'total': total, 'objetivos': objetivos}
 
 
 def fetch_followers():
@@ -311,7 +362,7 @@ def main():
     except FileNotFoundError:
         data = {'cliente': 'Cezinha de Madureira',
                 'fonte': 'Meta Marketing API + Graph API',
-                'contas': {'ad_account': AD_ACCOUNT, 'fb_page_id': FB_PAGE_ID,
+                'contas': {'ad_accounts': AD_ACCOUNTS, 'fb_page_id': FB_PAGE_ID,
                            'ig_id': IG_ID, 'ig_username': 'cezinhademadureira'},
                 'seguidores': {'serie': []}, 'consolidado': {}}
 
