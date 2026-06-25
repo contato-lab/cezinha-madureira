@@ -525,16 +525,19 @@ function renderFollowers(){
   const wrapF=document.getElementById('chFollow').parentElement;
   if(!labels.length){ wrapF.classList.add('empty'); return; }
   wrapF.classList.remove('empty');
+  const ign=ig.filter(v=>v!=null);
+  const igMin=Math.min.apply(null,ign), igMax=Math.max.apply(null,ign);
+  const pad=Math.max(15, Math.round((igMax-igMin)*0.6));
   charts.follow = new Chart(document.getElementById('chFollow'),{
     type:'line',
     data:{labels,datasets:[
-      {label:'Facebook',data:fb,borderColor:'#5B9BD5',backgroundColor:'rgba(91,155,213,.12)',tension:.3,fill:true,pointRadius:3,borderWidth:2},
-      {label:'Instagram',data:ig,borderColor:'#C8FF00',backgroundColor:'rgba(200,255,0,.10)',tension:.3,fill:true,pointRadius:3,borderWidth:2}
+      {label:'Instagram',data:ig,borderColor:'#C8FF00',backgroundColor:'rgba(200,255,0,.12)',tension:.3,fill:true,pointRadius:4,pointBackgroundColor:'#C8FF00',borderWidth:2.5}
     ]},
     options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
       plugins:{legend:{position:'top',labels:{color:'#CCC',font:{family:'Inter',size:12},boxWidth:12}},
-        tooltip:{callbacks:{label:ctx=>' '+ctx.dataset.label+': '+fmtN(ctx.raw)}}},
-      scales:{x:{grid:GRID,ticks:TICK},y:{grid:GRID,ticks:{...TICK,callback:v=>fmtN(v)}}}}
+        tooltip:{callbacks:{label:ctx=>' Instagram: '+fmtN(ctx.raw)+' seguidores'}}},
+      scales:{x:{grid:GRID,ticks:TICK},
+        y:{min:igMin-pad,max:igMax+pad,grid:GRID,ticks:{...TICK,callback:v=>fmtN(v)}}}}
   });
 }
 
