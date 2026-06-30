@@ -773,10 +773,7 @@ if(b)b.addEventListener('click',function(){window.scrollTo({top:document.documen
     pop.appendChild(o);});
   chip.addEventListener('click',function(e){e.stopPropagation();wrap.classList.toggle('open');refresh();});
   document.addEventListener('click',function(){wrap.classList.remove('open');});
-  if('IntersectionObserver' in window){
-    new IntersectionObserver(function(es){es.forEach(function(en){
-      wrap.classList.toggle('hidden',en.isIntersecting); if(!en.isIntersecting){refresh();}});},{threshold:0}).observe(bar);
-  } else { wrap.classList.remove('hidden'); }
+  function _fdupd(){var r=bar.getBoundingClientRect();wrap.classList.toggle('hidden',(r.bottom>0&&r.top<window.innerHeight));if(r.bottom<=0||r.top>=window.innerHeight){refresh();}}window.addEventListener('scroll',_fdupd,{passive:true});window.addEventListener('resize',_fdupd);_fdupd();
   refresh();
 })();
 </script>
