@@ -731,5 +731,54 @@ renderAll();
 if(t)t.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
 if(b)b.addEventListener('click',function(){window.scrollTo({top:document.documentElement.scrollHeight,behavior:'smooth'});});})();
 </script>
+<!-- filtro de periodo flutuante (aparece ao rolar) -->
+<div class="floatdate hidden" id="floatdate" aria-hidden="true">
+  <div class="floatdate-pop" id="floatdatePop"></div>
+  <button class="floatdate-chip" id="floatdateChip" aria-label="Trocar periodo"><span class="cal">&#128197;</span><span class="cur" id="floatdateCur">Periodo</span><span class="car">&#9652;</span></button>
+</div>
+<style>
+.floatdate{position:fixed;left:18px;bottom:22px;z-index:9500;font-family:inherit}
+.floatdate.hidden{display:none}
+.floatdate-chip{display:flex;align-items:center;gap:7px;background:rgba(20,20,20,.9);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:8px 14px;color:#eee;font-size:.8rem;font-weight:600;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.45);font-family:inherit}
+.floatdate-chip:hover{border-color:var(--lime,var(--red,#888))}
+.floatdate-chip .cal{font-size:.95rem}
+.floatdate-chip .cur{color:var(--lime,var(--red,#fff))}
+.floatdate-chip .car{font-size:.55rem;color:#888;transition:.15s}
+.floatdate.open .floatdate-chip .car{transform:rotate(180deg)}
+.floatdate-pop{position:absolute;left:0;bottom:48px;display:none;flex-direction:column;gap:3px;background:#161616;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:7px;min-width:175px;box-shadow:0 12px 34px rgba(0,0,0,.55)}
+.floatdate.open .floatdate-pop{display:flex}
+.floatdate-opt{text-align:left;background:none;border:none;color:#ddd;font-size:.82rem;padding:8px 12px;border-radius:7px;cursor:pointer;font-family:inherit}
+.floatdate-opt:hover{background:rgba(255,255,255,.08);color:#fff}
+.floatdate-opt.active{background:var(--lime,var(--red,#333));color:#0a0a0a;font-weight:700}
+@media(max-width:600px){.floatdate{left:12px;bottom:14px}}
+</style>
+<script>
+(function(){
+  var RX=/^(hoje|ontem|\d+\s*dias?|todo\s+o\s+per[ií]odo|toda?\s+(a\s+)?campanha|tudo|geral|todos?)$/i;
+  var cand=[].slice.call(document.querySelectorAll('button')).filter(function(b){return RX.test((b.textContent||'').trim());});
+  if(cand.length<2){return;}
+  var groups=new Map();
+  cand.forEach(function(b){var p=b.parentElement; if(!groups.has(p)){groups.set(p,[]);} groups.get(p).push(b);});
+  var btns=null,n=0; groups.forEach(function(arr){if(arr.length>n){n=arr.length;btns=arr;}});
+  if(!btns||btns.length<2){return;}
+  var bar=btns[0].parentElement;
+  var wrap=document.getElementById('floatdate'),pop=document.getElementById('floatdatePop'),
+      chip=document.getElementById('floatdateChip'),cur=document.getElementById('floatdateCur');
+  function activeBtn(){return btns.filter(function(b){return b.classList.contains('active');})[0];}
+  function refresh(){var a=activeBtn();cur.textContent=a?a.textContent.trim():'Periodo';
+    [].forEach.call(pop.children,function(o,i){o.classList.toggle('active',btns[i]===a);});}
+  btns.forEach(function(b){var o=document.createElement('button');o.className='floatdate-opt';
+    o.textContent=b.textContent.trim();
+    o.addEventListener('click',function(ev){ev.stopPropagation();b.click();wrap.classList.remove('open');setTimeout(refresh,40);});
+    pop.appendChild(o);});
+  chip.addEventListener('click',function(e){e.stopPropagation();wrap.classList.toggle('open');refresh();});
+  document.addEventListener('click',function(){wrap.classList.remove('open');});
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(es){es.forEach(function(en){
+      wrap.classList.toggle('hidden',en.isIntersecting); if(!en.isIntersecting){refresh();}});},{threshold:0}).observe(bar);
+  } else { wrap.classList.remove('hidden'); }
+  refresh();
+})();
+</script>
 </body>
 </html>
