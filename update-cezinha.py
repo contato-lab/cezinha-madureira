@@ -217,15 +217,19 @@ def _tag_of(nome):
     return m.group(1).strip() if m else None
 
 
+DOBRADAS_ACCOUNTS = ['act_1395564544098811']  # so a conta com o padrao de nome "[TAG][LM] ..."
+                                               # (a act_3515790661909032 e outra operacao, sem esse padrao)
+
+
 def fetch_dobradas():
     """
-    Agrupa metricas por DOBRADA (a tag do conjunto de anuncios), somando entre campanhas e
-    contas diferentes que usem a mesma tag. Automatico: dobrada nova (tag nova) aparece sozinha
-    na proxima rodada do robo, sem precisar editar nada aqui.
+    Agrupa metricas por DOBRADA (a 1a tag do conjunto de anuncios, ex: [SP][LM] [LEIS][SP][02.07.25]
+    -> dobrada 'SP'), somando entre campanhas diferentes que usem a mesma tag. Automatico: dobrada
+    nova (tag nova) aparece sozinha na proxima rodada do robo, sem precisar editar nada aqui.
     """
     # 1) quantos conjuntos ativos/total por tag (status nao vem no endpoint de insights)
     ativos, total_adsets = {}, {}
-    for acct in AD_ACCOUNTS:
+    for acct in DOBRADAS_ACCOUNTS:
         try:
             adsets = api_get_all(f'{acct}/adsets', {'fields': 'name,effective_status', 'limit': '500'})
             for a in adsets:
@@ -240,7 +244,7 @@ def fetch_dobradas():
 
     # 2) totais no periodo (desde CONS_SINCE), por tag
     totals_by_tag = {}
-    for acct in AD_ACCOUNTS:
+    for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
                 'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_name',
@@ -255,7 +259,7 @@ def fetch_dobradas():
 
     # 3) serie diaria (pro filtro de periodo do dashboard), por tag
     daily_by_tag = {}
-    for acct in AD_ACCOUNTS:
+    for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
                 'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_name',
