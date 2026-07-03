@@ -70,6 +70,10 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 .ia-date{font-size:11px;color:var(--text3)}
 .ia-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:23px;color:var(--text);line-height:1.1;margin-bottom:8px}
 .ia-panorama{font-size:14px;color:var(--text2);line-height:1.55;margin-bottom:18px;max-width:1050px}
+.ia-toggle{background:var(--lime-dim);border:1px solid var(--lime-border);color:var(--lime);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.5px;text-transform:uppercase;padding:5px 12px;border-radius:20px;cursor:pointer;white-space:nowrap;transition:all .15s}
+.ia-toggle:hover{background:var(--lime);color:#0A0A0A}
+.ia-card.min .ia-title,.ia-card.min .ia-panorama,.ia-card.min .ia-cols,.ia-card.min .ia-trab,.ia-card.min .ia-comp{display:none!important}
+.ia-card.min{padding-bottom:14px}
 .ia-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .ia-col-h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:.8px;text-transform:uppercase;margin-bottom:9px}
 .ia-col-h.good{color:var(--green)} .ia-col-h.warn{color:var(--warn)} .ia-col-h.next{color:var(--lime)}
@@ -261,6 +265,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
     <div class="ia-head">
       <span class="ia-badge">✱ Diagnóstico das Redes · IA</span>
       <span class="ia-date" id="iaDate"></span>
+      <button class="ia-toggle" id="iaToggleBtn" onclick="toggleIA()" type="button">Maximizar</button>
     </div>
     <div class="ia-title" id="iaTitulo"></div>
     <div class="ia-panorama" id="iaPanorama"></div>
@@ -627,11 +632,18 @@ function renderDaily(){
   });
 }
 
+function toggleIA(){
+  const card=document.getElementById('iaCard'), btn=document.getElementById('iaToggleBtn');
+  const min = card.classList.toggle('min');
+  if(btn) btn.textContent = min ? 'Maximizar' : 'Minimizar';
+}
 function renderIA(){
   const card=document.getElementById('iaCard');
   const d = IA && IA.diagnostico;
   if(!d){ if(card) card.style.display='none'; return; }
   card.style.display='';
+  card.classList.add('min');
+  const btn=document.getElementById('iaToggleBtn'); if(btn) btn.textContent='Maximizar';
   document.getElementById('iaTitulo').textContent = d.titulo||'';
   document.getElementById('iaPanorama').textContent = d.panorama||'';
   const fill=(id,arr)=>{ const el=document.getElementById(id); if(el) el.innerHTML=(arr||[]).map(x=>`<li>${esc(x)}</li>`).join(''); };
