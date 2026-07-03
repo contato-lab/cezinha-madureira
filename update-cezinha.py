@@ -14,7 +14,7 @@ Usa só stdlib (urllib) — sem dependências externas. Idempotente: roda 2x no 
 faz upsert pela data, não duplica. Falha de uma chamada não derruba o resto (mantém o que já existe).
 """
 
-import os, json, sys, urllib.request, urllib.parse, urllib.error
+import os, json, re, sys, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timezone, timedelta
 
 API_VERSION = 'v23.0'
@@ -63,6 +63,26 @@ def api_get(path, params):
         except Exception:
             pass
         raise RuntimeError(f'HTTP {e.code}: {body[:400]}') from None
+
+
+def api_get_all(path, params, list_key='data', max_pages=25):
+    """Como api_get, mas segue a paginacao (paging.next) ate acabar ou bater o limite de seguranca."""
+    out = []
+    d = api_get(path, params)
+    out.extend(d.get(list_key) or [])
+    next_url = (d.get('paging') or {}).get('next')
+    pages = 1
+    while next_url and pages < max_pages:
+        try:
+            with urllib.request.urlopen(next_url, timeout=30) as resp:
+                d = json.loads(resp.read())
+        except Exception as e:
+            print(f'[warn] paginacao {path}: {e}', file=sys.stderr)
+            break
+        out.extend(d.get(list_key) or [])
+        next_url = (d.get('paging') or {}).get('next')
+        pages += 1
+    return out
 
 
 def _action(arr, action_type):
@@ -185,6 +205,84 @@ def fetch_campanhas_meta():
         except Exception as e:
             print(f'[warn] campanhas {acct}: {e}', file=sys.stderr)
     return {'ativas': ativas, 'total': total, 'objetivos': objetivos}
+
+
+TAG_RX = re.compile(r'^\s*\[([^\]]+)\]')
+
+
+def _tag_of(nome):
+    """A 'dobrada' e sempre a 1a tag entre colchetes no nome do CONJUNTO DE ANUNCIOS,
+    ex: '[SP] Interesse amplo' -> 'SP'. Conjunto sem colchete no inicio nao entra em nenhuma dobrada."""
+    m = TAG_RX.match(nome or '')
+    return m.group(1).strip() if m else None
+
+
+def fetch_dobradas():
+    """
+    Agrupa metricas por DOBRADA (a tag do conjunto de anuncios), somando entre campanhas e
+    contas diferentes que usem a mesma tag. Automatico: dobrada nova (tag nova) aparece sozinha
+    na proxima rodada do robo, sem precisar editar nada aqui.
+    """
+    # 1) quantos conjuntos ativos/total por tag (status nao vem no endpoint de insights)
+    ativos, total_adsets = {}, {}
+    for acct in AD_ACCOUNTS:
+        try:
+            adsets = api_get_all(f'{acct}/adsets', {'fields': 'name,effective_status', 'limit': '500'})
+            for a in adsets:
+                tag = _tag_of(a.get('name'))
+                if not tag:
+                    continue
+                total_adsets[tag] = total_adsets.get(tag, 0) + 1
+                if a.get('effective_status') == 'ACTIVE':
+                    ativos[tag] = ativos.get(tag, 0) + 1
+        except Exception as e:
+            print(f'[warn] dobradas/adsets {acct}: {e}', file=sys.stderr)
+
+    # 2) totais no periodo (desde CONS_SINCE), por tag
+    totals_by_tag = {}
+    for acct in AD_ACCOUNTS:
+        try:
+            rows = api_get_all(f'{acct}/insights', {
+                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_name',
+                'time_range': _range(), 'limit': '500',
+            })
+            for row in rows:
+                tag = _tag_of(row.get('adset_name'))
+                if tag:
+                    totals_by_tag.setdefault(tag, []).append(parse_row(row))
+        except Exception as e:
+            print(f'[warn] dobradas/totais {acct}: {e}', file=sys.stderr)
+
+    # 3) serie diaria (pro filtro de periodo do dashboard), por tag
+    daily_by_tag = {}
+    for acct in AD_ACCOUNTS:
+        try:
+            rows = api_get_all(f'{acct}/insights', {
+                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_name',
+                'time_range': _range(), 'time_increment': '1', 'limit': '500',
+            })
+            for row in rows:
+                tag = _tag_of(row.get('adset_name'))
+                dt = row.get('date_start')
+                if tag and dt:
+                    daily_by_tag.setdefault(tag, {}).setdefault(dt, []).append(parse_row(row))
+        except Exception as e:
+            print(f'[warn] dobradas/serie {acct}: {e}', file=sys.stderr)
+
+    out = {}
+    for tag in set(totals_by_tag) | set(daily_by_tag) | set(total_adsets):
+        serie = []
+        for dt in sorted(k for k in daily_by_tag.get(tag, {}) if k):
+            rec = _agg_rows(daily_by_tag[tag][dt])
+            rec['data'] = dt
+            serie.append(rec)
+        out[tag] = {
+            'totais': _agg_rows(totals_by_tag.get(tag) or []) or {},
+            'serie': serie,
+            'conjuntos_ativos': ativos.get(tag, 0),
+            'conjuntos_total': total_adsets.get(tag, 0),
+        }
+    return out
 
 
 def fetch_followers():
@@ -404,6 +502,12 @@ def main():
     data['consolidado'] = cons
     data.pop('campanhas', None)   # estrutura antiga (por nome de campanha) aposentada
 
+    # ── dobradas (unificado por tag do conjunto de anuncios, ex: [SP], [BARUERI], [PIZZARIA]) ──
+    try:
+        data['dobradas'] = fetch_dobradas()
+    except Exception as e:
+        print(f'[warn] dobradas: {e}', file=sys.stderr)
+
     # ── público (demografia IG + alcance/views + posts) ──
     try:
         data['publico'] = fetch_publico(data.get('publico'))
@@ -418,7 +522,8 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(tmp, DATA_FILE)
     print(f'OK {HOJE} | FB={seg.get("fb_atual")} IG={seg.get("ig_atual")} | '
-          f'campanhas_ativas={(cons.get("campanhas") or {}).get("ativas")}')
+          f'campanhas_ativas={(cons.get("campanhas") or {}).get("ativas")} | '
+          f'dobradas={sorted((data.get("dobradas") or {}).keys())}')
 
 
 if __name__ == '__main__':

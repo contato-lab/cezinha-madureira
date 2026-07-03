@@ -143,6 +143,18 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 .cons-metric .l{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--text3);margin-bottom:7px}
 .cons-metric .v{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;color:var(--text);line-height:1}
 
+.dob-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.dob-card{background:var(--card);border:1px solid var(--lime-border);border-radius:var(--radius);padding:18px 20px;box-shadow:0 0 0 1px rgba(200,255,0,0.05);transition:all .2s;animation:rise .5s ease both}
+.dob-card:hover{border-color:var(--lime);transform:translateY(-2px)}
+.dob-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--lime-border)}
+.dob-tag{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:21px;letter-spacing:.4px;color:var(--lime);text-transform:uppercase}
+.dob-badge{font-family:'Inter',sans-serif;font-size:11px;color:var(--text3);white-space:nowrap}
+.dob-metrics{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.dob-metrics .m{background:rgba(255,255,255,.025);border-radius:8px;padding:9px 11px}
+.dob-metrics .l{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--text3);margin-bottom:5px}
+.dob-metrics .v{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:17px;color:var(--text)}
+.dob-empty{color:var(--text3);font-size:13px;padding:10px 2px}
+
 /* PUBLICO */
 .pub-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:16px}
 .pub-stat{background:var(--card);border:1px solid var(--lime-border);border-radius:var(--radius);padding:16px 18px;box-shadow:0 0 0 1px rgba(200,255,0,0.06)}
@@ -286,6 +298,15 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
     </div>
     <div class="cons-chips" id="consChips"></div>
     <div class="cons-grid" id="consGrid"></div>
+  </section>
+
+  <!-- RESULTADO DOBRADAS -->
+  <section id="dobSec" style="display:none">
+    <div class="section-header">
+      <div class="section-title">🗂️ Resultado dobradas</div>
+      <div class="section-sub" id="dobSub">Cada dobrada agrupa todos os conjuntos de anúncio com a mesma tag, mesmo em campanhas diferentes · segue o filtro de período</div>
+    </div>
+    <div class="dob-grid" id="dobGrid"></div>
   </section>
 
   <!-- CRESCIMENTO SEGUIDORES -->
@@ -481,6 +502,46 @@ function renderConsolidado(){
   const sub=document.getElementById('consSub'); if(sub) sub.textContent='Todas as campanhas somadas · '+periodLabel();
 }
 
+// ── dobradas: mesma metrica-base, mas agrupada pela tag do conjunto de anuncios ──
+function dobPeriod(tag){
+  const D = (DATA.dobradas||{})[tag] || {};
+  if(RANGE.mode==='all') return D.totais || {};
+  return aggregate(filterSerie(D.serie));
+}
+function renderDobradas(){
+  const dobradas = DATA.dobradas || {};
+  const tags = Object.keys(dobradas).sort((a,b)=>{
+    const sa=dobPeriod(a).spend||0, sb=dobPeriod(b).spend||0;
+    return sb-sa || a.localeCompare(b);
+  });
+  const sec = document.getElementById('dobSec');
+  const gridEl = document.getElementById('dobGrid');
+  if(!tags.length){ if(sec) sec.style.display='none'; return; }
+  if(sec) sec.style.display='';
+  gridEl.innerHTML = tags.map(tag=>{
+    const t = dobPeriod(tag);
+    const D = dobradas[tag]||{};
+    const ativos = D.conjuntos_ativos||0, total = D.conjuntos_total||0;
+    const badge = total ? (ativos+' de '+total+' conjunto'+(total===1?'':'s')+' ativo'+(ativos===1?'':'s')) : '';
+    const M=[
+      ['Investimento', fmtBRL(t.spend)],
+      ['Alcance', fmtN(t.reach)],
+      ['Impressões', fmtN(t.impressions)],
+      ['CPM', fmtBRL(t.cpm)],
+      ['Cliques no link', fmtN(t.link_clicks||t.clicks)],
+      ['CTR', fmtPct(t.ctr)],
+      ['Engajamentos', fmtN(t.engajamentos)],
+      ['Custo / engajamento', fmtCusto(t.custo_engajamento)]
+    ];
+    return `<div class="dob-card">
+      <div class="dob-head"><span class="dob-tag">${esc(tag)}</span><span class="dob-badge">${esc(badge)}</span></div>
+      <div class="dob-metrics">${M.map(m=>`<div class="m"><div class="l">${esc(m[0])}</div><div class="v">${m[1]}</div></div>`).join('')}</div>
+    </div>`;
+  }).join('');
+  const sub=document.getElementById('dobSub');
+  if(sub) sub.textContent = tags.length+' dobrada'+(tags.length===1?'':'s')+' · '+periodLabel();
+}
+
 // ── charts ──
 const GRID={color:'rgba(255,255,255,0.06)'}, TICK={color:'#888',font:{family:'Inter',size:11}};
 function destroy(k){ if(charts[k]){ charts[k].destroy(); charts[k]=null; } }
@@ -673,7 +734,7 @@ function renderPublico(){
 }
 
 function renderAll(){
-  renderIA(); renderKPIs(); renderConsolidado(); renderFollowers(); renderPublico(); renderDaily();
+  renderIA(); renderKPIs(); renderConsolidado(); renderDobradas(); renderFollowers(); renderPublico(); renderDaily();
   const dt = DATA.atualizado_em ? new Date(DATA.atualizado_em) : null;
   document.getElementById('genDate').textContent = dt ? 'Atualizado '+dt.toLocaleDateString('pt-BR')+' '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}) : '';
 }
@@ -693,7 +754,7 @@ function applyRange(mode){
     RANGE.from=fmt(from); RANGE.to=fmt(to);
     dF.value=RANGE.from; dT.value=RANGE.to; note.textContent='';
   }
-  renderKPIs(); renderConsolidado(); renderFollowers(); renderDaily();
+  renderKPIs(); renderConsolidado(); renderDobradas(); renderFollowers(); renderDaily();
 }
 document.querySelectorAll('.fpill').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.fpill').forEach(x=>x.classList.remove('active'));
