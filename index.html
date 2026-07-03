@@ -503,6 +503,9 @@ function renderConsolidado(){
 }
 
 // ── dobradas: mesma metrica-base, mas agrupada pela tag do conjunto de anuncios ──
+// DOB_LABELS: como exibir cada tag no dashboard (a agregacao continua usando a tag real do []).
+const DOB_LABELS = { SP: 'SP (Estado)' };
+const dobLabel = tag => DOB_LABELS[tag] || tag;
 function dobPeriod(tag){
   const D = (DATA.dobradas||{})[tag] || {};
   if(RANGE.mode==='all') return D.totais || {};
@@ -534,7 +537,7 @@ function renderDobradas(){
       ['Custo / engajamento', fmtCusto(t.custo_engajamento)]
     ];
     return `<div class="dob-card">
-      <div class="dob-head"><span class="dob-tag">${esc(tag)}</span><span class="dob-badge">${esc(badge)}</span></div>
+      <div class="dob-head"><span class="dob-tag">${esc(dobLabel(tag))}</span><span class="dob-badge">${esc(badge)}</span></div>
       <div class="dob-metrics">${M.map(m=>`<div class="m"><div class="l">${esc(m[0])}</div><div class="v">${m[1]}</div></div>`).join('')}</div>
     </div>`;
   }).join('');
