@@ -231,14 +231,16 @@ DOBRADAS_ACCOUNTS = ['act_1395564544098811']  # so a conta com o padrao de nome 
 def fetch_dobradas():
     """
     Agrupa metricas por DOBRADA (a 1a tag do conjunto de anuncios, ex: [SP][LM] [LEIS][SP][02.07.25]
-    -> dobrada 'SP'), somando entre campanhas diferentes que usem a mesma tag. Automatico: dobrada
-    nova (tag nova) aparece sozinha na proxima rodada do robo, sem precisar editar nada aqui.
+    -> dobrada 'SP'), somando entre campanhas diferentes que usem a mesma tag. So considera
+    conjuntos de anuncios ATIVOS agora (pausado nao entra, mesmo tendo gasto no periodo).
+    Automatico: dobrada nova (tag nova) aparece sozinha na proxima rodada do robo.
     """
-    # 1) quantos conjuntos ativos/total por tag (status nao vem no endpoint de insights)
+    # 1) mapeia id -> tag, so dos conjuntos ATIVOS agora (status nao vem no endpoint de insights)
     ativos, total_adsets = {}, {}
+    active_tag_by_id = {}
     for acct in DOBRADAS_ACCOUNTS:
         try:
-            adsets = api_get_all(f'{acct}/adsets', {'fields': 'name,effective_status', 'limit': '500'})
+            adsets = api_get_all(f'{acct}/adsets', {'fields': 'id,name,effective_status', 'limit': '500'})
             for a in adsets:
                 tag = _tag_of(a.get('name'))
                 if not tag:
@@ -246,34 +248,35 @@ def fetch_dobradas():
                 total_adsets[tag] = total_adsets.get(tag, 0) + 1
                 if a.get('effective_status') == 'ACTIVE':
                     ativos[tag] = ativos.get(tag, 0) + 1
+                    active_tag_by_id[a.get('id')] = tag
         except Exception as e:
             print(f'[warn] dobradas/adsets {acct}: {e}', file=sys.stderr)
 
-    # 2) totais no periodo (desde CONS_SINCE), por tag
+    # 2) totais no periodo (desde CONS_SINCE), so dos conjuntos ativos
     totals_by_tag = {}
     for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
-                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_name',
+                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_id',
                 'time_range': _range(), 'limit': '500',
             })
             for row in rows:
-                tag = _tag_of(row.get('adset_name'))
+                tag = active_tag_by_id.get(row.get('adset_id'))
                 if tag:
                     totals_by_tag.setdefault(tag, []).append(parse_row(row))
         except Exception as e:
             print(f'[warn] dobradas/totais {acct}: {e}', file=sys.stderr)
 
-    # 3) serie diaria (pro filtro de periodo do dashboard), por tag
+    # 3) serie diaria (pro filtro de periodo do dashboard), so dos conjuntos ativos
     daily_by_tag = {}
     for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
-                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_name',
+                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_id',
                 'time_range': _range(), 'time_increment': '1', 'limit': '500',
             })
             for row in rows:
-                tag = _tag_of(row.get('adset_name'))
+                tag = active_tag_by_id.get(row.get('adset_id'))
                 dt = row.get('date_start')
                 if tag and dt:
                     daily_by_tag.setdefault(tag, {}).setdefault(dt, []).append(parse_row(row))
@@ -281,7 +284,7 @@ def fetch_dobradas():
             print(f'[warn] dobradas/serie {acct}: {e}', file=sys.stderr)
 
     out = {}
-    for tag in set(totals_by_tag) | set(daily_by_tag) | set(total_adsets):
+    for tag in set(ativos):
         serie = []
         for dt in sorted(k for k in daily_by_tag.get(tag, {}) if k):
             rec = _agg_rows(daily_by_tag[tag][dt])
