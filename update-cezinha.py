@@ -207,14 +207,21 @@ def fetch_campanhas_meta():
     return {'ativas': ativas, 'total': total, 'objetivos': objetivos}
 
 
-TAG_RX = re.compile(r'^\s*\[([^\]]+)\]')
+TAG_RX  = re.compile(r'^\s*\[([^\]]+)\]')
+DATE_RX = re.compile(r'^\d{1,2}[/.\-]\d{1,2}[/.\-]\d{2,4}$')  # ex: 16/5/2017 -> nao e dobrada
 
 
 def _tag_of(nome):
     """A 'dobrada' e sempre a 1a tag entre colchetes no nome do CONJUNTO DE ANUNCIOS,
-    ex: '[SP] Interesse amplo' -> 'SP'. Conjunto sem colchete no inicio nao entra em nenhuma dobrada."""
+    ex: '[SP][LM] [LEIS][SP][02.07.25]' -> 'SP'. Conjunto sem colchete no inicio, ou com uma
+    data no lugar da tag (resto de nome antigo/teste), nao entra em nenhuma dobrada."""
     m = TAG_RX.match(nome or '')
-    return m.group(1).strip() if m else None
+    if not m:
+        return None
+    tag = m.group(1).strip()
+    if not tag or DATE_RX.match(tag):
+        return None
+    return tag
 
 
 DOBRADAS_ACCOUNTS = ['act_1395564544098811']  # so a conta com o padrao de nome "[TAG][LM] ..."
