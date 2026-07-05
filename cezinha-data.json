@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-07-05T07:31:42-03:00",
+  "atualizado_em": "2026-07-05T08:59:30-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,8 +10,8 @@
   },
   "seguidores": {
     "fb_atual": 106714,
-    "ig_atual": 192033,
-    "ig_posts": 449,
+    "ig_atual": 192041,
+    "ig_posts": 450,
     "serie": [
       {
         "data": "2026-06-17",
@@ -106,13 +106,13 @@
       {
         "data": "2026-07-05",
         "fb": 106714,
-        "ig": 192033
+        "ig": 192041
       }
     ],
     "ig_follows": 4239
   },
   "publico": {
-    "atualizado_em": "2026-07-05T07:31:42-03:00",
+    "atualizado_em": "2026-07-05T08:59:30-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -213,75 +213,75 @@
     "engajados": {
       "genero": [
         {
-          "k": "M",
-          "v": 3124
+          "k": "F",
+          "v": 4370
         },
         {
-          "k": "F",
-          "v": 3078
+          "k": "M",
+          "v": 3919
         },
         {
           "k": "U",
-          "v": 1141
+          "v": 1550
         }
       ],
       "cidades": [
         {
           "k": "São Paulo, São Paulo (state)",
-          "v": 1953
+          "v": 2613
         },
         {
           "k": "Guarulhos, São Paulo (state)",
-          "v": 316
+          "v": 372
         },
         {
           "k": "Osasco, São Paulo (state)",
-          "v": 176
+          "v": 222
         },
         {
           "k": "Barueri, São Paulo (state)",
-          "v": 175
+          "v": 206
         },
         {
           "k": "Mauá, São Paulo (state)",
-          "v": 154
+          "v": 176
         },
         {
           "k": "Campinas, São Paulo (state)",
-          "v": 123
+          "v": 169
         },
         {
           "k": "São Bernardo do Campo, São Paulo (state)",
-          "v": 97
+          "v": 130
         },
         {
           "k": "Santo André, São Paulo (state)",
-          "v": 91
+          "v": 123
         },
         {
           "k": "Piracicaba, São Paulo (state)",
-          "v": 87
-        },
-        {
-          "k": "São José dos Campos, São Paulo (state)",
-          "v": 78
+          "v": 111
         },
         {
           "k": "Ribeirão Prêto, São Paulo (state)",
-          "v": 74
+          "v": 108
         },
         {
-          "k": "Carapicuíba, São Paulo (state)",
-          "v": 74
+          "k": "São José dos Campos, São Paulo (state)",
+          "v": 102
+        },
+        {
+          "k": "Sorocaba, São Paulo (state)",
+          "v": 99
         }
       ]
     },
     "alcance_30d": 1201289,
-    "views_30d": 2267609,
+    "views_30d": 2267624,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/reel/DaA5L_ZJoLl/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/728704269_18592178986015757_6660342566854278600_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFfvfi7i3-d1xVKwiqYDQmHGRF-CpXZxFUZEX4KldnEVb1_l5LcgrOGTQ5nFEhLu47iYSgQyTDcWcUoNZSFTcZn&_nc_ohc=pIqORi_iCYYQ7kNvwFx2sSO&_nc_oc=Adpn5BudY_vSgX_vn87crNheSfBTdtZXjHbHTTjh9wBu6U1YQARQ-auqPfmeJ8l4R-w&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=rcwIcAhaoJ8P-pVCYjYTSA&_nc_tpa=Q5bMBQGJ4u9nMtubIphmjm7kEslF9GXjD773EWfn2m0LwNu2ER-gwTNkfWzQd0ArSZGJ8rOTR8rdtjDCRA&oh=00_AQCMIBLmMFqEOPakfX7JPGt9QFsjzbMImtomM4XbeG1c4Q&oe=6A501F91",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/728704269_18592178986015757_6660342566854278600_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFfvfi7i3-d1xVKwiqYDQmHGRF-CpXZxFUZEX4KldnEVb1_l5LcgrOGTQ5nFEhLu47iYSgQyTDcWcUoNZSFTcZn&_nc_ohc=pIqORi_iCYYQ7kNvwFWfJzb&_nc_oc=AdrdPgSM8RSbhy4rb1uzMGMuC20DofFIrs8KP0E6xPo49VfpYB4XxS7cIZLDAL6KD34&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=uZkP3UKNWFvIeD1x1QnGkA&_nc_tpa=Q5bMBQH8cySkY-QY-igBxdQL9k8ORbkZehdqdJoOYipwEtFF6y8qc4tzO7AKcgE5bYLGClLWF0AXhx9weA&oh=00_AQCilQo7FUxBYDyE2y6GUObeGfDnnEx0NNVsFMJkIZ6ZFQ&oe=6A501F91",
         "data": "2026-06-25",
         "tipo": "Reel",
         "likes": 276,
@@ -294,38 +294,38 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/DaTP2_3pRA8/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/735180615_18594583285015757_3570773416165063624_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGwPGISRj-KwY9e3q8DG7Yh6paq_ViAzDfqlqr9WIDMN6fGQAlejWiOqRlGI_fW42QVe_dWBK6op9ah0rC68P52&_nc_ohc=rwqyCFCI1TQQ7kNvwHyz-aK&_nc_oc=Adr7e_cyAaus86gBim7WkRcY2xuYflWc8uP0lgK3aVuD8Q5R9rc-hTmGExWA3BEEDWs&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=rcwIcAhaoJ8P-pVCYjYTSA&_nc_tpa=Q5bMBQHKXdPKlwwP58Iang_JHE38YPoBQknVxOe5G-JKQ_Md-ySuJxqigUYNjQU9GP2-u8Gn8YiJ-Tle9w&oh=00_AQBVrrlIe1jcaNUnOSmWf-GhPrj8kT5JHetErzREUeDmDw&oe=6A501398",
+        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/735180615_18594583285015757_3570773416165063624_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGwPGISRj-KwY9e3q8DG7Yh6paq_ViAzDfqlqr9WIDMN6fGQAlejWiOqRlGI_fW42QVe_dWBK6op9ah0rC68P52&_nc_ohc=rwqyCFCI1TQQ7kNvwF0QMSh&_nc_oc=AdocE3fx0DxWYgpCLQQfQEw3vtT045lHWj-Lql2vsIT3uOuCw1vcgAhYDYnmzDmT-rM&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=uZkP3UKNWFvIeD1x1QnGkA&_nc_tpa=Q5bMBQEtgQMIQLUmbcnk4iZap2VjrpFMTodQ80z9gcJi1tg0qok-ubZ8kRcZ0QysrHOERxYPVq-bA5R10g&oh=00_AQD0esNxN5atkfWcz4yxrF9NbGg9DVSEOgqJmfZDytNxZA&oe=6A501398",
         "data": "2026-07-02",
         "tipo": "Reel",
-        "likes": 323,
-        "comentarios": 62,
-        "reach": 5314,
+        "likes": 325,
+        "comentarios": 63,
+        "reach": 5324,
         "shares": 28,
         "saved": 11,
-        "interacoes": 451,
+        "interacoes": 454,
         "legenda": "Quando pensamos em Copa do Mundo, normalmente lembramos de gols, títulos e grandes jogadores.  Mas existe algo que atrav"
       },
       {
         "permalink": "https://www.instagram.com/reel/DaWGL22J-bL/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/731757166_18594905134015757_8838830063890768879_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE-s9LmSLgDpYcopvY_jmllHD3UcufbsQscPdRy59uxC_N7rZ5w1MUQB5lwOWdXOHF-DMq43NEIkG35ZGqYKva_&_nc_ohc=Tz_FfBKgFTwQ7kNvwHyOi4k&_nc_oc=Adp25WkXpm6U-N7ID1IqfG-_MRfdbC23T5jfg6f7vUo3aOUxChoYtdnjOcGV1-06ELQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=rcwIcAhaoJ8P-pVCYjYTSA&_nc_tpa=Q5bMBQGmEHOP-gn-RrneAmu50JJMdlR9E2siwOsy8xN5DcIV-gE19BfKtRold1w5Rj5A6nxMmJh1ZH3P5Q&oh=00_AQCIrSlWGr2Hq3BHs8RQaHiBJPF0ZVXZeHG8i6ceyehMGw&oe=6A500CD3",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/731757166_18594905134015757_8838830063890768879_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE-s9LmSLgDpYcopvY_jmllHD3UcufbsQscPdRy59uxC_N7rZ5w1MUQB5lwOWdXOHF-DMq43NEIkG35ZGqYKva_&_nc_ohc=Tz_FfBKgFTwQ7kNvwHHhePW&_nc_oc=AdrTqyhYBrPUjDR6JabSzzzF0xjkcp_o00U6RQmVdXDcY19mkmDV6xOMfiHYLghq4EY&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=uZkP3UKNWFvIeD1x1QnGkA&_nc_tpa=Q5bMBQFcTPiZqFytZnQH_mKaG3eg0U-x8jVQbf74HTA1i1PgBb6uIi3Kboqdrg6fRn-QU-YkvPnXk8d8uQ&oh=00_AQDADXLK4-c6FwOxDb-bcU-s0YAh7XtMpgCoemPjbLc8lA&oe=6A500CD3",
         "data": "2026-07-03",
         "tipo": "Reel",
-        "likes": 277,
-        "comentarios": 73,
-        "reach": 4460,
+        "likes": 278,
+        "comentarios": 74,
+        "reach": 4487,
         "shares": 26,
         "saved": 6,
-        "interacoes": 407,
+        "interacoes": 409,
         "legenda": "Quem me conhece sabe que futebol nunca foi o meu forte... 😅   Mas a brincadeira tem um motivo.  Muita gente acha que con"
       },
       {
         "permalink": "https://www.instagram.com/reel/DaBD31ehDE3/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/730083477_18592202194015757_5330050751880061701_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEzp_MRRKefbKbZdFYhiqvV4Wku9YdHevrhaS71h0d6-k1_kafcvcEdISVcA6bPXZ4nQiW7zrhgjbJrxk3EsWr_&_nc_ohc=WirXjw0zvWIQ7kNvwGHEig2&_nc_oc=AdrzdoRVyf5kK6v6NhgI-UmCxP96nUukPjpa9yPzH7EyTlUPSac7F0jZXBKOoaahckk&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=rcwIcAhaoJ8P-pVCYjYTSA&_nc_tpa=Q5bMBQEgjCvWLFElRNxSn4pkSeRtKBzTcqBe5VkhXyJo8fQbYsZ0Q_nLv-YdPscUAKiW3sDJGSwjgyQLwQ&oh=00_AQD4RTOIBclbtP69m3P6x6tfdVe_z6WkyEJU1TTZKLgHOw&oe=6A500054",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/730083477_18592202194015757_5330050751880061701_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEzp_MRRKefbKbZdFYhiqvV4Wku9YdHevrhaS71h0d6-k1_kafcvcEdISVcA6bPXZ4nQiW7zrhgjbJrxk3EsWr_&_nc_ohc=WirXjw0zvWIQ7kNvwHGP6Qt&_nc_oc=Adpa4g7IrJH15FhYfdSxfv9H3_7hJfEZVQScvG6jh1JVGuaAk1TwEM_P0NZ9zO53emw&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=uZkP3UKNWFvIeD1x1QnGkA&_nc_tpa=Q5bMBQEgLBthHjwDLHSYwg-nygOt5Xu1brUnkfiR3OX5FYmR_0vzbJOsnfHxWqhSUDooTXygenQ69F9atw&oh=00_AQCAuWcuYVH4uMOE__QZisACV7I-q8a77tEyGKAGPiSwzQ&oe=6A500054",
         "data": "2026-06-25",
         "tipo": "Reel",
         "likes": 211,
         "comentarios": 54,
-        "reach": 2379,
+        "reach": 2382,
         "shares": 13,
         "saved": 6,
         "interacoes": 313,
@@ -333,54 +333,54 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/DaDwaUipE5B/",
-        "thumb": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/728855231_18592541275015757_919401160892933468_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHTm5uu-_9Iw2x95BMOhdsq-4K2k3SN1VX7graTdI3VVe-E5XUrmBGWQ1jaBtI_Sb2W8DjvwILIHcqDKxrk9-qz&_nc_ohc=5GRmyMy-ZcsQ7kNvwE2grTw&_nc_oc=AdqvqthkOznagpyoV2GYnWTnKEDBIv54snbw8o0CFMj68USZTGca7qKpd8fzCB_l2bs&_nc_zt=23&_nc_ht=scontent-ord5-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=rcwIcAhaoJ8P-pVCYjYTSA&_nc_tpa=Q5bMBQGkhzU8xBdPQ8FKZjcS3rpHS7lYx4vkek5SUWqioFGBci9WMW8XY4W2ZLqXZx1kELA88wGDYaJrcw&oh=00_AQCOMdu9CZqW9XrqIkFNDnQlkRseaWVhBg7KKo0TXYo10g&oe=6A4FF98D",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/728855231_18592541275015757_919401160892933468_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHTm5uu-_9Iw2x95BMOhdsq-4K2k3SN1VX7graTdI3VVe-E5XUrmBGWQ1jaBtI_Sb2W8DjvwILIHcqDKxrk9-qz&_nc_ohc=5GRmyMy-ZcsQ7kNvwFl77Wl&_nc_oc=AdrXDu19an6tyJLXeWhDvS8akAyd_Kklg9n30_ZeSwyX9wW4SAHAZl5WlCj2f7Iq0-A&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=uZkP3UKNWFvIeD1x1QnGkA&_nc_tpa=Q5bMBQHlCo6SVpvQA7otMezBh8FjhtXZzrAqmHZAWziVyiodeM7_mhHzF4xDPJABK8KUxPbxeVLEQCOsOQ&oh=00_AQBKWcxIfQNkkWqCpr1KwRWnXHb7NZjCmxD8AmcIPLepKw&oe=6A5031CD",
         "data": "2026-06-26",
         "tipo": "Reel",
-        "likes": 172,
-        "comentarios": 55,
+        "likes": 173,
+        "comentarios": 56,
         "reach": 2827,
         "shares": 40,
         "saved": 4,
-        "interacoes": 289,
+        "interacoes": 291,
         "legenda": "Quem já precisou de atendimento médico sabe que a espera não é apenas um incômodo.  Ela gera preocupação, ansiedade e, m"
       },
       {
         "permalink": "https://www.instagram.com/reel/DaLVS8oOB7W/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/732504735_18593579311015757_3930168847229722322_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE_8K455vNhgiBBv4cOO_GDUmyuOwHTkM9SbK47AdOQz7wAVRiLL5fpvXSJ1PCnr445jkufMW7wf8ntnfsbODjf&_nc_ohc=j2WiBcNR6ygQ7kNvwEvbUE2&_nc_oc=AdouGmxM6oVQdejuQs4E2BWHng3dgqPv6KtE4hVE4bHIpNrMrPAVyp8gkAepZ5whT9w&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=rcwIcAhaoJ8P-pVCYjYTSA&_nc_tpa=Q5bMBQEDvWQEVerh7KOUXF6oQ4zGOGIgD5dXc_MMVaxk-xvYM-se7r686lDlo--eNaFU-mvpbY01QcXekQ&oh=00_AQAuNktPyshu5NZjcNp42GK9k0iwLrcqRgAs6Mfbljg1Rw&oe=6A5016A9",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/732504735_18593579311015757_3930168847229722322_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE_8K455vNhgiBBv4cOO_GDUmyuOwHTkM9SbK47AdOQz7wAVRiLL5fpvXSJ1PCnr445jkufMW7wf8ntnfsbODjf&_nc_ohc=j2WiBcNR6ygQ7kNvwEGEijH&_nc_oc=AdpljbKJ0UQNXnLku95gTwtfSKCvnWfs0U4RTTsWnbPyJNKUxtSnMwJqdCw2G4UxH9Y&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=uZkP3UKNWFvIeD1x1QnGkA&_nc_tpa=Q5bMBQF6EF5wEvaZzAGmr2ie6QftMPKQzZ_pNF2Z3IfpIWs_on4fH87GvMzjEVWQCC9py4XaA7dNYifpNQ&oh=00_AQCTeBr5UgZDcSUloX0fji3xrFv5M7CA94hsfFe--UymlQ&oe=6A5016A9",
         "data": "2026-06-29",
         "tipo": "Reel",
-        "likes": 139,
-        "comentarios": 57,
-        "reach": 2044,
+        "likes": 141,
+        "comentarios": 58,
+        "reach": 2046,
         "shares": 17,
         "saved": 5,
-        "interacoes": 236,
+        "interacoes": 239,
         "legenda": "Vivemos dias em que é muito fácil sermos consumidos pela ansiedade e pela preocupação com o amanhã.   Fazemos planos, cr"
       }
     ]
   },
   "consolidado": {
     "totais": {
-      "impressions": 2991325,
-      "reach": 1547741,
-      "clicks": 44252,
-      "link_clicks": 34192,
-      "engajamentos": 285473,
-      "reacoes": 14456,
-      "comentarios": 402,
-      "salvamentos": 99,
-      "compartilhamentos": 313,
-      "video_plays": 1646662,
-      "video_views": 236011,
-      "thruplays": 67299,
+      "impressions": 3005796,
+      "reach": 1555416,
+      "clicks": 44580,
+      "link_clicks": 34389,
+      "engajamentos": 288925,
+      "reacoes": 14630,
+      "comentarios": 413,
+      "salvamentos": 100,
+      "compartilhamentos": 323,
+      "video_plays": 1656958,
+      "video_views": 239070,
+      "thruplays": 68442,
       "ad_recallers": 0,
-      "spend": 12542.27,
-      "cpm": 4.1929,
-      "cpc": 0.2834,
-      "ctr": 1.4793,
-      "frequency": 1.9327,
-      "custo_engajamento": 0.0439,
-      "custo_link_click": 0.3668,
+      "spend": 12617.91,
+      "cpm": 4.1979,
+      "cpc": 0.283,
+      "ctr": 1.4831,
+      "frequency": 1.9325,
+      "custo_engajamento": 0.0437,
+      "custo_link_click": 0.3669,
       "ad_recall_rate": 0.0
     },
     "serie": [
@@ -721,50 +721,50 @@
         "data": "2026-07-03"
       },
       {
-        "impressions": 231551,
+        "impressions": 231585,
         "reach": 222867,
         "clicks": 3812,
         "link_clicks": 3008,
-        "engajamentos": 25733,
+        "engajamentos": 25740,
         "reacoes": 1479,
         "comentarios": 51,
         "salvamentos": 9,
         "compartilhamentos": 28,
-        "video_plays": 140000,
-        "video_views": 21158,
-        "thruplays": 7220,
+        "video_plays": 140026,
+        "video_views": 21165,
+        "thruplays": 7221,
         "ad_recallers": 0,
-        "spend": 938.02,
-        "cpm": 4.051,
+        "spend": 938.12,
+        "cpm": 4.0509,
         "cpc": 0.2461,
-        "ctr": 1.6463,
-        "frequency": 1.039,
-        "custo_engajamento": 0.0365,
-        "custo_link_click": 0.3118,
+        "ctr": 1.646,
+        "frequency": 1.0391,
+        "custo_engajamento": 0.0364,
+        "custo_link_click": 0.3119,
         "ad_recall_rate": 0.0,
         "data": "2026-07-04"
       },
       {
-        "impressions": 46880,
-        "reach": 43455,
-        "clicks": 950,
-        "link_clicks": 689,
-        "engajamentos": 7307,
-        "reacoes": 392,
-        "comentarios": 14,
-        "salvamentos": 2,
-        "compartilhamentos": 9,
-        "video_plays": 27726,
-        "video_views": 6201,
-        "thruplays": 2449,
+        "impressions": 61317,
+        "reach": 60173,
+        "clicks": 1278,
+        "link_clicks": 886,
+        "engajamentos": 10752,
+        "reacoes": 566,
+        "comentarios": 25,
+        "salvamentos": 3,
+        "compartilhamentos": 19,
+        "video_plays": 37996,
+        "video_views": 9253,
+        "thruplays": 3591,
         "ad_recallers": 0,
-        "spend": 218.04,
-        "cpm": 4.651,
-        "cpc": 0.2295,
-        "ctr": 2.0265,
-        "frequency": 1.0788,
-        "custo_engajamento": 0.0298,
-        "custo_link_click": 0.3165,
+        "spend": 293.58,
+        "cpm": 4.7879,
+        "cpc": 0.2297,
+        "ctr": 2.0843,
+        "frequency": 1.019,
+        "custo_engajamento": 0.0273,
+        "custo_link_click": 0.3314,
         "ad_recall_rate": 0.0,
         "data": "2026-07-05"
       }
@@ -784,27 +784,27 @@
   "dobradas": {
     "BARUERI": {
       "totais": {
-        "impressions": 268226,
-        "reach": 154758,
-        "clicks": 680,
+        "impressions": 269608,
+        "reach": 155498,
+        "clicks": 688,
         "link_clicks": 0,
-        "engajamentos": 38958,
-        "reacoes": 303,
+        "engajamentos": 39494,
+        "reacoes": 305,
         "comentarios": 8,
         "salvamentos": 3,
         "compartilhamentos": 6,
-        "video_plays": 265863,
-        "video_views": 38638,
-        "thruplays": 9107,
-        "ad_recallers": 670,
-        "spend": 717.44,
-        "cpm": 2.6748,
-        "cpc": 1.0551,
-        "ctr": 0.2535,
-        "frequency": 1.7332,
-        "custo_engajamento": 0.0184,
+        "video_plays": 267271,
+        "video_views": 39172,
+        "thruplays": 9224,
+        "ad_recallers": 680,
+        "spend": 722.67,
+        "cpm": 2.6804,
+        "cpc": 1.0504,
+        "ctr": 0.2552,
+        "frequency": 1.7338,
+        "custo_engajamento": 0.0183,
         "custo_link_click": 0,
-        "ad_recall_rate": 0.004329
+        "ad_recall_rate": 0.004373
       },
       "serie": [
         {
@@ -1048,21 +1048,21 @@
           "data": "2026-07-03"
         },
         {
-          "impressions": 24521,
+          "impressions": 24523,
           "reach": 24325,
           "clicks": 44,
           "link_clicks": 0,
-          "engajamentos": 3504,
+          "engajamentos": 3506,
           "reacoes": 32,
           "comentarios": 0,
           "salvamentos": 1,
           "compartilhamentos": 1,
-          "video_plays": 24772,
-          "video_views": 3470,
+          "video_plays": 24776,
+          "video_views": 3472,
           "thruplays": 846,
           "ad_recallers": 60,
           "spend": 56.5,
-          "cpm": 2.3041,
+          "cpm": 2.304,
           "cpc": 1.2841,
           "ctr": 0.1794,
           "frequency": 1.0081,
@@ -1072,27 +1072,27 @@
           "data": "2026-07-04"
         },
         {
-          "impressions": 4480,
-          "reach": 4260,
-          "clicks": 17,
+          "impressions": 5860,
+          "reach": 5680,
+          "clicks": 25,
           "link_clicks": 0,
-          "engajamentos": 943,
-          "reacoes": 3,
+          "engajamentos": 1477,
+          "reacoes": 5,
           "comentarios": 1,
           "salvamentos": 0,
           "compartilhamentos": 0,
-          "video_plays": 4328,
-          "video_views": 939,
-          "thruplays": 239,
-          "ad_recallers": 10,
-          "spend": 13.34,
-          "cpm": 2.9777,
-          "cpc": 0.7847,
-          "ctr": 0.3795,
-          "frequency": 1.0516,
-          "custo_engajamento": 0.0141,
+          "video_plays": 5732,
+          "video_views": 1471,
+          "thruplays": 356,
+          "ad_recallers": 20,
+          "spend": 18.57,
+          "cpm": 3.1689,
+          "cpc": 0.7428,
+          "ctr": 0.4266,
+          "frequency": 1.0317,
+          "custo_engajamento": 0.0126,
           "custo_link_click": 0,
-          "ad_recall_rate": 0.002347,
+          "ad_recall_rate": 0.003521,
           "data": "2026-07-05"
         }
       ],
@@ -1101,27 +1101,27 @@
     },
     "PIZZARIA": {
       "totais": {
-        "impressions": 187311,
-        "reach": 77758,
-        "clicks": 453,
+        "impressions": 188142,
+        "reach": 77828,
+        "clicks": 454,
         "link_clicks": 0,
-        "engajamentos": 25695,
+        "engajamentos": 25879,
         "reacoes": 113,
         "comentarios": 5,
         "salvamentos": 1,
         "compartilhamentos": 1,
-        "video_plays": 185309,
-        "video_views": 25575,
-        "thruplays": 4915,
+        "video_plays": 186157,
+        "video_views": 25759,
+        "thruplays": 4940,
         "ad_recallers": 380,
-        "spend": 718.22,
-        "cpm": 3.8344,
-        "cpc": 1.5855,
-        "ctr": 0.2418,
-        "frequency": 2.4089,
-        "custo_engajamento": 0.028,
+        "spend": 721.78,
+        "cpm": 3.8364,
+        "cpc": 1.5898,
+        "ctr": 0.2413,
+        "frequency": 2.4174,
+        "custo_engajamento": 0.0279,
         "custo_link_click": 0,
-        "ad_recall_rate": 0.004887
+        "ad_recall_rate": 0.004883
       },
       "serie": [
         {
@@ -1389,27 +1389,27 @@
           "data": "2026-07-04"
         },
         {
-          "impressions": 2724,
-          "reach": 2596,
-          "clicks": 8,
+          "impressions": 3555,
+          "reach": 3413,
+          "clicks": 9,
           "link_clicks": 0,
-          "engajamentos": 425,
+          "engajamentos": 609,
           "reacoes": 2,
           "comentarios": 1,
           "salvamentos": 0,
           "compartilhamentos": 0,
-          "video_plays": 2710,
-          "video_views": 422,
-          "thruplays": 159,
+          "video_plays": 3558,
+          "video_views": 606,
+          "thruplays": 184,
           "ad_recallers": 10,
-          "spend": 12.6,
-          "cpm": 4.6256,
-          "cpc": 1.575,
-          "ctr": 0.2937,
-          "frequency": 1.0493,
-          "custo_engajamento": 0.0296,
+          "spend": 16.16,
+          "cpm": 4.5457,
+          "cpc": 1.7956,
+          "ctr": 0.2532,
+          "frequency": 1.0416,
+          "custo_engajamento": 0.0265,
           "custo_link_click": 0,
-          "ad_recall_rate": 0.003852,
+          "ad_recall_rate": 0.00293,
           "data": "2026-07-05"
         }
       ],
@@ -1418,27 +1418,27 @@
     },
     "SP": {
       "totais": {
-        "impressions": 1923265,
-        "reach": 1323724,
-        "clicks": 35393,
-        "link_clicks": 27725,
-        "engajamentos": 164585,
-        "reacoes": 11771,
-        "comentarios": 316,
-        "salvamentos": 73,
-        "compartilhamentos": 260,
-        "video_plays": 835371,
-        "video_views": 124440,
-        "thruplays": 39579,
-        "ad_recallers": 3070,
-        "spend": 8336.3,
-        "cpm": 4.3345,
-        "cpc": 0.2355,
-        "ctr": 1.8403,
-        "frequency": 1.4529,
-        "custo_engajamento": 0.0507,
-        "custo_link_click": 0.3007,
-        "ad_recall_rate": 0.002319
+        "impressions": 1935523,
+        "reach": 1331103,
+        "clicks": 35712,
+        "link_clicks": 27921,
+        "engajamentos": 167251,
+        "reacoes": 11940,
+        "comentarios": 327,
+        "salvamentos": 74,
+        "compartilhamentos": 270,
+        "video_plays": 843102,
+        "video_views": 126719,
+        "thruplays": 40552,
+        "ad_recallers": 3100,
+        "spend": 8403.15,
+        "cpm": 4.3415,
+        "cpc": 0.2353,
+        "ctr": 1.8451,
+        "frequency": 1.4541,
+        "custo_engajamento": 0.0502,
+        "custo_link_click": 0.301,
+        "ad_recall_rate": 0.002329
       },
       "serie": [
         {
@@ -1778,51 +1778,51 @@
           "data": "2026-07-03"
         },
         {
-          "impressions": 190522,
-          "reach": 186231,
+          "impressions": 190554,
+          "reach": 186275,
           "clicks": 3738,
           "link_clicks": 3008,
-          "engajamentos": 20117,
+          "engajamentos": 20122,
           "reacoes": 1436,
           "comentarios": 51,
           "salvamentos": 8,
           "compartilhamentos": 27,
-          "video_plays": 98250,
-          "video_views": 15587,
-          "thruplays": 5863,
+          "video_plays": 98271,
+          "video_views": 15592,
+          "thruplays": 5864,
           "ad_recallers": 252,
-          "spend": 825.75,
-          "cpm": 4.3341,
+          "spend": 825.85,
+          "cpm": 4.3339,
           "cpc": 0.2209,
-          "ctr": 1.962,
+          "ctr": 1.9616,
           "frequency": 1.023,
           "custo_engajamento": 0.041,
-          "custo_link_click": 0.2745,
+          "custo_link_click": 0.2746,
           "ad_recall_rate": 0.001353,
           "data": "2026-07-04"
         },
         {
-          "impressions": 39676,
-          "reach": 37980,
-          "clicks": 925,
-          "link_clicks": 689,
-          "engajamentos": 5924,
-          "reacoes": 387,
-          "comentarios": 12,
-          "salvamentos": 2,
-          "compartilhamentos": 9,
-          "video_plays": 20673,
-          "video_views": 4825,
-          "thruplays": 2050,
-          "ad_recallers": 63,
-          "spend": 192.1,
-          "cpm": 4.8417,
-          "cpc": 0.2077,
-          "ctr": 2.3314,
-          "frequency": 1.0447,
-          "custo_engajamento": 0.0324,
-          "custo_link_click": 0.2788,
-          "ad_recall_rate": 0.001659,
+          "impressions": 51902,
+          "reach": 49931,
+          "clicks": 1244,
+          "link_clicks": 885,
+          "engajamentos": 8585,
+          "reacoes": 556,
+          "comentarios": 23,
+          "salvamentos": 3,
+          "compartilhamentos": 19,
+          "video_plays": 28383,
+          "video_views": 7099,
+          "thruplays": 3022,
+          "ad_recallers": 103,
+          "spend": 258.85,
+          "cpm": 4.9873,
+          "cpc": 0.2081,
+          "ctr": 2.3968,
+          "frequency": 1.0395,
+          "custo_engajamento": 0.0302,
+          "custo_link_click": 0.2925,
+          "ad_recall_rate": 0.002063,
           "data": "2026-07-05"
         }
       ],
