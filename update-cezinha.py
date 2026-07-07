@@ -473,6 +473,57 @@ def upsert_by_date(serie, ponto, campo='data'):
     return serie
 
 
+def estimar_seguidores_dobradas(dobradas, seguidores_serie):
+    """
+    A Meta nao expoe 'Seguidores no Instagram' pela API de Insights (testado a
+    fundo: nao aparece em actions, nem em nivel de conjunto/anuncio, nem como
+    campo proprio — so existe visualmente no Gerenciador de Anuncios).
+    Como alternativa, calibra uma taxa REAL (nao um numero de mercado inventado):
+    cliques no link de TODAS as dobradas, na mesma janela em que ja temos a
+    serie diaria de seguidores da conta, contra o crescimento real de seguidores
+    nessa janela. Aplica essa taxa aos cliques de CADA dobrada pra estimar
+    quantos seguidores ela plausivelmente trouxe. E uma ESTIMATIVA proporcional,
+    nao uma atribuicao exata (crescimento organico e outras campanhas fora das
+    dobradas tambem entram no total real, entao a taxa e um pouco superestimada).
+    """
+    seg = sorted((seguidores_serie or []), key=lambda p: p.get('data') or '')
+    if len(seg) < 2 or not dobradas:
+        return None
+
+    # janela de calibracao: do primeiro dia com dado de dobrada ate o ultimo dia com dado de seguidor
+    datas_dobradas = [p.get('data') for t in dobradas.values() for p in (t.get('serie') or []) if p.get('data')]
+    if not datas_dobradas:
+        return None
+    inicio = min(datas_dobradas)
+    fim = seg[-1].get('data')
+
+    seg_janela = [p for p in seg if p.get('data') and p['data'] >= inicio]
+    if len(seg_janela) < 2:
+        return None
+    novos_seguidores = int(seg_janela[-1].get('ig') or 0) - int(seg_janela[0].get('ig') or 0)
+
+    total_clicks_janela = 0
+    clicks_por_tag = {}
+    for tag, t in dobradas.items():
+        c = sum(int(p.get('link_clicks') or 0) for p in (t.get('serie') or []) if p.get('data') and p['data'] >= inicio)
+        clicks_por_tag[tag] = c
+        total_clicks_janela += c
+
+    if novos_seguidores <= 0 or total_clicks_janela <= 0:
+        return {'taxa': 0, 'novos_seguidores_periodo': max(novos_seguidores, 0),
+                'total_clicks_periodo': total_clicks_janela, 'inicio': inicio, 'fim': fim, 'por_tag': {}}
+
+    taxa = novos_seguidores / total_clicks_janela
+    por_tag = {tag: round(clicks_por_tag[tag] * taxa) for tag in dobradas}
+    return {
+        'taxa': round(taxa, 5),
+        'novos_seguidores_periodo': novos_seguidores,
+        'total_clicks_periodo': total_clicks_janela,
+        'inicio': inicio, 'fim': fim,
+        'por_tag': por_tag,
+    }
+
+
 def main():
     if not TOKEN:
         print('ERRO: META_TOKEN_CEZINHA não definido', file=sys.stderr)
@@ -532,6 +583,23 @@ def main():
         data['dobradas'] = fetch_dobradas()
     except Exception as e:
         print(f'[warn] dobradas: {e}', file=sys.stderr)
+
+    # 'Seguidores no Instagram' nao vem pela API do Meta (ver comentario na funcao).
+    # Estimativa calibrada com o crescimento REAL de seguidores da conta.
+    try:
+        est = estimar_seguidores_dobradas(data.get('dobradas') or {}, seg.get('serie'))
+        if est:
+            data.setdefault('dobradas', {})
+            for tag, valor in est.get('por_tag', {}).items():
+                data['dobradas'][tag].setdefault('totais', {})['seguidores_estimado'] = valor
+            data['dobradas_seguidores_estimativa_meta'] = {
+                k: v for k, v in est.items() if k != 'por_tag'
+            }
+            print(f'[dobradas] seguidores estimados: taxa={est["taxa"]*100:.3f}% '
+                  f'({est["novos_seguidores_periodo"]} seguidores reais / '
+                  f'{est["total_clicks_periodo"]} cliques, {est["inicio"]}..{est["fim"]})')
+    except Exception as e:
+        print(f'[warn] estimativa seguidores dobradas: {e}', file=sys.stderr)
 
     # ── público (demografia IG + alcance/views + posts) ──
     try:
