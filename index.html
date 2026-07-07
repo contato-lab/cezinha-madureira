@@ -428,7 +428,7 @@ function growthInPeriod(){
   return {fb, ig, total:fb+ig};
 }
 // ── métricas por período (somam a série diária; 'tudo' usa o acumulado) ──
-const ADD_FIELDS=['impressions','reach','clicks','link_clicks','engajamentos','reacoes','comentarios','salvamentos','video_plays','video_views','thruplays','ad_recallers','spend'];
+const ADD_FIELDS=['impressions','reach','clicks','link_clicks','engajamentos','reacoes','comentarios','salvamentos','video_plays','video_views','thruplays','ad_recallers','spend','seguidores_estimado'];
 function aggregate(serie){
   const o={}; ADD_FIELDS.forEach(k=>o[k]=0);
   (serie||[]).forEach(p=>ADD_FIELDS.forEach(k=>o[k]+=(+p[k]||0)));
@@ -545,15 +545,16 @@ function renderDobradas(){
       ['Custo / engajamento', fmtCusto(t.custo_engajamento)]
     ];
     // Seguidores: a Meta nao expoe essa metrica por API (so no Gerenciador de Anuncios
-    // visualmente). Estimativa calibrada com o crescimento real da conta — so faz
-    // sentido pro acumulado total, entao so aparece com o filtro "Todo o periodo".
-    const segEst = (D.totais || {}).seguidores_estimado;
-    const temEstimativa = RANGE.mode==='all' && segEst!=null;
+    // visualmente). Estimativa dia a dia (taxa clique->seguidor em janela movel,
+    // calibrada com o crescimento real de seguidores da conta) — o campo ja vem
+    // somado certo pro periodo do filtro atual, igual as outras metricas.
+    const segEst = t.seguidores_estimado;
+    const temEstimativa = segEst!=null;
     const metaEst = DATA.dobradas_seguidores_estimativa_meta || {};
-    const tituloEst = temEstimativa ? `Estimativa: a Meta não informa seguidores por praça via API. `+
-      `Calculado com a taxa real da conta inteira (${metaEst.novos_seguidores_periodo||0} seguidores novos `+
-      `÷ ${fmtN(metaEst.total_clicks_periodo||0)} cliques, ${brDate(metaEst.inicio)} a ${brDate(metaEst.fim)}) `+
-      `aplicada aos cliques desta praça no mesmo período.` : '';
+    const tituloEst = temEstimativa ? `Estimativa dia a dia: a Meta não informa seguidores por praça via API. `+
+      `Calculado com a taxa real de conversão clique→seguidor da conta inteira `+
+      `(janela móvel de 7 dias), aplicada aos cliques desta praça em cada dia do período selecionado. `+
+      `Base de cálculo: ${brDate(metaEst.inicio)} a ${brDate(metaEst.fim)}.` : '';
     const metricsHtml = M.map(m=>`<div class="m"><div class="l">${esc(m[0])}</div><div class="v">${m[1]}</div></div>`).join('')
       + (temEstimativa ? `<div class="m dob-est" title="${esc(tituloEst)}"><div class="l">Seguidores <span class="dob-est-tag">estimado</span></div><div class="v dob-est-v">~${fmtN(segEst)}</div></div>` : '');
     return `<div class="dob-card">

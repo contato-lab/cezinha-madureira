@@ -473,54 +473,79 @@ def upsert_by_date(serie, ponto, campo='data'):
     return serie
 
 
-def estimar_seguidores_dobradas(dobradas, seguidores_serie):
+def estimar_seguidores_dobradas(dobradas, seguidores_serie, janela_dias=7):
     """
     A Meta nao expoe 'Seguidores no Instagram' pela API de Insights (testado a
     fundo: nao aparece em actions, nem em nivel de conjunto/anuncio, nem como
     campo proprio — so existe visualmente no Gerenciador de Anuncios).
-    Como alternativa, calibra uma taxa REAL (nao um numero de mercado inventado):
-    cliques no link de TODAS as dobradas, na mesma janela em que ja temos a
-    serie diaria de seguidores da conta, contra o crescimento real de seguidores
-    nessa janela. Aplica essa taxa aos cliques de CADA dobrada pra estimar
-    quantos seguidores ela plausivelmente trouxe. E uma ESTIMATIVA proporcional,
-    nao uma atribuicao exata (crescimento organico e outras campanhas fora das
-    dobradas tambem entram no total real, entao a taxa e um pouco superestimada).
+
+    Como alternativa, calcula uma taxa clique->seguidor DIA A DIA, calibrada com
+    o crescimento REAL de seguidores daquele dia (nao um % de mercado inventado).
+    Pra nao virar ruido (1 dia isolado tem poucos cliques/seguidores e a taxa
+    oscila demais), cada dia usa uma janela movel dos ultimos `janela_dias` dias
+    (arrasta 1 dia pra tras se o dia exato nao tiver clique, pra sempre ter uma
+    taxa). O resultado e escrito DENTRO de cada dia da serie de cada dobrada
+    (campo seguidores_estimado), entao o filtro de data do dashboard soma esse
+    campo automaticamente junto com os outros — sem precisar de logica especial
+    no front pra cada periodo.
+
+    E uma ESTIMATIVA proporcional, nao atribuicao exata: crescimento organico e
+    campanhas fora das dobradas tambem entram no numero real de seguidores, entao
+    a taxa tende a ficar um pouco superestimada.
     """
-    seg = sorted((seguidores_serie or []), key=lambda p: p.get('data') or '')
-    if len(seg) < 2 or not dobradas:
+    if not dobradas:
+        return None
+    seg_por_dia = {p['data']: int(p.get('ig') or 0) for p in (seguidores_serie or []) if p.get('data')}
+    if len(seg_por_dia) < 2:
+        return None
+    dias_seg = sorted(seg_por_dia)
+
+    # delta de seguidores por dia (ig[d] - ig[d-1_medido]), so nos dias com medicao anterior
+    delta_seguidores = {}
+    for i in range(1, len(dias_seg)):
+        d, d_ant = dias_seg[i], dias_seg[i - 1]
+        delta_seguidores[d] = seg_por_dia[d] - seg_por_dia[d_ant]
+
+    # cliques de TODAS as dobradas somados, por dia
+    clicks_totais_por_dia = {}
+    for t in dobradas.values():
+        for p in (t.get('serie') or []):
+            d = p.get('data')
+            if d:
+                clicks_totais_por_dia[d] = clicks_totais_por_dia.get(d, 0) + int(p.get('link_clicks') or 0)
+
+    todas_datas = sorted(set(delta_seguidores) | set(clicks_totais_por_dia))
+    if not todas_datas:
         return None
 
-    # janela de calibracao: do primeiro dia com dado de dobrada ate o ultimo dia com dado de seguidor
-    datas_dobradas = [p.get('data') for t in dobradas.values() for p in (t.get('serie') or []) if p.get('data')]
-    if not datas_dobradas:
-        return None
-    inicio = min(datas_dobradas)
-    fim = seg[-1].get('data')
+    # taxa em janela movel: pra cada dia, soma delta_seguidores e clicks dos
+    # ultimos `janela_dias` dias (incluindo o proprio) ate aquele ponto.
+    taxa_por_dia = {}
+    for idx, d in enumerate(todas_datas):
+        janela = todas_datas[max(0, idx - janela_dias + 1): idx + 1]
+        soma_seg = sum(max(delta_seguidores.get(x, 0), 0) for x in janela)
+        soma_clk = sum(clicks_totais_por_dia.get(x, 0) for x in janela)
+        taxa_por_dia[d] = (soma_seg / soma_clk) if soma_clk > 0 else 0.0
 
-    seg_janela = [p for p in seg if p.get('data') and p['data'] >= inicio]
-    if len(seg_janela) < 2:
-        return None
-    novos_seguidores = int(seg_janela[-1].get('ig') or 0) - int(seg_janela[0].get('ig') or 0)
-
-    total_clicks_janela = 0
-    clicks_por_tag = {}
+    # aplica a taxa do dia aos cliques de CADA dobrada, DENTRO da serie dela
+    total_estimado_geral = 0
     for tag, t in dobradas.items():
-        c = sum(int(p.get('link_clicks') or 0) for p in (t.get('serie') or []) if p.get('data') and p['data'] >= inicio)
-        clicks_por_tag[tag] = c
-        total_clicks_janela += c
+        for p in (t.get('serie') or []):
+            d = p.get('data')
+            taxa_dia = taxa_por_dia.get(d, 0.0)
+            est = round(int(p.get('link_clicks') or 0) * taxa_dia)
+            p['seguidores_estimado'] = est
+            total_estimado_geral += est
+        t.setdefault('totais', {})['seguidores_estimado'] = sum(
+            (p.get('seguidores_estimado') or 0) for p in (t.get('serie') or [])
+        )
 
-    if novos_seguidores <= 0 or total_clicks_janela <= 0:
-        return {'taxa': 0, 'novos_seguidores_periodo': max(novos_seguidores, 0),
-                'total_clicks_periodo': total_clicks_janela, 'inicio': inicio, 'fim': fim, 'por_tag': {}}
-
-    taxa = novos_seguidores / total_clicks_janela
-    por_tag = {tag: round(clicks_por_tag[tag] * taxa) for tag in dobradas}
     return {
-        'taxa': round(taxa, 5),
-        'novos_seguidores_periodo': novos_seguidores,
-        'total_clicks_periodo': total_clicks_janela,
-        'inicio': inicio, 'fim': fim,
-        'por_tag': por_tag,
+        'metodo': f'taxa clique->seguidor em janela movel de {janela_dias} dias, calibrada com o '
+                   'crescimento real de seguidores da conta (nao e % de mercado)',
+        'dias_calculados': len(todas_datas),
+        'inicio': todas_datas[0], 'fim': todas_datas[-1],
+        'total_estimado_periodo': total_estimado_geral,
     }
 
 
@@ -585,19 +610,15 @@ def main():
         print(f'[warn] dobradas: {e}', file=sys.stderr)
 
     # 'Seguidores no Instagram' nao vem pela API do Meta (ver comentario na funcao).
-    # Estimativa calibrada com o crescimento REAL de seguidores da conta.
+    # Estimativa dia a dia, calibrada com o crescimento REAL de seguidores da conta.
+    # Escreve seguidores_estimado DENTRO da serie diaria de cada dobrada (mutação
+    # in-place), entao o filtro de data do dashboard soma automaticamente.
     try:
         est = estimar_seguidores_dobradas(data.get('dobradas') or {}, seg.get('serie'))
         if est:
-            data.setdefault('dobradas', {})
-            for tag, valor in est.get('por_tag', {}).items():
-                data['dobradas'][tag].setdefault('totais', {})['seguidores_estimado'] = valor
-            data['dobradas_seguidores_estimativa_meta'] = {
-                k: v for k, v in est.items() if k != 'por_tag'
-            }
-            print(f'[dobradas] seguidores estimados: taxa={est["taxa"]*100:.3f}% '
-                  f'({est["novos_seguidores_periodo"]} seguidores reais / '
-                  f'{est["total_clicks_periodo"]} cliques, {est["inicio"]}..{est["fim"]})')
+            data['dobradas_seguidores_estimativa_meta'] = est
+            print(f'[dobradas] seguidores estimados: {est["total_estimado_periodo"]} no total, '
+                  f'{est["dias_calculados"]} dias ({est["inicio"]}..{est["fim"]})')
     except Exception as e:
         print(f'[warn] estimativa seguidores dobradas: {e}', file=sys.stderr)
 
