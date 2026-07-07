@@ -254,6 +254,7 @@ def fetch_dobradas():
 
     # 2) totais no periodo (desde CONS_SINCE), so dos conjuntos ativos
     totals_by_tag = {}
+    _dbg_actions = {}   # DEBUG temporario: action_type -> valor somado
     for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
@@ -264,8 +265,12 @@ def fetch_dobradas():
                 tag = active_tag_by_id.get(row.get('adset_id'))
                 if tag:
                     totals_by_tag.setdefault(tag, []).append(parse_row(row))
+                    for a in (row.get('actions') or []):
+                        at = a.get('action_type')
+                        _dbg_actions[at] = _dbg_actions.get(at, 0) + float(a.get('value', 0) or 0)
         except Exception as e:
             print(f'[warn] dobradas/totais {acct}: {e}', file=sys.stderr)
+    print(f'[dbg action_types] {sorted(_dbg_actions.items(), key=lambda x:-x[1])}', file=sys.stderr)
 
     # 3) serie diaria (pro filtro de periodo do dashboard), so dos conjuntos ativos
     daily_by_tag = {}
