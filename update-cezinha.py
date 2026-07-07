@@ -521,6 +521,7 @@ def main():
         data['dobradas'] = fetch_dobradas()
     except Exception as e:
         print(f'[warn] dobradas: {e}', file=sys.stderr)
+    data.pop('dobradas_seguidores_estimativa_meta', None)  # estimativa de seguidores revertida
 
     # ── público (demografia IG + alcance/views + posts) ──
     try:
