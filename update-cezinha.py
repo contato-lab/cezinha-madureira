@@ -265,7 +265,6 @@ def fetch_dobradas():
 
     # 2) totais no periodo (desde CONS_SINCE), so dos conjuntos ativos
     totals_by_tag = {}
-    _dbg_dumped = False
     for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
@@ -276,22 +275,6 @@ def fetch_dobradas():
                 tag = active_tag_by_id.get(row.get('adset_id'))
                 if tag:
                     totals_by_tag.setdefault(tag, []).append(parse_row(row))
-            # DEBUG temporario: tenta no nivel de AD (nao adset) pro conjunto FUTEBOL,
-            # que sabemos ter 13 seguidores no Gerenciador de Anuncios.
-            if not _dbg_dumped:
-                try:
-                    ads_rows = api_get_all(f'{acct}/insights', {
-                        'level': 'ad', 'fields': 'ad_id,ad_name,adset_name,actions',
-                        'time_range': _range(), 'limit': '500',
-                    })
-                    alvo = next((r for r in ads_rows if 'FUTEBOL' in (r.get('adset_name') or '')), None)
-                    if alvo:
-                        print(f'[dbg raw AD-level FUTEBOL] {json.dumps(alvo, ensure_ascii=False)}', file=sys.stderr)
-                    else:
-                        print(f'[dbg] nenhum ad FUTEBOL encontrado ({len(ads_rows)} ads)', file=sys.stderr)
-                except Exception as e2:
-                    print(f'[dbg] erro ad-level: {e2}', file=sys.stderr)
-                _dbg_dumped = True
         except Exception as e:
             print(f'[warn] dobradas/totais {acct}: {e}', file=sys.stderr)
 
