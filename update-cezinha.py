@@ -271,6 +271,8 @@ def fetch_dobradas():
             rows = api_get_all(f'{acct}/insights', {
                 'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_id,adset_name',
                 'time_range': _range(), 'limit': '500',
+                'action_attribution_windows': '28d_click,7d_click,1d_view',
+                'action_report_time': 'mixed',
             })
             if not _dbg_dumped:
                 alvo = next((r for r in rows if 'FUTEBOL' in (r.get('adset_name') or '')), None)
