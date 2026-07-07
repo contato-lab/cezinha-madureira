@@ -265,22 +265,12 @@ def fetch_dobradas():
 
     # 2) totais no periodo (desde CONS_SINCE), so dos conjuntos ativos
     totals_by_tag = {}
-    _dbg_dumped = False   # DEBUG temporario: dump bruto de 1 adset com seguidor conhecido
     for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
-                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_id,adset_name',
+                'level': 'adset', 'fields': INSIGHT_FIELDS + ',adset_id',
                 'time_range': _range(), 'limit': '500',
-                'action_attribution_windows': '28d_click,7d_click,1d_view',
-                'action_report_time': 'mixed',
             })
-            if not _dbg_dumped:
-                alvo = next((r for r in rows if 'FUTEBOL' in (r.get('adset_name') or '')), None)
-                if alvo:
-                    print(f'[dbg raw row FUTEBOL] {json.dumps(alvo, ensure_ascii=False)}', file=sys.stderr)
-                    _dbg_dumped = True
-                else:
-                    print(f'[dbg] adset FUTEBOL nao encontrado neste batch ({len(rows)} rows)', file=sys.stderr)
             for row in rows:
                 tag = active_tag_by_id.get(row.get('adset_id'))
                 if tag:
