@@ -92,16 +92,6 @@ def _action(arr, action_type):
     return 0.0
 
 
-def _follows(arr):
-    """Soma 'Seguidores no Instagram': a acao de follow do Meta (o nome do
-    action_type varia, entao pega qualquer um que contenha 'follow')."""
-    total = 0.0
-    for a in (arr or []):
-        if 'follow' in (a.get('action_type') or ''):
-            total += float(a.get('value', 0) or 0)
-    return total
-
-
 def parse_row(row):
     """Extrai as métricas de uma linha de insights (totais ou diário)."""
     actions = row.get('actions') or []
@@ -122,7 +112,6 @@ def parse_row(row):
         'salvamentos':   int(_action(actions, 'onsite_conversion.post_save')),
         'compartilhamentos': int(_action(actions, 'post')),
         'link_clicks':   int(link_clicks),
-        'seguidores':    int(_follows(actions)),
         'video_plays':   int(_action(row.get('video_play_actions'), 'video_view')),
         'video_views':   int(_action(actions, 'video_view')),
         'thruplays':     int(_action(row.get('video_thruplay_watched_actions'), 'video_view')),
@@ -133,7 +122,7 @@ def parse_row(row):
     }
 
 
-_AGG_BASE = ['impressions', 'reach', 'clicks', 'link_clicks', 'seguidores', 'engajamentos', 'reacoes',
+_AGG_BASE = ['impressions', 'reach', 'clicks', 'link_clicks', 'engajamentos', 'reacoes',
              'comentarios', 'salvamentos', 'compartilhamentos', 'video_plays', 'video_views',
              'thruplays', 'ad_recallers']
 
@@ -473,82 +462,6 @@ def upsert_by_date(serie, ponto, campo='data'):
     return serie
 
 
-def estimar_seguidores_dobradas(dobradas, seguidores_serie, janela_dias=7):
-    """
-    A Meta nao expoe 'Seguidores no Instagram' pela API de Insights (testado a
-    fundo: nao aparece em actions, nem em nivel de conjunto/anuncio, nem como
-    campo proprio — so existe visualmente no Gerenciador de Anuncios).
-
-    Como alternativa, calcula uma taxa clique->seguidor DIA A DIA, calibrada com
-    o crescimento REAL de seguidores daquele dia (nao um % de mercado inventado).
-    Pra nao virar ruido (1 dia isolado tem poucos cliques/seguidores e a taxa
-    oscila demais), cada dia usa uma janela movel dos ultimos `janela_dias` dias
-    (arrasta 1 dia pra tras se o dia exato nao tiver clique, pra sempre ter uma
-    taxa). O resultado e escrito DENTRO de cada dia da serie de cada dobrada
-    (campo seguidores_estimado), entao o filtro de data do dashboard soma esse
-    campo automaticamente junto com os outros — sem precisar de logica especial
-    no front pra cada periodo.
-
-    E uma ESTIMATIVA proporcional, nao atribuicao exata: crescimento organico e
-    campanhas fora das dobradas tambem entram no numero real de seguidores, entao
-    a taxa tende a ficar um pouco superestimada.
-    """
-    if not dobradas:
-        return None
-    seg_por_dia = {p['data']: int(p.get('ig') or 0) for p in (seguidores_serie or []) if p.get('data')}
-    if len(seg_por_dia) < 2:
-        return None
-    dias_seg = sorted(seg_por_dia)
-
-    # delta de seguidores por dia (ig[d] - ig[d-1_medido]), so nos dias com medicao anterior
-    delta_seguidores = {}
-    for i in range(1, len(dias_seg)):
-        d, d_ant = dias_seg[i], dias_seg[i - 1]
-        delta_seguidores[d] = seg_por_dia[d] - seg_por_dia[d_ant]
-
-    # cliques de TODAS as dobradas somados, por dia
-    clicks_totais_por_dia = {}
-    for t in dobradas.values():
-        for p in (t.get('serie') or []):
-            d = p.get('data')
-            if d:
-                clicks_totais_por_dia[d] = clicks_totais_por_dia.get(d, 0) + int(p.get('link_clicks') or 0)
-
-    todas_datas = sorted(set(delta_seguidores) | set(clicks_totais_por_dia))
-    if not todas_datas:
-        return None
-
-    # taxa em janela movel: pra cada dia, soma delta_seguidores e clicks dos
-    # ultimos `janela_dias` dias (incluindo o proprio) ate aquele ponto.
-    taxa_por_dia = {}
-    for idx, d in enumerate(todas_datas):
-        janela = todas_datas[max(0, idx - janela_dias + 1): idx + 1]
-        soma_seg = sum(max(delta_seguidores.get(x, 0), 0) for x in janela)
-        soma_clk = sum(clicks_totais_por_dia.get(x, 0) for x in janela)
-        taxa_por_dia[d] = (soma_seg / soma_clk) if soma_clk > 0 else 0.0
-
-    # aplica a taxa do dia aos cliques de CADA dobrada, DENTRO da serie dela
-    total_estimado_geral = 0
-    for tag, t in dobradas.items():
-        for p in (t.get('serie') or []):
-            d = p.get('data')
-            taxa_dia = taxa_por_dia.get(d, 0.0)
-            est = round(int(p.get('link_clicks') or 0) * taxa_dia)
-            p['seguidores_estimado'] = est
-            total_estimado_geral += est
-        t.setdefault('totais', {})['seguidores_estimado'] = sum(
-            (p.get('seguidores_estimado') or 0) for p in (t.get('serie') or [])
-        )
-
-    return {
-        'metodo': f'taxa clique->seguidor em janela movel de {janela_dias} dias, calibrada com o '
-                   'crescimento real de seguidores da conta (nao e % de mercado)',
-        'dias_calculados': len(todas_datas),
-        'inicio': todas_datas[0], 'fim': todas_datas[-1],
-        'total_estimado_periodo': total_estimado_geral,
-    }
-
-
 def main():
     if not TOKEN:
         print('ERRO: META_TOKEN_CEZINHA não definido', file=sys.stderr)
@@ -608,19 +521,6 @@ def main():
         data['dobradas'] = fetch_dobradas()
     except Exception as e:
         print(f'[warn] dobradas: {e}', file=sys.stderr)
-
-    # 'Seguidores no Instagram' nao vem pela API do Meta (ver comentario na funcao).
-    # Estimativa dia a dia, calibrada com o crescimento REAL de seguidores da conta.
-    # Escreve seguidores_estimado DENTRO da serie diaria de cada dobrada (mutação
-    # in-place), entao o filtro de data do dashboard soma automaticamente.
-    try:
-        est = estimar_seguidores_dobradas(data.get('dobradas') or {}, seg.get('serie'))
-        if est:
-            data['dobradas_seguidores_estimativa_meta'] = est
-            print(f'[dobradas] seguidores estimados: {est["total_estimado_periodo"]} no total, '
-                  f'{est["dias_calculados"]} dias ({est["inicio"]}..{est["fim"]})')
-    except Exception as e:
-        print(f'[warn] estimativa seguidores dobradas: {e}', file=sys.stderr)
 
     # ── público (demografia IG + alcance/views + posts) ──
     try:

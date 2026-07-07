@@ -158,9 +158,6 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-h
 .dob-metrics .l{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--text3);margin-bottom:5px}
 .dob-metrics .v{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:17px;color:var(--text)}
 .dob-empty{color:var(--text3);font-size:13px;padding:10px 2px}
-.dob-est{background:rgba(200,255,0,.06)!important;border:1px dashed var(--lime-border)}
-.dob-est-tag{font-family:'Inter',sans-serif;font-size:8px;font-weight:600;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:4px}
-.dob-est-v{color:var(--lime)!important}
 
 /* PUBLICO */
 .pub-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:16px}
@@ -428,7 +425,7 @@ function growthInPeriod(){
   return {fb, ig, total:fb+ig};
 }
 // ── métricas por período (somam a série diária; 'tudo' usa o acumulado) ──
-const ADD_FIELDS=['impressions','reach','clicks','link_clicks','engajamentos','reacoes','comentarios','salvamentos','video_plays','video_views','thruplays','ad_recallers','spend','seguidores_estimado'];
+const ADD_FIELDS=['impressions','reach','clicks','link_clicks','engajamentos','reacoes','comentarios','salvamentos','video_plays','video_views','thruplays','ad_recallers','spend'];
 function aggregate(serie){
   const o={}; ADD_FIELDS.forEach(k=>o[k]=0);
   (serie||[]).forEach(p=>ADD_FIELDS.forEach(k=>o[k]+=(+p[k]||0)));
@@ -544,22 +541,9 @@ function renderDobradas(){
       ['Engajamentos', fmtN(t.engajamentos)],
       ['Custo / engajamento', fmtCusto(t.custo_engajamento)]
     ];
-    // Seguidores: a Meta nao expoe essa metrica por API (so no Gerenciador de Anuncios
-    // visualmente). Estimativa dia a dia (taxa clique->seguidor em janela movel,
-    // calibrada com o crescimento real de seguidores da conta) — o campo ja vem
-    // somado certo pro periodo do filtro atual, igual as outras metricas.
-    const segEst = t.seguidores_estimado;
-    const temEstimativa = segEst!=null;
-    const metaEst = DATA.dobradas_seguidores_estimativa_meta || {};
-    const tituloEst = temEstimativa ? `Estimativa dia a dia: a Meta não informa seguidores por praça via API. `+
-      `Calculado com a taxa real de conversão clique→seguidor da conta inteira `+
-      `(janela móvel de 7 dias), aplicada aos cliques desta praça em cada dia do período selecionado. `+
-      `Base de cálculo: ${brDate(metaEst.inicio)} a ${brDate(metaEst.fim)}.` : '';
-    const metricsHtml = M.map(m=>`<div class="m"><div class="l">${esc(m[0])}</div><div class="v">${m[1]}</div></div>`).join('')
-      + (temEstimativa ? `<div class="m dob-est" title="${esc(tituloEst)}"><div class="l">Seguidores <span class="dob-est-tag">estimado</span></div><div class="v dob-est-v">~${fmtN(segEst)}</div></div>` : '');
     return `<div class="dob-card">
       <div class="dob-head"><span class="dob-tag">${esc(dobLabel(tag))}</span><span class="dob-badge">${esc(badge)}</span></div>
-      <div class="dob-metrics">${metricsHtml}</div>
+      <div class="dob-metrics">${M.map(m=>`<div class="m"><div class="l">${esc(m[0])}</div><div class="v">${m[1]}</div></div>`).join('')}</div>
     </div>`;
   }).join('');
   const sub=document.getElementById('dobSub');
