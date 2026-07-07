@@ -265,6 +265,7 @@ def fetch_dobradas():
 
     # 2) totais no periodo (desde CONS_SINCE), so dos conjuntos ativos
     totals_by_tag = {}
+    _dbg_dumped = False
     for acct in DOBRADAS_ACCOUNTS:
         try:
             rows = api_get_all(f'{acct}/insights', {
@@ -275,6 +276,19 @@ def fetch_dobradas():
                 tag = active_tag_by_id.get(row.get('adset_id'))
                 if tag:
                     totals_by_tag.setdefault(tag, []).append(parse_row(row))
+            # DEBUG temporario: testa 'follows' como campo top-level (nao dentro de actions)
+            if not _dbg_dumped:
+                try:
+                    alt = api_get_all(f'{acct}/insights', {
+                        'level': 'adset',
+                        'fields': 'adset_id,adset_name,follows,actions{action_type,value}',
+                        'time_range': _range(), 'limit': '500',
+                    })
+                    alvo = next((r for r in alt if 'FUTEBOL' in (r.get('adset_name') or '')), None)
+                    print(f'[dbg follows field FUTEBOL] {json.dumps(alvo, ensure_ascii=False)}', file=sys.stderr)
+                except Exception as e2:
+                    print(f'[dbg] erro campo follows: {e2}', file=sys.stderr)
+                _dbg_dumped = True
         except Exception as e:
             print(f'[warn] dobradas/totais {acct}: {e}', file=sys.stderr)
 
