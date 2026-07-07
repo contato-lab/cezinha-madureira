@@ -92,6 +92,16 @@ def _action(arr, action_type):
     return 0.0
 
 
+def _follows(arr):
+    """Soma 'Seguidores no Instagram': a acao de follow do Meta (o nome do
+    action_type varia, entao pega qualquer um que contenha 'follow')."""
+    total = 0.0
+    for a in (arr or []):
+        if 'follow' in (a.get('action_type') or ''):
+            total += float(a.get('value', 0) or 0)
+    return total
+
+
 def parse_row(row):
     """Extrai as métricas de uma linha de insights (totais ou diário)."""
     actions = row.get('actions') or []
@@ -112,6 +122,7 @@ def parse_row(row):
         'salvamentos':   int(_action(actions, 'onsite_conversion.post_save')),
         'compartilhamentos': int(_action(actions, 'post')),
         'link_clicks':   int(link_clicks),
+        'seguidores':    int(_follows(actions)),
         'video_plays':   int(_action(row.get('video_play_actions'), 'video_view')),
         'video_views':   int(_action(actions, 'video_view')),
         'thruplays':     int(_action(row.get('video_thruplay_watched_actions'), 'video_view')),
@@ -122,7 +133,7 @@ def parse_row(row):
     }
 
 
-_AGG_BASE = ['impressions', 'reach', 'clicks', 'link_clicks', 'engajamentos', 'reacoes',
+_AGG_BASE = ['impressions', 'reach', 'clicks', 'link_clicks', 'seguidores', 'engajamentos', 'reacoes',
              'comentarios', 'salvamentos', 'compartilhamentos', 'video_plays', 'video_views',
              'thruplays', 'ad_recallers']
 
