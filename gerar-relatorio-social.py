@@ -9,11 +9,16 @@ Roda por workflow_dispatch manual. Gera relatorio-social-data.json com:
   3. Frequência média de posts (posts/semana)
   4. % de visualização (views/reach ÷ seguidores)
   5. Interações por tipo (curtidas, comentários, compartilhamentos, salvamentos)
-  6. Ranking de posts (melhor e pior desempenho)
+  6. Ranking de posts (melhor e pior desempenho), com thumbnail embutida em base64
+
+As URLs de thumbnail da Meta sao assinadas por sessao/IP: so funcionam a partir de
+quem fez a chamada original na Graph API. Por isso baixamos e convertemos pra
+base64 AQUI DENTRO do runner (mesmo contexto que gerou a URL), pro relatorio final
+nao depender de rede nenhuma pra mostrar as fotos (funciona offline, direto no PDF).
 
 Reaproveita o padrão de update-cezinha.py (mesmo token, mesma API).
 """
-import os, json, sys, urllib.request, urllib.parse, urllib.error
+import os, json, sys, base64, urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timezone, timedelta
 
 API_VERSION = 'v23.0'
@@ -143,6 +148,26 @@ def montar_posts(desde):
     return posts
 
 
+def fetch_image_b64(url, max_bytes=1_500_000):
+    """Baixa a imagem e devolve como data URI base64. Precisa rodar no MESMO runner
+    que gerou a URL assinada (Meta bloqueia acesso de outro IP/sessao)."""
+    if not url:
+        return None
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = resp.read(max_bytes + 1)
+            ctype = resp.headers.get('Content-Type', 'image/jpeg')
+        if len(data) > max_bytes:
+            print(f'[warn] thumb maior que {max_bytes} bytes, pulando: {url[:80]}', file=sys.stderr)
+            return None
+        b64 = base64.b64encode(data).decode('ascii')
+        return f'data:{ctype};base64,{b64}'
+    except Exception as e:
+        print(f'[warn] download thumb falhou: {e}', file=sys.stderr)
+        return None
+
+
 def evolucao_seguidores(desde):
     """Le a serie ja coletada pelo cron (cezinha-data.json), filtra pro periodo."""
     try:
@@ -211,6 +236,11 @@ def main():
     ranking = sorted(posts, key=lambda p: p['interacoes'], reverse=True)
     melhores = ranking[:5]
     piores = ranking[-5:][::-1] if len(ranking) >= 5 else []
+
+    # baixa e embute em base64 as thumbs SO desses 10 posts (evita baixar as 38)
+    print('  baixando thumbnails do ranking (base64)...')
+    for p in melhores + piores:
+        p['thumb_b64'] = fetch_image_b64(p.get('thumb'))
 
     output = {
         'gerado_em': datetime.now(BRT).isoformat(timespec='seconds'),
