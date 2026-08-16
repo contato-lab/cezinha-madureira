@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-08-16T17:00:04-03:00",
+  "atualizado_em": "2026-08-16T17:33:53-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 107543,
-    "ig_atual": 197535,
+    "ig_atual": 197530,
     "ig_posts": 551,
     "serie": [
       {
@@ -316,13 +316,13 @@
       {
         "data": "2026-08-16",
         "fb": 107543,
-        "ig": 197535
+        "ig": 197530
       }
     ],
     "ig_follows": 4674
   },
   "publico": {
-    "atualizado_em": "2026-08-16T17:00:04-03:00",
+    "atualizado_em": "2026-08-16T17:33:53-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -491,77 +491,77 @@
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/p/DcFqY1qHHhn/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/773995732_18608479210015757_404198317393283969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFX4aHRNZ5PMpT8FtxcxXgtH6lxahtC1QcfqXFqG0LVB5QQM8mh5Xn3MAF3ZSJyAsVuTquyaJJp46aR4d17j4Uf&_nc_ohc=ND399pfJEOEQ7kNvwGUDD0z&_nc_oc=AdolAKUV3xJb2MXajyxwY1oNCRujAALMvJUltaXXTvCWb97ZK-FgGR643g62b4nvd2s&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=aMB_Mxum3nsRJ68iraUSOw&oh=00_AQEJ-phlOmnbjSXrpo--uz6sfoPI9lInId9ZTjl-LWrZpQ&oe=6A87D6F2",
+        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/773995732_18608479210015757_404198317393283969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFX4aHRNZ5PMpT8FtxcxXgtH6lxahtC1QcfqXFqG0LVB5QQM8mh5Xn3MAF3ZSJyAsVuTquyaJJp46aR4d17j4Uf&_nc_ohc=ND399pfJEOEQ7kNvwGM6OvZ&_nc_oc=AdpvIYCOKLTpOMuAGcpvnSI8PXy08NcVnKh0jMhU0yb4JzJJ0h_pG4HhQScFpmy_8Ys&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=i2JfRCXnIQgUIcwpp0iFoA&oh=00_AQEtoqIXyUxqeWqM7VPgOIlPGZn-d36WHjnsc-ZuPTcu-w&oe=6A87D6F2",
         "data": "2026-08-16",
         "tipo": "Foto",
-        "likes": 562,
-        "comentarios": 235,
-        "reach": 12731,
-        "shares": 72,
+        "likes": 574,
+        "comentarios": 236,
+        "reach": 13095,
+        "shares": 149,
         "saved": 4,
-        "interacoes": 994,
+        "interacoes": 1085,
         "legenda": "Por São Paulo e pelo Brasil! 2️⃣2️⃣2️⃣3️⃣"
       },
       {
         "permalink": "https://www.instagram.com/reel/DcGb9Vct7im/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/774904326_18608578186015757_4617755232146445626_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGXMwKoqRfthwbXKRHIPERJEG6FANJ2k_EQboUA0naT8UAC8k7_mpMkbx0uQAV8rzPs3JX_D47X_SZiZqCvM7jZ&_nc_ohc=jxaV06HpJukQ7kNvwGFRp0G&_nc_oc=Adr205byVJ0e5m5MixnirQC2wzJx064mZGVXntYDA-BHtsHlkfNKYEl0JBXV2LTo6TU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=aMB_Mxum3nsRJ68iraUSOw&_nc_tpa=Q5bMBQI7LFcjir8pH0vzMg_ttgxIQ2XFBEiCXPI4VhE1GlyhKhRQibAzQh1cwgBiF8cqUJs26KwMebRyRg&oh=00_AQEBDN4kGRr0RLEVJNix0BmSGKQy7WBGv5wFPDeOqYbkqg&oe=6A87F01C",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/774904326_18608578186015757_4617755232146445626_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGXMwKoqRfthwbXKRHIPERJEG6FANJ2k_EQboUA0naT8UAC8k7_mpMkbx0uQAV8rzPs3JX_D47X_SZiZqCvM7jZ&_nc_ohc=jxaV06HpJukQ7kNvwFLAKdP&_nc_oc=Adp2ZZL8pNLSAWmiDQdED4L_BCLwZnkVNREHy6GEgf4RJK-2WEWt8ZlBqtoPstbvUg8&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=i2JfRCXnIQgUIcwpp0iFoA&_nc_tpa=Q5bMBQLztIEIQ3Ib8kIVm1Ntt594Fu152hHBJFF3GdRp6Xy6Edorb718AxkxHmMAjJSbHgApkhYM1pwheg&oh=00_AQEFEXGihKX3iaT3EaAf8tR2_f5mKaumNllkTcsmv5ep1A&oe=6A87F01C",
         "data": "2026-08-16",
         "tipo": "Reel",
-        "likes": 342,
-        "comentarios": 151,
-        "reach": 3672,
-        "shares": 37,
+        "likes": 351,
+        "comentarios": 152,
+        "reach": 3783,
+        "shares": 38,
         "saved": 1,
-        "interacoes": 584,
+        "interacoes": 597,
         "legenda": "Hoje começa oficialmente a nossa jornada! Serão 45 dias de muito diálogo, escuta e caminhada junto à população, pedindo "
       },
       {
+        "permalink": "https://www.instagram.com/p/DcGw_oRsRpe/",
+        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/774060073_18608644390015757_4397996616264135620_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGKpwhM87Jx6cXvSSKlsDzsZ-2uD2LQNntn7a4PYtA2e3Nvh7fmMkjnZbPFd1CawiIW_gKs3NIzafNluX87GlQp&_nc_ohc=tU3AQLj02XoQ7kNvwHrTByU&_nc_oc=Adq-xJbVcq3oXJlkNPx_6yrUIRMx_G0-CsUrR3ehsWzsqnIp16W9p17gLuRrijjM6gM&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=i2JfRCXnIQgUIcwpp0iFoA&oh=00_AQGA1VvjD_2Uz0gV9UGYuGHPrjlBcRd-YCqVYpI_duiK-g&oe=6A87E5DE",
+        "data": "2026-08-16",
+        "tipo": "Foto",
+        "likes": 328,
+        "comentarios": 75,
+        "reach": 7127,
+        "shares": 16,
+        "saved": 4,
+        "interacoes": 468,
+        "legenda": "GRATIDÃO!   “Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.” 1 Tessalonicenses 5:18 "
+      },
+      {
         "permalink": "https://www.instagram.com/reel/DcCmvMIJy66/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/774514122_18607994647015757_5829805993688581193_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHxorES9wbyPpqTDTz7ni4GcTTCE5XupmhxNMITle6maNbAhinuFQP7Lp55QQeiqydsgEt68uD3BokSQ8E9WRZ2&_nc_ohc=oWUoNraEvg4Q7kNvwHmgUOS&_nc_oc=AdqrDPm2nw1MfFbwLAW7EcQlpC76V-e28w5ymfsywpT73l8p99fOKUxVYfWfjDKRQO8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=aMB_Mxum3nsRJ68iraUSOw&_nc_tpa=Q5bMBQKuKckjbn8uj2tVSqhN6hWfwOASdJJ7sxcUWfwBpxFyMNvXrpTBd4MRl6-Rqj978M90WSdi7yJxOQ&oh=00_AQEOqQxet0hixuhZL7A8PREZS3JACzi9rLOkRnj701DvCw&oe=6A87D172",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/774514122_18607994647015757_5829805993688581193_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHxorES9wbyPpqTDTz7ni4GcTTCE5XupmhxNMITle6maNbAhinuFQP7Lp55QQeiqydsgEt68uD3BokSQ8E9WRZ2&_nc_ohc=oWUoNraEvg4Q7kNvwGb0Iv5&_nc_oc=AdrkOE-Mt-JjCN57j9sRKlr_kvIG-WF8Qpf99kG3gO59mVt4PmL6YrNoOOC5_VtPFPM&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=i2JfRCXnIQgUIcwpp0iFoA&_nc_tpa=Q5bMBQLgRIzzcQDqRAUek4b6RDYB0CWEHW3wDho3uMUCRF12r9lCcN16Ho14BJ7fPGEMDe965_9kBud1bg&oh=00_AQEPe4sjL7WNJCwi-tLh4GZNoW0Lk3f9FWZqpa2CyDcWsQ&oe=6A8809B2",
         "data": "2026-08-15",
         "tipo": "Reel",
         "likes": 337,
         "comentarios": 59,
-        "reach": 7860,
+        "reach": 7883,
         "shares": 16,
         "saved": 4,
-        "interacoes": 456,
+        "interacoes": 457,
         "legenda": "Mais uma noite especial ao lado do meu amigo Pastor @belchior_junior , em Osasco.  Tive a alegria de participar da reuni"
       },
       {
-        "permalink": "https://www.instagram.com/p/DcGw_oRsRpe/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/774060073_18608644390015757_4397996616264135620_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGKpwhM87Jx6cXvSSKlsDzsZ-2uD2LQNntn7a4PYtA2e3Nvh7fmMkjnZbPFd1CawiIW_gKs3NIzafNluX87GlQp&_nc_ohc=tU3AQLj02XoQ7kNvwHfDhtc&_nc_oc=Adq0cwIrW20IUEBwyxnFQ3Sv7EevYRR5glIgvvYPgyyIzYAndsX-FKmfcUvrtl2V-Sc&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=aMB_Mxum3nsRJ68iraUSOw&oh=00_AQHSThup06PusxVHFBhIC2hczZCz54NzyVz4lAV2r292aw&oe=6A87E5DE",
-        "data": "2026-08-16",
-        "tipo": "Foto",
-        "likes": 314,
-        "comentarios": 71,
-        "reach": 6652,
-        "shares": 16,
-        "saved": 4,
-        "interacoes": 446,
-        "legenda": "GRATIDÃO!   “Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.” 1 Tessalonicenses 5:18 "
-      },
-      {
         "permalink": "https://www.instagram.com/reel/Db9QbVHACiu/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/772939279_1081013184436584_7183967063537000774_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE-EGcMzOetDTRa2lFC0vURbJVO6g8vJsVslU7qDy8mxX-3C3CawqQIHWhCEkrOLpV1G7iiQPCwrWKDLZO5uNQo&_nc_ohc=HID_FrxsZPMQ7kNvwHJcZQY&_nc_oc=Ado22vzBOdlM1xKQxUBn4-M995dHwOL0MmeJSY6k-CafuoP0UheHyyzww5TpIN0kxwY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=aMB_Mxum3nsRJ68iraUSOw&_nc_tpa=Q5bMBQLfudzjGMgDL5zWSUehBDj6me9ZUSuounf7Ec49a9RGQ6EnSMHtPBqCMU69rIJbZzu52ww5-a5R5Q&oh=00_AQEh5_OibwR2PEohvf20Lrlh-JSsB7TwQd6-bhUnBpQDRQ&oe=6A87F222",
+        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.71878-15/772939279_1081013184436584_7183967063537000774_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE-EGcMzOetDTRa2lFC0vURbJVO6g8vJsVslU7qDy8mxX-3C3CawqQIHWhCEkrOLpV1G7iiQPCwrWKDLZO5uNQo&_nc_ohc=HID_FrxsZPMQ7kNvwGTIm8E&_nc_oc=Adqpgy0thXi2Wybgy8VcQgwbJZubfqfcG2ECCzr7MHy1o7fK52mNlW3cLnycLNpNX1U&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=i2JfRCXnIQgUIcwpp0iFoA&_nc_tpa=Q5bMBQI_pdQKLJp_pJxhEcNZoA7108oLcauGqDG94oAM__AbgMQhgtOADMRCPu7j-ND0Ff5huCnz0wa-PA&oh=00_AQEqJWBlBnoyCz0cD-jjoi6Zyzv_z4Mn5kb6qor8zKFB2g&oe=6A87F222",
         "data": "2026-08-12",
         "tipo": "Reel",
         "likes": 264,
         "comentarios": 78,
-        "reach": 2847,
+        "reach": 2851,
         "shares": 11,
         "saved": 3,
-        "interacoes": 399,
+        "interacoes": 400,
         "legenda": "Parceria forte entre público e privado é sinônimo de desenvolvimento para São Paulo! 🤝🏍️\r \r Estivemos na abertura oficia"
       },
       {
         "permalink": "https://www.instagram.com/p/Db539_tGgXP/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/770720297_18606754327015757_8475291599395241294_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeG3bCK3LeQLnpedieV2fXD8tHGsldGrpNG0cayV0auk0YEoK4obWHhXJ07YZ4Bu6cPVZPdtbkRD9buTxSlPMld0&_nc_ohc=SY7KtVX-eMQQ7kNvwEya6c0&_nc_oc=AdrDG5L3DvXk_qp5Gc29zsJ0TTcCfMi0qZCRTMqBRgzkNxWWA2xdnf5MVJp6hhIH9NU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=aMB_Mxum3nsRJ68iraUSOw&oh=00_AQGUrBd6lUJsqr7JZN8ebAzaiPN_XGSVXTQc96YRqxVTsQ&oe=6A87E197",
+        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/770720297_18606754327015757_8475291599395241294_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeG3bCK3LeQLnpedieV2fXD8tHGsldGrpNG0cayV0auk0YEoK4obWHhXJ07YZ4Bu6cPVZPdtbkRD9buTxSlPMld0&_nc_ohc=SY7KtVX-eMQQ7kNvwGzXW9H&_nc_oc=AdrFfkVB27JoNwrglWvgSx8UKXsel12z5AIrOi65lu4VYaeJWkYmqatUYV_HuUNfNbM&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=i2JfRCXnIQgUIcwpp0iFoA&oh=00_AQHj8gqE0qs_9qO-3M0fhDhSP8etBsogs7_ALMtr8Zbuww&oe=6A87E197",
         "data": "2026-08-11",
         "tipo": "Carrossel",
         "likes": 231,
         "comentarios": 74,
-        "reach": 4046,
+        "reach": 4053,
         "shares": 25,
         "saved": 3,
         "interacoes": 361,
