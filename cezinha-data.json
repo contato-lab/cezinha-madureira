@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-08-21T13:18:16-03:00",
+  "atualizado_em": "2026-08-21T13:56:37-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 107508,
-    "ig_atual": 197561,
+    "ig_atual": 197563,
     "ig_posts": 567,
     "serie": [
       {
@@ -341,13 +341,13 @@
       {
         "data": "2026-08-21",
         "fb": 107508,
-        "ig": 197561
+        "ig": 197563
       }
     ],
     "ig_follows": 4746
   },
   "publico": {
-    "atualizado_em": "2026-08-21T13:18:16-03:00",
+    "atualizado_em": "2026-08-21T13:56:37-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -516,64 +516,64 @@
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/p/DcQhpO_NT2_/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/775245319_18610124644015757_4070769296754097014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFEXnJOOoWVNjOxkLF41BW5xLohESD3XI7EuiERIPdcjlhJeZ03u4cgzbCFz-GIiwo_Vir-Ate-w9vkaM8ENkr5&_nc_ohc=MneSabpl62oQ7kNvwEGZrzL&_nc_oc=AdqzdU-zD2yTKioShKsakTklvpEDOS6BBcMO6E9_QOwwcJI8lOv3g81jLTQtxAKOAb8&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_amo0_cduJVmpuKMpPEfbA&oh=00_AQGOUtVZriBgkkf3Pv9JMvzxMzlnLjxw6gmcaDWGzjiY7g&oe=6A8E4E8B",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/775245319_18610124644015757_4070769296754097014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFEXnJOOoWVNjOxkLF41BW5xLohESD3XI7EuiERIPdcjlhJeZ03u4cgzbCFz-GIiwo_Vir-Ate-w9vkaM8ENkr5&_nc_ohc=MneSabpl62oQ7kNvwGbzkO5&_nc_oc=Adr0ltBQkYk1qZWobsJJHupBConlp_IvBeliFVFSBw3xc18bH5m2TlVE3qbA3brH81w&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=CJfaik2_HTZpuoIb580dRA&oh=00_AQE2PKPDWX39eV3LwH4YcHbSn0rQ1VsDwV5ba-6eUOa9ag&oe=6A8E4E8B",
         "data": "2026-08-20",
         "tipo": "Foto",
-        "likes": 320,
+        "likes": 321,
         "comentarios": 91,
-        "reach": 4523,
+        "reach": 4532,
         "shares": 28,
         "saved": 0,
-        "interacoes": 510,
+        "interacoes": 511,
         "legenda": "2️⃣2️⃣2️⃣3️⃣✅"
       },
       {
+        "permalink": "https://www.instagram.com/reel/DcOr1OMwnXJ/",
+        "thumb": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/779167311_18609931108015757_7218692065426724185_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGB5D9nkNq2VAKreMgrTJJRdyRHnO23WYp3JEec7bdZitZvqBbUTiYj_IBxMmT5IcbCEGJAD2IDr8J7ePSAzs0N&_nc_ohc=w8VCQuhjrtsQ7kNvwFeTY2w&_nc_oc=Adq13rlnhqu81BY_XqyYSp8EG_NEjQeojTvrJ5I05GJmqOrMXUv8Sia3GXriRHWoO2k&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=CJfaik2_HTZpuoIb580dRA&_nc_tpa=Q5bMBQJ-FUx3yGahbOuH1HEAYTmtOOXYyFLT1hyiY4_o4xUZ1dSV3_mHaIumMmxiz98VV_4X0n0VvNAO2Q&oh=00_AQFAmhJT0rttTFflCIp2og3WihuFUcE-2DRY9h0tuYlztg&oe=6A8E4F5D",
+        "data": "2026-08-19",
+        "tipo": "Reel",
+        "likes": 228,
+        "comentarios": 58,
+        "reach": 1872,
+        "shares": 23,
+        "saved": 1,
+        "interacoes": 348,
+        "legenda": "Nos dias difíceis, fortaleça a sua fé e traga à memória aquilo que te dá esperança."
+      },
+      {
         "permalink": "https://www.instagram.com/reel/DcMRMDEJYA4/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/775243831_2558740197919089_8836316312789060426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeECK0nqlbWpm1zVGEHLsqxuDrRzMuUFHewOtHMy5QUd7PIIrFJ0nH0H6fPJMU8sbouAMBnwC73MmMuDfk_YB46j&_nc_ohc=cmrUOVmo9FAQ7kNvwEpAZwi&_nc_oc=AdrVvn48v9sOFoluxQm3XQm2Tu0l8EV-sybgQ7998wviIQdPiJr8HaMCjLWGf8R1oOo&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_amo0_cduJVmpuKMpPEfbA&_nc_tpa=Q5bMBQJ768XRtXENW7dzuhde3oHVBYLsCytYirvKYg3ObMSZGROzp3xEtBhrUFAvnPmm9QtbvZzBEw7c3w&oh=00_AQH7mtyUNmeWuaYE3ACjB_qay0nj04NAwa1CoQICxFw70w&oe=6A8E4D23",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/775243831_2558740197919089_8836316312789060426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeECK0nqlbWpm1zVGEHLsqxuDrRzMuUFHewOtHMy5QUd7PIIrFJ0nH0H6fPJMU8sbouAMBnwC73MmMuDfk_YB46j&_nc_ohc=cmrUOVmo9FAQ7kNvwHyOC5t&_nc_oc=Ado_5HF5yIJz1MWFpsy9fsANYWhgGPV15lD3YSCT3_07CWOaPAcr6GaQa7PJKpgXht8&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=CJfaik2_HTZpuoIb580dRA&_nc_tpa=Q5bMBQK3Iu7paRtulVmp2kaazLryyjLpLpXuwE5TreJf00F0vmGcQWhfDIbsD5PsszqpDmekKn4jN62aiw&oh=00_AQFbPA89WCwXI2ydjtZ079LcSzy4b2Gnx7OdaP-MwVkpYg&oe=6A8E4D23",
         "data": "2026-08-18",
         "tipo": "Reel",
         "likes": 233,
         "comentarios": 66,
-        "reach": 1865,
+        "reach": 1867,
         "shares": 10,
         "saved": 1,
         "interacoes": 348,
         "legenda": "É um enorme prazer acompanhar mais uma edição do SET EXPO, o maior encontro de tecnologia, mídia e entretenimento da Amé"
       },
       {
-        "permalink": "https://www.instagram.com/reel/DcOr1OMwnXJ/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/779167311_18609931108015757_7218692065426724185_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGB5D9nkNq2VAKreMgrTJJRdyRHnO23WYp3JEec7bdZitZvqBbUTiYj_IBxMmT5IcbCEGJAD2IDr8J7ePSAzs0N&_nc_ohc=w8VCQuhjrtsQ7kNvwEEGm2s&_nc_oc=AdooAhw7DKhqoUlu9_UEW7ut9zg-4UhXLoNXIRVO11kauGgcDiHPaEna8MJxtdTfNkI&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_amo0_cduJVmpuKMpPEfbA&_nc_tpa=Q5bMBQKTzv6ErsGgoWOrOUQocL-M5fyfeBROcaiIoovoBMGyN1qT-UdAZERb-ry6_XW2cbpL-kOho3Ku8A&oh=00_AQFPYmko5iuGyVpyzCVvcDq8XoRqyCy0TQUKohDPehcZRg&oe=6A8E4F5D",
-        "data": "2026-08-19",
-        "tipo": "Reel",
-        "likes": 227,
-        "comentarios": 58,
-        "reach": 1865,
-        "shares": 22,
-        "saved": 1,
-        "interacoes": 346,
-        "legenda": "Nos dias difíceis, fortaleça a sua fé e traga à memória aquilo que te dá esperança."
-      },
-      {
         "permalink": "https://www.instagram.com/reel/DcPOozPJ49G/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/775319863_18609994603015757_8410358581851635164_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG-9McWJirnDmVFNGqjh1uvBqAQaYYPIKUGoBBphg8gpSA3gqp2zuOcZe9yekXxlLLmxpcGy2FTHgwa_IYEtx5E&_nc_ohc=FIhGNAjoCR0Q7kNvwEr1FYS&_nc_oc=AdqzNdC26GNy-iRZxXCHnrPMp5yt8YtaN_2I-HGn8sYgRWIEmI0kJMf7zF-R-1EgmN4&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_amo0_cduJVmpuKMpPEfbA&_nc_tpa=Q5bMBQKKc_7t5xYMmvUQaWfyNF-F73Ttx3nSPBzePwfYVblGUBDo3bsurkrZ2EzVMkH2ff2OZoQb4draAw&oh=00_AQG23VEKpdKZtu-I_x7hFVohWM26rm_D-p8PlzJd5hRo6w&oe=6A8E3607",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/775319863_18609994603015757_8410358581851635164_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG-9McWJirnDmVFNGqjh1uvBqAQaYYPIKUGoBBphg8gpSA3gqp2zuOcZe9yekXxlLLmxpcGy2FTHgwa_IYEtx5E&_nc_ohc=FIhGNAjoCR0Q7kNvwGe1ICq&_nc_oc=AdoSxbv5KyC6yFtBVyWVpy__zn97KwNmmiUemYoSaamJmcvbexA8U70hDQqcLiMEyiY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=CJfaik2_HTZpuoIb580dRA&_nc_tpa=Q5bMBQLwuUd0NDSjUUXVZ3n91mWrCBE28SUXWMzQ5JotNqf0KT757kv2V74Iz7s5hMbzOLnCo-X4ySHUrA&oh=00_AQE4GvJqCz1k-weDJm-hkpg72_1tJ7EYMYUBX_8C8eWyxQ&oe=6A8E6E47",
         "data": "2026-08-19",
         "tipo": "Reel",
-        "likes": 208,
+        "likes": 209,
         "comentarios": 65,
-        "reach": 3299,
+        "reach": 3319,
         "shares": 26,
         "saved": 4,
-        "interacoes": 336,
+        "interacoes": 337,
         "legenda": "Inclusão de verdade se faz com empatia, atitude e apoio a quem mais precisa! 💙🧩  Tivemos a alegria de receber em nosso g"
       },
       {
         "permalink": "https://www.instagram.com/reel/DcRJ2m_vV8f/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/779944561_18610213054015757_237828938179800267_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG6UWjcBkNNwC820sKZeYV1YHO-AXiq9ANgc74BeKr0A7o8PS8j9EHoxTirBTgHz9YMHd4dKyRBbkUbPcJplDs1&_nc_ohc=b3EENMOGKLMQ7kNvwG8Ihf_&_nc_oc=AdrZvWeNXo6goKiM6GCc0M3YAn-7ZV-kGvqR7MUnjVwvXsF_46EuK7alago6j-6CPPU&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_amo0_cduJVmpuKMpPEfbA&_nc_tpa=Q5bMBQKgKIbVDDcxooMvlr5Hs1FaUm8d3_7w2iZbaw0hePunrdmsx-slN-xuzsN8ImlbDAK2UTgWlFximg&oh=00_AQEGQAKKwfLOzTd_qaHWzcOJdJjZd7r_Z3hiDPWeEt8qRQ&oe=6A8E338A",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/779944561_18610213054015757_237828938179800267_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG6UWjcBkNNwC820sKZeYV1YHO-AXiq9ANgc74BeKr0A7o8PS8j9EHoxTirBTgHz9YMHd4dKyRBbkUbPcJplDs1&_nc_ohc=b3EENMOGKLMQ7kNvwGMimHN&_nc_oc=AdpNf2JRii1IYRDneRQBrflckG59T9itAbiEbXhzldtnEoQZpp9kvTgZMDYu50pxZNE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=CJfaik2_HTZpuoIb580dRA&_nc_tpa=Q5bMBQKMEKGzpyYWvvr1v0z_qMNPNMFgwZd1VyrUZemM7bx769Q_4rMQk1b2h2JBfp-RMSLz7QOP4rKyYA&oh=00_AQE4CxMgvHMWt0eDvJYa73CtnSTwGlXn62HvNqtDpLCU8Q&oe=6A8E6BCA",
         "data": "2026-08-20",
         "tipo": "Reel",
         "likes": 207,
         "comentarios": 72,
-        "reach": 1794,
+        "reach": 1801,
         "shares": 19,
         "saved": 2,
         "interacoes": 332,
@@ -581,12 +581,12 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/DcNHD1XsdVt/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/775834651_18609625078015757_1972241559468660100_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFob7BIff30TYsc3iujt5xar5uijJBQ076vm6KMkFDTvu1N7c5odQKeBALcZfFXE-W86z22aBIhCt6hm0HxrX1J&_nc_ohc=ZjwZRPGT_X8Q7kNvwFTPpxn&_nc_oc=AdoXMPaZJ3FOx0E8TczzdfV1g8ui4ssxnplQ26BR8h8AJvR56KMCj9WUylaPM9mPktc&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_amo0_cduJVmpuKMpPEfbA&_nc_tpa=Q5bMBQKhRuOY5YAoeMj_CETRsW6hOtfNb5BEeC0arnw4tJlW5nhXTas1tyeFjMsiDS10rtpSyWzru4uWlg&oh=00_AQGk6aFVhrvydWXgdx8QNmr5Rq9hrn4iFjyyyWn2jGfDKg&oe=6A8E5E7E",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/775834651_18609625078015757_1972241559468660100_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFob7BIff30TYsc3iujt5xar5uijJBQ076vm6KMkFDTvu1N7c5odQKeBALcZfFXE-W86z22aBIhCt6hm0HxrX1J&_nc_ohc=Rie8i-PvcxYQ7kNvwHoK66R&_nc_oc=AdptV2QjbFJHblMNqrZqveglL5ovOxqGxwe3kxNjbJso5oFv_jE15zpX6o_a-LRIFRE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=CJfaik2_HTZpuoIb580dRA&_nc_tpa=Q5bMBQKDXyXEHHVqfLMO0DXTpHXtOzRSFgQEiLr5P3vvh9m6Hj2VdqsUlDNCzu4fPppCyW5874MEW6_L7w&oh=00_AQH981j5zhTzcsToVMvGi1CEu5k6lI2C_Qpu7OhaikNCqQ&oe=6A8E5E7E",
         "data": "2026-08-19",
         "tipo": "Reel",
         "likes": 182,
         "comentarios": 49,
-        "reach": 3589,
+        "reach": 3595,
         "shares": 6,
         "saved": 3,
         "interacoes": 268,
