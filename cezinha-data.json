@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-08-21T11:02:00-03:00",
+  "atualizado_em": "2026-08-21T11:48:11-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,8 +9,8 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 107508,
-    "ig_atual": 197557,
+    "fb_atual": 107507,
+    "ig_atual": 197559,
     "ig_posts": 565,
     "serie": [
       {
@@ -340,14 +340,14 @@
       },
       {
         "data": "2026-08-21",
-        "fb": 107508,
-        "ig": 197557
+        "fb": 107507,
+        "ig": 197559
       }
     ],
     "ig_follows": 4746
   },
   "publico": {
-    "atualizado_em": "2026-08-21T11:02:00-03:00",
+    "atualizado_em": "2026-08-21T11:48:11-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -516,7 +516,7 @@
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/p/DcJ7CRopxrJ/",
-        "thumb": "https://scontent-sin6-1.cdninstagram.com/v/t51.82787-15/778025429_18609164419015757_2406102630597108606_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGb8zV2rkJOyHwB6mU8VpWJMnZSwUapPYgydlLBRqk9iNKXH6ATIgCbtnRD_OEbCaISMQ7n4LDOGFkfoevfDPtR&_nc_ohc=FsHqt8taL44Q7kNvwEKp2_b&_nc_oc=AdrjjoMoyQKdo7PVz_QCbpe7maM1gKcZ9sZBjMhccDAsgBOoDVbUi4EQL0Xk3ptmj1o&_nc_zt=23&_nc_ht=scontent-sin6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=15rFp2_BJHFE0JigRM05Qw&oh=00_AQEo_n3etJbEQoVpmkWGIFJgUk2WemEqn1Z9ih6hhqhu5w&oe=6A8E48B7",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/778025429_18609164419015757_2406102630597108606_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGb8zV2rkJOyHwB6mU8VpWJMnZSwUapPYgydlLBRqk9iNKXH6ATIgCbtnRD_OEbCaISMQ7n4LDOGFkfoevfDPtR&_nc_ohc=FsHqt8taL44Q7kNvwFbCcVW&_nc_oc=Adq30QSCYSC9HygFdZI_U2h6x1LfYTONhXrq_4aWFy1oxvVFKL5JT2m1wcl8HQqJYdA&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=XzFs3xEgEXP8VVPvXRydsQ&oh=00_AQEpyY70B1ufslhjgdBzIZfIAzNuMV0qHkbixz2rGd3gLQ&oe=6A8E48B7",
         "data": "2026-08-17",
         "tipo": "Foto",
         "likes": 351,
@@ -529,25 +529,25 @@
       },
       {
         "permalink": "https://www.instagram.com/p/DcQhpO_NT2_/",
-        "thumb": "https://scontent-sin11-1.cdninstagram.com/v/t51.82787-15/775245319_18610124644015757_4070769296754097014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFEXnJOOoWVNjOxkLF41BW5xLohESD3XI7EuiERIPdcjlhJeZ03u4cgzbCFz-GIiwo_Vir-Ate-w9vkaM8ENkr5&_nc_ohc=MneSabpl62oQ7kNvwH8lZLL&_nc_oc=AdraMAcZebNmQrweDJrwY6Kt_7Ukm6PWM44xpRaU4p6dyOrgQNvqgdJPngJTBNI525Y&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=15rFp2_BJHFE0JigRM05Qw&oh=00_AQHIWDDWkx5GUTllBA7SPvTifhxG9Zh_50GEITnoF8NwCg&oe=6A8E164B",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/775245319_18610124644015757_4070769296754097014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFEXnJOOoWVNjOxkLF41BW5xLohESD3XI7EuiERIPdcjlhJeZ03u4cgzbCFz-GIiwo_Vir-Ate-w9vkaM8ENkr5&_nc_ohc=MneSabpl62oQ7kNvwGJeK85&_nc_oc=AdqD_Nff7VVzHK59lyYn8b153t9ALuJOm8UuDjhadpQD9MGf0DHi_LPcVVEuk1YUZT4&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=XzFs3xEgEXP8VVPvXRydsQ&oh=00_AQHILtLx9A0Me6H-3fvOvsCzxgTbITMI2DFaIAf2kqhfcg&oe=6A8E4E8B",
         "data": "2026-08-20",
         "tipo": "Foto",
-        "likes": 316,
-        "comentarios": 89,
-        "reach": 4469,
+        "likes": 318,
+        "comentarios": 90,
+        "reach": 4487,
         "shares": 28,
         "saved": 0,
-        "interacoes": 502,
+        "interacoes": 506,
         "legenda": "2️⃣2️⃣2️⃣3️⃣✅"
       },
       {
         "permalink": "https://www.instagram.com/reel/DcMRMDEJYA4/",
-        "thumb": "https://scontent-sin11-1.cdninstagram.com/v/t51.71878-15/775243831_2558740197919089_8836316312789060426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeECK0nqlbWpm1zVGEHLsqxuDrRzMuUFHewOtHMy5QUd7PIIrFJ0nH0H6fPJMU8sbouAMBnwC73MmMuDfk_YB46j&_nc_ohc=cmrUOVmo9FAQ7kNvwHaNvYc&_nc_oc=AdqY1bMgsW1YzPDz9HjfaNDsgTq73P47mqRuZg7iCbULSOry9uy0Isvt39IrzqnDI7U&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=15rFp2_BJHFE0JigRM05Qw&_nc_tpa=Q5bMBQLLOGHdH1DKwgzTPocrBahtku-RzDak660nrCtz1NsK-EmBv-B0KJX5ptrDM4QRTdofdJWdFl9vkw&oh=00_AQHf7MYh6PHoFRtw1TNfIJV10zEkc8jfagEBvIid2LlvGw&oe=6A8E14E3",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/775243831_2558740197919089_8836316312789060426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeECK0nqlbWpm1zVGEHLsqxuDrRzMuUFHewOtHMy5QUd7PIIrFJ0nH0H6fPJMU8sbouAMBnwC73MmMuDfk_YB46j&_nc_ohc=cmrUOVmo9FAQ7kNvwE_Awzu&_nc_oc=Adq4RYZ00qRJsmEg9Nh-GUL-83zApPDWD7Bbs_9qNFxBy8yfM5sAkqF3IzCSkW25w4I&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=XzFs3xEgEXP8VVPvXRydsQ&_nc_tpa=Q5bMBQJXWqB6WxGgCESPM4Ae2WvvVnLqRG7c3IVodto7stbP_ognBR-hwf5dmueDvi0MBmBd3658OPxpag&oh=00_AQE-7eBCmVXP8P7glXvvBGeUvoK-596NqSuszcwca6ULAQ&oe=6A8E4D23",
         "data": "2026-08-18",
         "tipo": "Reel",
         "likes": 232,
         "comentarios": 66,
-        "reach": 1850,
+        "reach": 1855,
         "shares": 10,
         "saved": 1,
         "interacoes": 347,
@@ -555,7 +555,7 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/DcOr1OMwnXJ/",
-        "thumb": "https://scontent-sin6-1.cdninstagram.com/v/t51.82787-15/779167311_18609931108015757_7218692065426724185_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGB5D9nkNq2VAKreMgrTJJRdyRHnO23WYp3JEec7bdZitZvqBbUTiYj_IBxMmT5IcbCEGJAD2IDr8J7ePSAzs0N&_nc_ohc=w8VCQuhjrtsQ7kNvwFgiyg1&_nc_oc=AdrDqThirfeAk7IsgkFHuccUaKflaszz5efJLr0SBpMoALuOTD5uSRZJ_gxl4ICbb04&_nc_zt=23&_nc_ht=scontent-sin6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=15rFp2_BJHFE0JigRM05Qw&_nc_tpa=Q5bMBQIBAnSe6cbSf_7fV1VX0fBY5HtpYW4jhd2wImoJ-BFtu5b9wV-LzsMIuh7CeFkf3rKepdXL2RPa0A&oh=00_AQF7RKMaonfs7z_zCF-3XQjwMCElyLe5MF7b-32GNMgYMg&oe=6A8E171D",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/779167311_18609931108015757_7218692065426724185_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGB5D9nkNq2VAKreMgrTJJRdyRHnO23WYp3JEec7bdZitZvqBbUTiYj_IBxMmT5IcbCEGJAD2IDr8J7ePSAzs0N&_nc_ohc=w8VCQuhjrtsQ7kNvwE8LBkv&_nc_oc=AdpVzFQVlVpRD6vX7mxSzR8Xiq6OhUtyS-WyrZOFqZp05hn7ZrA5P2vluOhGDSAUf3Y&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=XzFs3xEgEXP8VVPvXRydsQ&_nc_tpa=Q5bMBQIBu8YSzUiIlnbJeLEI9H0T4UXZj5Riha5E3YppbCTpSldirw14hU1H0Bzd0PN3Dd0AmVDl5E9b1g&oh=00_AQFedJaEDOTMMBxIyKQ3hIEnrGwZaabzd1InqFlQTM6LNQ&oe=6A8E4F5D",
         "data": "2026-08-19",
         "tipo": "Reel",
         "likes": 227,
@@ -567,30 +567,30 @@
         "legenda": "Nos dias difíceis, fortaleça a sua fé e traga à memória aquilo que te dá esperança."
       },
       {
+        "permalink": "https://www.instagram.com/reel/DcPOozPJ49G/",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/775319863_18609994603015757_8410358581851635164_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG-9McWJirnDmVFNGqjh1uvBqAQaYYPIKUGoBBphg8gpSA3gqp2zuOcZe9yekXxlLLmxpcGy2FTHgwa_IYEtx5E&_nc_ohc=FIhGNAjoCR0Q7kNvwG_bCe6&_nc_oc=AdqRS0m49Plrbe3l1-mPQ_ywYOZ2csVqycQ8ZnSu_g4oKiO5EoIW9fzSc3hYweW30ik&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=XzFs3xEgEXP8VVPvXRydsQ&_nc_tpa=Q5bMBQI6RxHMNTLQbqD54GiM0nVmlIheRMxbajjNHGVEsS-YNMHn1oPlyrEOafttEWScHjTcOCUnR75c7A&oh=00_AQF7_XeZHU4Y6wPFxGuOpErR9GLFSXPB5SDLmRY8eVDsJQ&oe=6A8E3607",
+        "data": "2026-08-19",
+        "tipo": "Reel",
+        "likes": 206,
+        "comentarios": 65,
+        "reach": 3274,
+        "shares": 26,
+        "saved": 4,
+        "interacoes": 334,
+        "legenda": "Inclusão de verdade se faz com empatia, atitude e apoio a quem mais precisa! 💙🧩  Tivemos a alegria de receber em nosso g"
+      },
+      {
         "permalink": "https://www.instagram.com/reel/DcRJ2m_vV8f/",
-        "thumb": "https://scontent-sin11-1.cdninstagram.com/v/t51.82787-15/779944561_18610213054015757_237828938179800267_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG6UWjcBkNNwC820sKZeYV1YHO-AXiq9ANgc74BeKr0A7o8PS8j9EHoxTirBTgHz9YMHd4dKyRBbkUbPcJplDs1&_nc_ohc=b3EENMOGKLMQ7kNvwExysId&_nc_oc=AdqmjkK38fvrIZQRUz0j7pQXEBSjoyff_ziDVE_HCvPlKJu_HsacqNikz9xqm5TUmPo&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=15rFp2_BJHFE0JigRM05Qw&_nc_tpa=Q5bMBQLqaqV8Hpq-LvZjBpm5TKpy8XE6GHhodABxV7BNpUdEVR8U7O3yCdI8ZUjbJyJjWvwm2a4ungHq5A&oh=00_AQEClN6QntBSRCnlCG9wKV9tuvvh4cI3YAyp5vA7Y8j64A&oe=6A8E338A",
+        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/779944561_18610213054015757_237828938179800267_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG6UWjcBkNNwC820sKZeYV1YHO-AXiq9ANgc74BeKr0A7o8PS8j9EHoxTirBTgHz9YMHd4dKyRBbkUbPcJplDs1&_nc_ohc=b3EENMOGKLMQ7kNvwFTYPij&_nc_oc=AdopjcaoYthAs5M5_TPo2gOXVXBCOUx1h84F_c8QJXGKxmYKa7N0WIIeQfqQwwWYPKU&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=XzFs3xEgEXP8VVPvXRydsQ&_nc_tpa=Q5bMBQJS0jt1LZt0WJh1DM_-PLGhr1ykKpljld7fmyG2t77PSOWk1E3mkV6Pw2vyBLOhLKdPtxQYE8bsvA&oh=00_AQHlmG_ta1bQ1m1xS6dBTCGmpPjRDj_x-P6EBb8wknwaiQ&oe=6A8E338A",
         "data": "2026-08-20",
         "tipo": "Reel",
         "likes": 206,
         "comentarios": 72,
-        "reach": 1646,
+        "reach": 1718,
         "shares": 19,
         "saved": 2,
         "interacoes": 331,
         "legenda": "O choro pode durar uma noite, mas a alegria virá ao amanhecer. Você crê? 🙏🔥  #explore #viralvideos #fyp"
-      },
-      {
-        "permalink": "https://www.instagram.com/reel/DcPOozPJ49G/",
-        "thumb": "https://scontent-sin11-1.cdninstagram.com/v/t51.82787-15/775319863_18609994603015757_8410358581851635164_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeG-9McWJirnDmVFNGqjh1uvBqAQaYYPIKUGoBBphg8gpSA3gqp2zuOcZe9yekXxlLLmxpcGy2FTHgwa_IYEtx5E&_nc_ohc=FIhGNAjoCR0Q7kNvwHkQDmk&_nc_oc=AdpPcU5oM50oeQk-3A-PWu-1aHGfixm2u__BoOHjhxq0Tigi8EkjVia6Zn2w89LGknk&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=15rFp2_BJHFE0JigRM05Qw&_nc_tpa=Q5bMBQIAguMTTTum19qgtYJ0ywelAs_hqZo-agCnsoaAA9QdYqsq9TJLiPk0XSR5l1IkIpyxkHXIvXkfkA&oh=00_AQF8-xN7hHAcUSHOMuImOxhu2WrJLSPDVz1uLHbzPvRbDw&oe=6A8E3607",
-        "data": "2026-08-19",
-        "tipo": "Reel",
-        "likes": 203,
-        "comentarios": 65,
-        "reach": 3250,
-        "shares": 25,
-        "saved": 4,
-        "interacoes": 330,
-        "legenda": "Inclusão de verdade se faz com empatia, atitude e apoio a quem mais precisa! 💙🧩  Tivemos a alegria de receber em nosso g"
       }
     ]
   },
