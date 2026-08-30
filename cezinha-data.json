@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-08-29T21:41:25-03:00",
+  "atualizado_em": "2026-08-30T02:56:27-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,8 +10,8 @@
   },
   "seguidores": {
     "fb_atual": 107491,
-    "ig_atual": 197733,
-    "ig_posts": 594,
+    "ig_atual": 197735,
+    "ig_posts": 595,
     "serie": [
       {
         "data": "2026-06-17",
@@ -382,70 +382,75 @@
         "data": "2026-08-29",
         "fb": 107491,
         "ig": 197733
+      },
+      {
+        "data": "2026-08-30",
+        "fb": 107491,
+        "ig": 197735
       }
     ],
     "ig_follows": 4803
   },
   "publico": {
-    "atualizado_em": "2026-08-29T21:41:25-03:00",
+    "atualizado_em": "2026-08-30T02:56:27-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
         {
           "k": "U",
-          "v": 76675
+          "v": 76645
         },
         {
           "k": "M",
-          "v": 44074
+          "v": 44086
         },
         {
           "k": "F",
-          "v": 41919
+          "v": 41921
         }
       ],
       "idade": [
         {
           "k": "35-44",
-          "v": 44908
+          "v": 44904
         },
         {
           "k": "25-34",
-          "v": 37831
+          "v": 37813
         },
         {
           "k": "45-54",
-          "v": 37356
+          "v": 37376
         },
         {
           "k": "18-24",
-          "v": 20118
+          "v": 20109
         },
         {
           "k": "55-64",
-          "v": 15203
+          "v": 15205
         },
         {
           "k": "65+",
-          "v": 5507
+          "v": 5510
         },
         {
           "k": "13-17",
-          "v": 1745
+          "v": 1735
         }
       ],
       "cidades": [
         {
           "k": "São Paulo, São Paulo (state)",
-          "v": 16308
+          "v": 16309
         },
         {
           "k": "Rio de Janeiro, Rio de Janeiro (state)",
-          "v": 2399
+          "v": 2396
         },
         {
           "k": "Guarulhos, São Paulo (state)",
-          "v": 1804
+          "v": 1805
         },
         {
           "k": "Saint Petersburg, Saint Petersburg",
@@ -453,7 +458,7 @@
         },
         {
           "k": "Campinas, São Paulo (state)",
-          "v": 1127
+          "v": 1126
         },
         {
           "k": "Osasco, São Paulo (state)",
@@ -461,7 +466,7 @@
         },
         {
           "k": "Goiânia, Goiás",
-          "v": 896
+          "v": 894
         },
         {
           "k": "New York, New York",
@@ -473,7 +478,7 @@
         },
         {
           "k": "Piracicaba, São Paulo (state)",
-          "v": 831
+          "v": 832
         },
         {
           "k": "Delhi, Delhi",
@@ -481,7 +486,7 @@
         },
         {
           "k": "Salvador, Bahia",
-          "v": 811
+          "v": 810
         }
       ]
     },
@@ -551,85 +556,85 @@
         }
       ]
     },
-    "alcance_30d": 248628,
-    "views_30d": 1361597,
+    "alcance_30d": 238285,
+    "views_30d": 1462483,
     "top_posts": [
       {
-        "permalink": "https://www.instagram.com/p/DcjV32Ap7_V/",
-        "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/787831947_18612500140015757_3648421596018512781_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeF0mySP4k9yOW1ydEC_g4BdHJPAuMkP3Msck8C4yQ_cy4SeGe7TXp2eHJ5ioiFajJH2ehFOlj1JTODHkaiW0oq8&_nc_ohc=uxriTnYApRMQ7kNvwErflC6&_nc_oc=AdrQ2251zsoPbdrXbyjr4sNNBS5BZmfNa0HKODePUtnQITY-YTgkPjlU8skziAeVGt0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7wC9-oLs8A5D94Df79so3Q&oh=00_AQIq1Y4ZfkeWOvPJ2VhRft2Tk8VJjxTExNQgoE-dAdKI-Q&oe=6A994607",
-        "data": "2026-08-27",
-        "tipo": "Foto",
-        "likes": 581,
-        "comentarios": 102,
-        "reach": 13374,
-        "shares": 85,
-        "saved": 7,
-        "interacoes": 814,
-        "legenda": "Reunião de alinhamento de campanha na capital, ao lado do Bispo @oficialbisposamuelferreira, @dilmosantos, @belchior_jun"
-      },
-      {
         "permalink": "https://www.instagram.com/reel/Dcm6EQmtUWL/",
-        "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/785462463_18612957838015757_7878809438953458824_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHeCDmQA7ZLdjyUW5tW6czmJfjzP6YdhP0l-PM_ph2E_f7iRDrU-NtIOia3XEx7c5OCB-2Fv2A2xXqgrU4LdXHj&_nc_ohc=Pwhp6Ud-g_0Q7kNvwFae_PB&_nc_oc=AdodlBJqdlxsTOgXRCi06a6K0BxZVMIyAOpCNM48JXPj8g94lPnPz8CyOgS59GGIrhs&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7wC9-oLs8A5D94Df79so3Q&_nc_tpa=Q5bMBQKgaqjmohEN5cPZBEK0Rb1wlJ02JbXGUEj4WJtDmjm7uxsoHL5LdGvbiVWKslcU-iS4pITqtfVMIw&oh=00_AQIW5CNR8AxroC47TBedSYy7WKOYiKZxJ6S14ZFMMf1rJw&oe=6A993AB0",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/785462463_18612957838015757_7878809438953458824_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHeCDmQA7ZLdjyUW5tW6czmJfjzP6YdhP0l-PM_ph2E_f7iRDrU-NtIOia3XEx7c5OCB-2Fv2A2xXqgrU4LdXHj&_nc_ohc=Pwhp6Ud-g_0Q7kNvwFweZfz&_nc_oc=Adph7szHR4vHC4E01U798l2LClmRyX17oNmGfdFOmQPxpuVbpwC2dPNOQGFjfJ6F5DM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=hHMjK8GEe-4qzhEeD0zuvA&_nc_tpa=Q5bMBQJcyT9pocWf83hASm2rrymXXOtTQY1qCv9uDwsPr9kNkn44XePDW4PhYB7jaaszWKI1i0YxWqepUg&oh=00_AQJcERwmtdxDGJJvxXtzZdXmUypAV6ytlfkua6oROH8_7A&oe=6A99AB30",
         "data": "2026-08-29",
         "tipo": "Reel",
-        "likes": 578,
-        "comentarios": 78,
-        "reach": 21565,
-        "shares": 22,
-        "saved": 29,
-        "interacoes": 744,
+        "likes": 598,
+        "comentarios": 82,
+        "reach": 22800,
+        "shares": 25,
+        "saved": 32,
+        "interacoes": 778,
         "legenda": "Ainda de ontem com minha irmãzinha @pramarinnacostaferreiransousa batendo um papo com nossas irmãs do campo do Brás, gra"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dcj6Hv3plom/",
-        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/784981098_1927665017901937_4885666209040057273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGskaf7Cwj5vdkt7K0m4JOxkpEVQg9ch2CSkRVCD1yHYE_j0o_c7UQwwkMf-iwr8L-qO3-1-SI1Y4hvV8UtbnLl&_nc_ohc=8QpHflMBX80Q7kNvwHWbhWT&_nc_oc=AdqsjU3xALrq8oZ3kaziV0RQMdlS1V8PePUs5Or6RkCWvcyqAtyUllqqo7EQHIqAEFc&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7wC9-oLs8A5D94Df79so3Q&_nc_tpa=Q5bMBQJ5t3ObVqN-FnqYx8YynXeTwPBbvyOpP1gJNHajX6rFL0TYd8oV6U8QGNkh2svc5MQeKGLCoKU9rw&oh=00_AQKE5T6h-cpFFMojdaWPpifc4gykjAhykrVQneWsCaDGJQ&oe=6A993B4C",
+        "thumb": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/784981098_1927665017901937_4885666209040057273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGskaf7Cwj5vdkt7K0m4JOxkpEVQg9ch2CSkRVCD1yHYE_j0o_c7UQwwkMf-iwr8L-qO3-1-SI1Y4hvV8UtbnLl&_nc_ohc=8QpHflMBX80Q7kNvwF91g3I&_nc_oc=AdpWzg-n7kj8eLo0MN6Di41wKycDIr47MWgVkafxq5CtAPrq7R1DG68NwakAkSCQt3I&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=hHMjK8GEe-4qzhEeD0zuvA&_nc_tpa=Q5bMBQL0HF0aRoLAEGPPwzMaA8vl-FqT2AbY1LY5GN1amVjOkyX6c08lnfKFELFI5YclY2ObcRuP3kYf2w&oh=00_AQIhXqxKKeG5VHG-JYosx9EMgSDx_QTjVpeK4Wg6WK3IVQ&oe=6A99ABCC",
         "data": "2026-08-27",
         "tipo": "Reel",
-        "likes": 428,
-        "comentarios": 136,
-        "reach": 6500,
+        "likes": 433,
+        "comentarios": 140,
+        "reach": 6553,
         "shares": 53,
         "saved": 5,
-        "interacoes": 699,
+        "interacoes": 711,
         "legenda": "🚀Obrigado Barueri🚀  #explore #cezinhademadureira #sãopaulo"
       },
       {
         "permalink": "https://www.instagram.com/reel/DcnzhleBGQh/",
-        "thumb": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/785265646_18613042651015757_4268442758298184035_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGePNlWMBZF82gXeGfBTXJBrYwiIRm7RfytjCIhGbtF_G7yQbMw0zYlfggSP9GyFZguegAtcoGN-GLbIc-UVPqc&_nc_ohc=nSUa4Y4jN1AQ7kNvwGhvAbQ&_nc_oc=AdrnYunlasFXR53olHVTVV91f0qI6nPZLaVLgYuODXnTVPpqu18ZU2GfPf0XKBlsW2U&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7wC9-oLs8A5D94Df79so3Q&_nc_tpa=Q5bMBQJHiMGEXXpzLCi6pVGAkxU1uHX5hNpcVGL7SNNo-JTy24QFggP7EZUiWWjcx0K39vPLgJOq43mgww&oh=00_AQKj-TYp_rSpfpDAecKSwLmNMX8TwMFzlz8-EM37fW75UA&oe=6A9961DC",
+        "thumb": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/785265646_18613042651015757_4268442758298184035_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGePNlWMBZF82gXeGfBTXJBrYwiIRm7RfytjCIhGbtF_G7yQbMw0zYlfggSP9GyFZguegAtcoGN-GLbIc-UVPqc&_nc_ohc=nSUa4Y4jN1AQ7kNvwGN9QUX&_nc_oc=Adqf-z-RV0aZ6PLNMlrmJxHkeiJkfxRfaFqLanVocG0pumJTxuHw_NqLotQIf_tEdGw&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=hHMjK8GEe-4qzhEeD0zuvA&_nc_tpa=Q5bMBQK9HVoBToTVURHrjS4zlmsUZ0iWclMhFIeSKHoog7p_IRGXi9gDkw-xnSY15D3-xSTH9bOBH_392Q&oh=00_AQIK0v6lI3mon4PJF2mTIwdzCOsRlDMfaSmNqqqCfPCdkA&oe=6A999A1C",
         "data": "2026-08-29",
         "tipo": "Reel",
-        "likes": 291,
-        "comentarios": 111,
-        "reach": 2088,
-        "shares": 29,
+        "likes": 310,
+        "comentarios": 149,
+        "reach": 2444,
+        "shares": 30,
         "saved": 1,
-        "interacoes": 489,
+        "interacoes": 551,
         "legenda": "Deus abençoe o seu sábado🙏🏼  #cezinhademadureira #saopaulo #explore"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dclj6mfurYO/",
-        "thumb": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/788839017_18613233733015757_4594323967617939386_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeF3BJcLhCg-yzqasM6WmnY5taLTI1jXPa-1otMjWNc9r2GBtEOjCZaECp9wrjKbU-oBZHyUIB34vUUWa-9EDZIl&_nc_ohc=q_2gzpc56eIQ7kNvwFs9rVf&_nc_oc=AdrdBq_ijcWt-ELuOyqRVRw4PggYS0GeBWWk62HPgvG94bvN1VI_D_DBGq_rYtxrpj0&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7wC9-oLs8A5D94Df79so3Q&_nc_tpa=Q5bMBQJFTF_HdFqJ2xOHrqCzStrdXwRKXcGsfwVrL3GC5-M6OCedDqBBaWebZqmGDnD5YmCmps079yJDKw&oh=00_AQIZZAMXFENmwHKVX5X63U_smyTdYb2DEYMsuTzxGkFoXg&oe=6A994E9B",
+        "thumb": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/788839017_18613233733015757_4594323967617939386_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeF3BJcLhCg-yzqasM6WmnY5taLTI1jXPa-1otMjWNc9r2GBtEOjCZaECp9wrjKbU-oBZHyUIB34vUUWa-9EDZIl&_nc_ohc=54j0vwQI_8UQ7kNvwGAmpqr&_nc_oc=AdquGhdFho1EKx00IGLKH1EEPatbShOBVdDhnUBW_I97ryBpDUDZ56VWHjhQuIK62qE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=hHMjK8GEe-4qzhEeD0zuvA&_nc_tpa=Q5bMBQJqI8YmEN_pdmObJjqY5W63EZoqAxRH3fdHrAunUCAEpmzjxuR1T27ptODexZKsQo5fWI99fKMveA&oh=00_AQKaEW9ajohjmRiLNPnUoMRejPgx4aC4j7-OMzIyFxq2HA&oe=6A9986DB",
         "data": "2026-08-28",
         "tipo": "Reel",
-        "likes": 248,
-        "comentarios": 106,
-        "reach": 3206,
+        "likes": 252,
+        "comentarios": 109,
+        "reach": 3360,
         "shares": 21,
         "saved": 2,
-        "interacoes": 423,
+        "interacoes": 431,
         "legenda": "Alinhamento forte, união e compromisso com o futuro de Guarulhos e de todo o estado de São Paulo! 🤝🙏 Estivemos reunidos "
       },
       {
+        "permalink": "https://www.instagram.com/reel/DcojD1xJoBQ/",
+        "thumb": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/790146670_18613233667015757_1940934573147438828_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGJUStWM37p3jqZxh_lnD9r4gRaQuvyPfLiBFpC6_I98jK2MhfQ82dRwcJg7BeytLBkmEc5tHhHjMTv2s2vKG0u&_nc_ohc=IF_KgtAj7lgQ7kNvwHQJBJx&_nc_oc=AdpAcUCQnBwDGfYyBjjYIJka3tr_AhrThl_-fcqXE-GtIdXseq8697EkA3RFTQcgN6M&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=hHMjK8GEe-4qzhEeD0zuvA&_nc_tpa=Q5bMBQJ1vDPBnzuDQ-jLGR_8pyUGv74dUwACwr_2CH7V0hj5ghL7gogz3bgECS5J3nd6oj59zGs2BJV65A&oh=00_AQJY9MohMPvGKFdXjDzfYo7WD7jbhfRX3wJA5EyxPT3_fA&oe=6A99B0D2",
+        "data": "2026-08-29",
+        "tipo": "Reel",
+        "likes": 279,
+        "comentarios": 77,
+        "reach": 3159,
+        "shares": 19,
+        "saved": 3,
+        "interacoes": 423,
+        "legenda": "🏃‍♂️ESPORTE É VIDA🏃‍♂️  Começamos o dia com meu amigo e irmão Vereador @helio__junior_ , no pelotão do Oséias, foi uma m"
+      },
+      {
         "permalink": "https://www.instagram.com/p/Dcn3YTJlvUF/",
-        "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/787884269_18613049512015757_4038064001311197931_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFyPvZFHvIEkWAwIppsngKGY8Ck6AsxN_hjwKToCzE3-Dk6i6aBhnSw8x4PviGJTWfsYY3ZU6p70y47eBuj4pUW&_nc_ohc=RNL1YsG6cYoQ7kNvwHMEkXv&_nc_oc=Ado21dOrwJHtPjrx9HtT4Fs-BayHGX-gI8JNZurW6QAiFetJLxyOV9GV8ntGmGRJao8&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7wC9-oLs8A5D94Df79so3Q&oh=00_AQKLgbEEvk5ypSqyJuFMfuuh8PDhMTnCR6Z_u549Pr8asw&oe=6A99636B",
+        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/787884269_18613049512015757_4038064001311197931_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFyPvZFHvIEkWAwIppsngKGY8Ck6AsxN_hjwKToCzE3-Dk6i6aBhnSw8x4PviGJTWfsYY3ZU6p70y47eBuj4pUW&_nc_ohc=RNL1YsG6cYoQ7kNvwHVKEtR&_nc_oc=Adr4phSpHJnnN_8sZ2lXFOVU5POZvTNNWx8Rr78dv3Rbht-hY38k2lxhN0bFCjgHVV8&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=hHMjK8GEe-4qzhEeD0zuvA&oh=00_AQL_KdPKuJb4z2y4yhzZ6z4DiddAgbf7iCOOhT6IRC3vXQ&oe=6A999BAB",
         "data": "2026-08-29",
         "tipo": "Carrossel",
-        "likes": 278,
-        "comentarios": 45,
-        "reach": 6627,
+        "likes": 327,
+        "comentarios": 54,
+        "reach": 8244,
         "shares": 5,
-        "saved": 1,
-        "interacoes": 342,
+        "saved": 2,
+        "interacoes": 403,
         "legenda": "Abertura da Fraternal Vale do Paraíba!   Uma noite que ficará marcada na história, celebrando também os 100 anos do Mini"
       }
     ]
