@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-04T01:44:33-03:00",
+  "atualizado_em": "2026-09-04T06:07:42-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 107481,
-    "ig_atual": 198081,
+    "ig_atual": 198078,
     "ig_posts": 613,
     "serie": [
       {
@@ -411,13 +411,13 @@
       {
         "data": "2026-09-04",
         "fb": 107481,
-        "ig": 198081
+        "ig": 198078
       }
     ],
-    "ig_follows": 4836
+    "ig_follows": 4837
   },
   "publico": {
-    "atualizado_em": "2026-09-04T01:44:33-03:00",
+    "atualizado_em": "2026-09-04T06:07:42-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -581,56 +581,56 @@
         }
       ]
     },
-    "alcance_30d": 513999,
-    "views_30d": 2003523,
+    "alcance_30d": 517834,
+    "views_30d": 2013177,
     "top_posts": [
       {
+        "permalink": "https://www.instagram.com/reel/Dczy5TQA-73/",
+        "thumb": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/792863636_18614546707015757_2820438115926918795_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEgK80rqq_V0asy-VFh7YyemxKIjB0eHKKbEoiMHR4coiRTsXJ8lES7dyROo8OU98lW3hVp0DhUBXaFiEJpveVP&_nc_ohc=WnTWFRSoBlMQ7kNvwEFZ9Kz&_nc_oc=AdoL0kuk3ZyRlsZ_M034zNtwsHHm4igbeyHgjk54Ofka8HZu-kx2cEqKVfAVtJObnbc&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=L19ZFMEzMdUeoB35bcBXxw&_nc_tpa=Q5bMBQL7lcUTZkwF-jAXDLdxNS-sV0wvxSWB-cRgecUYAvgpgRNtrWASPSkzyZj-kI5eydSwf9FPknXZwQ&oh=00_AQKCy9ltURWqPYw1-L0oaHgZs77lyv88Bfp7YfZOAVk_gg&oe=6AA055FB",
+        "data": "2026-09-03",
+        "tipo": "Reel",
+        "likes": 303,
+        "comentarios": 121,
+        "reach": 4291,
+        "shares": 29,
+        "saved": 5,
+        "interacoes": 500,
+        "legenda": "Hoje quarta Feira em Guararema. Sem palavra pelo carinho desse povo lindo! Gratidão Lu e Lu @lucianoferreira1235"
+      },
+      {
         "permalink": "https://www.instagram.com/reel/DcyxH24Mfb4/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/791942671_18614417668015757_5079328578209654314_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEn49MLF5NekWC2RutQePeW46Voyjpw4djjpWjKOnDh2APGAYNhcHANQFiqPzD2lRHd7JnatN9qSFOpOeNtdja9&_nc_ohc=DCWECwmXXiEQ7kNvwE5tfzt&_nc_oc=AdrDrcRWcQ7hfDVqEuBF_rp87Ju8ZYSp9MypkCETwdybtDFMtiUPWcx312YwtaZ2IMA&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=NOP_cG1ewgE01rHFKSIYQg&_nc_tpa=Q5bMBQIL4rkzlp9oREBLqaGd4IsObgRkWoIrLtPSV1T307_NCeCyAnuMYvP1B56trviu5IrrjoCBO_OrdQ&oh=00_AQLYTqQKxfO9eHC5FpFzwaBEFZ0GJ423WqFUF1f4XQVd5g&oe=6AA0398B",
+        "thumb": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/791942671_18614417668015757_5079328578209654314_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEn49MLF5NekWC2RutQePeW46Voyjpw4djjpWjKOnDh2APGAYNhcHANQFiqPzD2lRHd7JnatN9qSFOpOeNtdja9&_nc_ohc=DCWECwmXXiEQ7kNvwHzwX-Q&_nc_oc=Adq9FpSPckdC2gG4WsDEk541QIBuQMU2Es0Lf0Q1B6pLzvjUdjxIT1AjNxS1j5VCKLI&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=L19ZFMEzMdUeoB35bcBXxw&_nc_tpa=Q5bMBQJ0Sc1m6temMz_Pmi1h1rGvREqu006wINVHe8QK6XBRKPqczYJAABClLqG8IODuT0GjJFTAMlPaag&oh=00_AQKib8F-33L2c4kQjXdgmXiwm2GHAnQUWVRHqPGa5aqmsQ&oe=6AA071CB",
         "data": "2026-09-02",
         "tipo": "Reel",
         "likes": 170,
         "comentarios": 112,
-        "reach": 3309,
+        "reach": 3329,
         "shares": 189,
         "saved": 2,
         "interacoes": 500,
         "legenda": "Caminhar junto com o povo, ouvir de perto e sentir o calor de cada abraço é o que dá sentido a essa missão! 🤝✨  Depois d"
       },
       {
-        "permalink": "https://www.instagram.com/reel/Dczy5TQA-73/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/792863636_18614546707015757_2820438115926918795_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEgK80rqq_V0asy-VFh7YyemxKIjB0eHKKbEoiMHR4coiRTsXJ8lES7dyROo8OU98lW3hVp0DhUBXaFiEJpveVP&_nc_ohc=WnTWFRSoBlMQ7kNvwEJZRNa&_nc_oc=Adr26XQ3tfyFqIC76xhupb3oKTph7CA54P-meh4dXYLhMdz4CCjkbHgcS9AdliIfb1s&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=NOP_cG1ewgE01rHFKSIYQg&_nc_tpa=Q5bMBQLD7oRln8QePB3ipxIFpIognfPHLxQcii5EdgkgEHj6kbJy_KmhiMiAJJ_Rt2yNYTOwDCXRR1_PGw&oh=00_AQIXcVSGgg3L31iSHoNOWOyaxekKLG5sUujyDS-So9NJ4A&oe=6AA01DBB",
-        "data": "2026-09-03",
-        "tipo": "Reel",
-        "likes": 302,
-        "comentarios": 121,
-        "reach": 4251,
-        "shares": 29,
-        "saved": 5,
-        "interacoes": 499,
-        "legenda": "Hoje quarta Feira em Guararema. Sem palavra pelo carinho desse povo lindo! Gratidão Lu e Lu @lucianoferreira1235"
-      },
-      {
         "permalink": "https://www.instagram.com/p/Dc1PxT5lCHL/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/791942904_18614699329015757_2347753699690011585_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGhc2SWS-11mFgULowHvYjw8nQlQfz-2tTydCVB_P7a1Bsw4RFn8EdNkqn2HVuMALWdS4DG4HB5H45R1l9yjoIg&_nc_ohc=Z4_NyLYXwcIQ7kNvwG-C8ZB&_nc_oc=AdrgjSB55EdyWWvi5uTvaM6y5kG1H5CYvQq1EamsZZ68YKQxhZTDIScibTMxWwNudZ0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=NOP_cG1ewgE01rHFKSIYQg&oh=00_AQLhIq1ucMgyxT4lIhYnud2SmM97_lZjij1oaG7fJK0bOw&oe=6AA02B52",
+        "thumb": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/791942904_18614699329015757_2347753699690011585_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGhc2SWS-11mFgULowHvYjw8nQlQfz-2tTydCVB_P7a1Bsw4RFn8EdNkqn2HVuMALWdS4DG4HB5H45R1l9yjoIg&_nc_ohc=Z4_NyLYXwcIQ7kNvwGKixnD&_nc_oc=AdrJee6ZSIKoDkZPpWLbcepV1RvRM-ah7EZJjeT2pEbgS7n7eta8MiFjNhWI3_FPGxk&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=L19ZFMEzMdUeoB35bcBXxw&oh=00_AQLVkOW4-5hbV7hrm6iCahg2c8k5jKwhD3eHeHUDDg7k3Q&oe=6AA06392",
         "data": "2026-09-03",
         "tipo": "Foto",
-        "likes": 293,
+        "likes": 294,
         "comentarios": 159,
-        "reach": 3873,
+        "reach": 3920,
         "shares": 13,
         "saved": 0,
-        "interacoes": 496,
+        "interacoes": 497,
         "legenda": "Trabalho sério, dedicação e compromisso com o futuro de São Paulo! 🙏✨  Seguimos firmes na defesa dos interesses do nosso"
       },
       {
         "permalink": "https://www.instagram.com/reel/DczcTh6JFYj/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/792440872_18614566012015757_8674488484075324957_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEj4eYIgFG9yjG6GPuh5JR8OLhLrShXaBU4uEutKFdoFX-fBIXjoMJd1-V9A4QMVRRLwfxsYJKQom5cksX5zHwL&_nc_ohc=E4bwHE_1NDQQ7kNvwFHE6Qt&_nc_oc=AdoAVt8B_RQMNUXTv9SUQtBWa84Wj6jniXouhbEx_-WHK5-a-jvC-8QjMx69kOuC2G0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=NOP_cG1ewgE01rHFKSIYQg&_nc_tpa=Q5bMBQJeuIptweev74vHCqeIQZqd4lhV1z_X23GqraaVvztMf25hzEMDxdAPkGQiPrnM_WdR-wMPRB7QBw&oh=00_AQI1cbcYyk8OveAmH7d0fhdTBhsQHpruBtln5Ei1auSYMg&oe=6AA021B1",
+        "thumb": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/792440872_18614566012015757_8674488484075324957_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEj4eYIgFG9yjG6GPuh5JR8OLhLrShXaBU4uEutKFdoFX-fBIXjoMJd1-V9A4QMVRRLwfxsYJKQom5cksX5zHwL&_nc_ohc=E4bwHE_1NDQQ7kNvwHF3Epe&_nc_oc=AdoFTR4D4dHcMlW2Ij-EzuSND-MbC8HWmj6PmHrSzYFQI2AUKxbE_Ios_9DcVHncpuY&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=L19ZFMEzMdUeoB35bcBXxw&_nc_tpa=Q5bMBQKR8VY5xNwNnjnZUl6x6515jX4YhsMtBBGIgebFPwjykC3h2zj75jC-eNTxF1KxmeIRFcXgT_aCjA&oh=00_AQK48Hh6lQkqrhFF3X2DoVtZ9aFkrsPqOaLBiDbi8yAo_A&oe=6AA059F1",
         "data": "2026-09-02",
         "tipo": "Reel",
         "likes": 148,
         "comentarios": 128,
-        "reach": 3240,
+        "reach": 3255,
         "shares": 12,
         "saved": 2,
         "interacoes": 312,
@@ -638,28 +638,28 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc1ggUjCXqy/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/793028504_18614744575015757_3898523425491817025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE77UAA5a-aczm2BjkrYKU0oLD9dKl4RyKgsP10qXhHIkKfgjNq2NmpITT2HVwziMPWfVepSsdEk19B38_fwhLk&_nc_ohc=gNcJefY7YGoQ7kNvwGPgIIb&_nc_oc=AdqYXeY682gb0OjaIJt4SMbhfj1yfnWIJsuOSwXlcV6hG00Oq1JSzkYcoHH0rMnkbek&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=NOP_cG1ewgE01rHFKSIYQg&_nc_tpa=Q5bMBQKSuLy7ZbdAeYgV7-2HRwZ1L53m30e4HJlG0P5F-a3PdCDpIjg7hrnfL_b7EdbUgfx4WI0-CFLH0A&oh=00_AQIqIbzYjA1rJnXIZOoVs-m8DRFji_HnHo2bLKg_4mOMZw&oe=6AA00FF4",
+        "thumb": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/793028504_18614744575015757_3898523425491817025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE77UAA5a-aczm2BjkrYKU0oLD9dKl4RyKgsP10qXhHIkKfgjNq2NmpITT2HVwziMPWfVepSsdEk19B38_fwhLk&_nc_ohc=L4OJdhnbgKAQ7kNvwEcDdRJ&_nc_oc=AdonhaEqBXlrNn3ZfouHsQP1-ixb66Au5Q8mFOryO25USPYQy68_J0A5hHU0mfx52ZE&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=L19ZFMEzMdUeoB35bcBXxw&_nc_tpa=Q5bMBQJ9L-cZJkCliZdx3GHXzWxXmzZ3w9gm6E3fj3ScE8jWFnq69XHIGo5wWmqcR5WJ6iLV4ycaJ3jZ4w&oh=00_AQIlqDuLfUZFwZ7uRot0D0GQN66Y8hargB_yitOk0CJI9g&oe=6AA04834",
         "data": "2026-09-03",
         "tipo": "Reel",
-        "likes": 156,
+        "likes": 160,
         "comentarios": 61,
-        "reach": 1675,
+        "reach": 1756,
         "shares": 8,
         "saved": 2,
-        "interacoes": 247,
+        "interacoes": 251,
         "legenda": "Ainda sobre ontem em Guararema, obrigado @lucianoferreira1235 e amigos."
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc1lfEADg6f/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=1XkgGoh2K20Q7kNvwFeJJU9&_nc_oc=AdrEVe6BCu04YafPJ1GCl2CK_Rmlsr-RTcku72XnzkgXL9AkVmosnonG4xsd4O6di4U&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=NOP_cG1ewgE01rHFKSIYQg&_nc_tpa=Q5bMBQJ464cgZxgvnq4wzIZVA3O9hvK6y09yjIh2JKuhsJNeCXvhUy_8BIbGFIMkFqxCWb8MlKP61qS3Ig&oh=00_AQLme01qnmHvyBqm0JqjGKM7PfxMSa2Ny86Pjg4e-HRTcw&oe=6AA01852",
+        "thumb": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=1XkgGoh2K20Q7kNvwFgnmFb&_nc_oc=Ado_ZLKM6pZISaOLYD_6vXnuF4SVNgWiK6eEiBk2uIK3Y16Us241yMCOp2KJaXAu_Eo&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=L19ZFMEzMdUeoB35bcBXxw&_nc_tpa=Q5bMBQLSBwYaVBulBvyTuP_Oy7JOSQboAi0weoBka8Y39JOltYZOjdkntELgGZAAjgT9JbuVmRoKBMoQSg&oh=00_AQKKSGDEdSK3ecBIIyBLassb6LnrAh7xPQlz9bYET7LM6A&oe=6AA05092",
         "data": "2026-09-03",
         "tipo": "Reel",
-        "likes": 127,
+        "likes": 128,
         "comentarios": 93,
-        "reach": 2052,
+        "reach": 2138,
         "shares": 11,
         "saved": 1,
-        "interacoes": 246,
+        "interacoes": 247,
         "legenda": "A energia de quem veste a camisa e acredita em um futuro melhor para São Paulo não tem preço! 🚀✨\r \r Trabalho sério, uniã"
       }
     ]
