@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-05T10:01:29-03:00",
+  "atualizado_em": "2026-09-05T12:59:07-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,8 +10,8 @@
   },
   "seguidores": {
     "fb_atual": 107483,
-    "ig_atual": 198101,
-    "ig_posts": 616,
+    "ig_atual": 198082,
+    "ig_posts": 620,
     "serie": [
       {
         "data": "2026-06-17",
@@ -416,13 +416,13 @@
       {
         "data": "2026-09-05",
         "fb": 107483,
-        "ig": 198101
+        "ig": 198082
       }
     ],
-    "ig_follows": 4840
+    "ig_follows": 4842
   },
   "publico": {
-    "atualizado_em": "2026-09-05T10:01:29-03:00",
+    "atualizado_em": "2026-09-05T12:59:07-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -587,85 +587,85 @@
       ]
     },
     "alcance_30d": 637158,
-    "views_30d": 2288353,
+    "views_30d": 2288390,
     "top_posts": [
       {
-        "permalink": "https://www.instagram.com/p/Dc1PxT5lCHL/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/791942904_18614699329015757_2347753699690011585_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGhc2SWS-11mFgULowHvYjw8nQlQfz-2tTydCVB_P7a1Bsw4RFn8EdNkqn2HVuMALWdS4DG4HB5H45R1l9yjoIg&_nc_ohc=Z4_NyLYXwcIQ7kNvwHAzDTg&_nc_oc=AdpWehVqrpe0wmArQvXoOyN8ngUzfLUKta_oJTziZ2g9R6-MuEW_QQjp6SnyBqfPlGE&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=02ik008Sm1JHCLk0-ZWrPw&oh=00_AQIAlKlSktsbX_XNbrrOSt-ciom6bdRJSGu63SjLu2X5hA&oe=6AA1ED52",
-        "data": "2026-09-03",
-        "tipo": "Foto",
-        "likes": 363,
-        "comentarios": 279,
-        "reach": 4775,
-        "shares": 17,
-        "saved": 0,
-        "interacoes": 702,
-        "legenda": "Trabalho sério, dedicação e compromisso com o futuro de São Paulo! 🙏✨  Seguimos firmes na defesa dos interesses do nosso"
-      },
-      {
         "permalink": "https://www.instagram.com/p/Dc32MHMF7C9/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/793640379_18615013495015757_7369798256053899794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGEO01KC-z2kvurHi-3JTIAS6WkRwG2oydLpaRHAbajJyZKiESlOwYIfx68MZ7CTzAmYID2VR8Tivk_UByuzYYv&_nc_ohc=FhuP1NlBJ54Q7kNvwEHJWCU&_nc_oc=AdouK54ww6A3p0JsNnbmOePY9DAmcvvD8qMOxBwycRzwpbNIjKdID3K2BXpjlbOt3Gs&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=02ik008Sm1JHCLk0-ZWrPw&oh=00_AQJnNZb7vqZuocG0Q7Jj2bVYVku-7LuLK3jgEb_idlCkQw&oe=6AA1F349",
+        "thumb": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/793640379_18615013495015757_7369798256053899794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGEO01KC-z2kvurHi-3JTIAS6WkRwG2oydLpaRHAbajJyZKiESlOwYIfx68MZ7CTzAmYID2VR8Tivk_UByuzYYv&_nc_ohc=FhuP1NlBJ54Q7kNvwGblZ6E&_nc_oc=AdpuJU8ZbmcQSKA3sFu4UjuKCWNNOBqjHr9vTUqevQ7OvsUysdQ5a8-Vi8FAdf_Yvjg&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=DwuccAGe6B2f5n5bCKnWbg&oh=00_AQLDUS_AqlYFgyGnPm0VGwYR9uENzFyFKF0EUZJxGdF1ig&oe=6AA1F349",
         "data": "2026-09-04",
         "tipo": "Carrossel",
-        "likes": 80,
-        "comentarios": 412,
-        "reach": 1789,
+        "likes": 84,
+        "comentarios": 413,
+        "reach": 1959,
         "shares": 39,
         "saved": 1,
-        "interacoes": 550,
+        "interacoes": 556,
         "legenda": "O debate sobre o fim da escala 6x1 mexe diretamente com a rotina de quem trabalha e de quem empreende nas ruas de São Pa"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc4dXuXJHgU/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/797744947_18615128713015757_8950776798639578604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFdEOdBh0KqjOL5-1P2Saw6LoNpYmKsBmEug2liYqwGYXOfDrPx-m14v05YWX-OSwEf-et_7CVESTLg0QGZsi9l&_nc_ohc=OLy6XQ-y9wgQ7kNvwH-bd04&_nc_oc=AdoyXItE-Q8HHRkjI7YnmZFD4hPbU0_vxO7x4gV3h1Tn_hZNJ8hJynet7PR2ExXDG8g&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=02ik008Sm1JHCLk0-ZWrPw&_nc_tpa=Q5bMBQKkuVKK8FTPofGGh49qYXzrBa0atFq2LUO5WG4U7OYPlibYkDKiPvVIeKnJkv1uARTxkf0mchD-wg&oh=00_AQLyjkfNMUloKEsxBrx-BxARmc0iC_Pf3tZK34T0RyxqVA&oe=6AA1F46D",
+        "thumb": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/797744947_18615128713015757_8950776798639578604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFdEOdBh0KqjOL5-1P2Saw6LoNpYmKsBmEug2liYqwGYXOfDrPx-m14v05YWX-OSwEf-et_7CVESTLg0QGZsi9l&_nc_ohc=OLy6XQ-y9wgQ7kNvwHQIoL3&_nc_oc=AdoxU8E8Mbs3esc-KdAniOGZmmtRsOSfPUhcVmDKDi-X9APUWOQ07_tj6TYbNz5Q2Io&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=DwuccAGe6B2f5n5bCKnWbg&_nc_tpa=Q5bMBQKrHbaFR2aZxoYHkO0KG5vOXbi6YEYRbf5QqEUZKq4lNk_cWKQZqTjwgUYxMR8FHGy3SUniZSRVZQ&oh=00_AQLJ08pdC8qfZ6Fb7TThipRZ_4Qbqa7fuRWipSh-b-Ma_A&oe=6AA1F46D",
         "data": "2026-09-04",
         "tipo": "Reel",
-        "likes": 244,
-        "comentarios": 163,
-        "reach": 4180,
-        "shares": 34,
+        "likes": 264,
+        "comentarios": 168,
+        "reach": 4734,
+        "shares": 41,
         "saved": 1,
-        "interacoes": 481,
+        "interacoes": 519,
         "legenda": "Obrigado pelas palavras minha amiga @depbrunafurlan, vamos juntos por Barueri, por São Paulo e pelo Brasil…🚀  #cezinhade"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc1ggUjCXqy/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/793028504_18614744575015757_3898523425491817025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE77UAA5a-aczm2BjkrYKU0oLD9dKl4RyKgsP10qXhHIkKfgjNq2NmpITT2HVwziMPWfVepSsdEk19B38_fwhLk&_nc_ohc=L4OJdhnbgKAQ7kNvwFXij3v&_nc_oc=AdoRML8XxRGoGaeA3PxgAQtfoQ0Jmkw_iNjdIg889MwLLy-K0pL0o4HPHTZ7QnMQxhU&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=02ik008Sm1JHCLk0-ZWrPw&_nc_tpa=Q5bMBQK4TxvB3GfLnqsUKPr4Sb-qLrc3hwLVwQnqNOS8U7NvfvOO8xs_G1cHUt7yG6idX8JvIuy-0dC_jw&oh=00_AQJf6ZfI9ae3wZiSmwSOxrxP01KDP6z2TnkeBA1-eSse0Q&oe=6AA1D1F4",
+        "thumb": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/793028504_18614744575015757_3898523425491817025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE77UAA5a-aczm2BjkrYKU0oLD9dKl4RyKgsP10qXhHIkKfgjNq2NmpITT2HVwziMPWfVepSsdEk19B38_fwhLk&_nc_ohc=L4OJdhnbgKAQ7kNvwHJmdg7&_nc_oc=AdqCyahvej3Dp4dXKNPaFiJ2e3KJJFeQQ6eu439pwpQKiMTolG-HPsq9c-_7_rWboNM&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=DwuccAGe6B2f5n5bCKnWbg&_nc_tpa=Q5bMBQL6dT8dTLQFPf1NVWdhRShtkmemI1CUKNTWzqHOQV-jHNzP0UaxJVjJVkNS8pdJanVfzL1EmPqo7Q&oh=00_AQJ1nLtClyOHDL8zf0dKWC45s5tD0eeaFUKnrjdabevWDg&oe=6AA20A34",
         "data": "2026-09-03",
         "tipo": "Reel",
-        "likes": 235,
+        "likes": 238,
         "comentarios": 100,
-        "reach": 2580,
+        "reach": 2598,
         "shares": 14,
         "saved": 2,
-        "interacoes": 379,
+        "interacoes": 383,
         "legenda": "Ainda sobre ontem em Guararema, obrigado @lucianoferreira1235 e amigos."
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc1lfEADg6f/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=1XkgGoh2K20Q7kNvwFea75U&_nc_oc=Adov61T2sVFp_QaKfvcSjCdWZgeQhSD75wXbhjCWsZoWCUaDePAijOGBOxKMCAt6LvQ&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=02ik008Sm1JHCLk0-ZWrPw&_nc_tpa=Q5bMBQLD_3mwme8gY8Ec57COewgmlVsUnFSdPgJO-DEDMgIQ5DUs_TktQpJsUkoKpjkvRLl2oZ-_goFddA&oh=00_AQJth_Euo54AV_d5xLkfSjZtfYKlXJevH2-18y2agZIizA&oe=6AA1DA52",
+        "thumb": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=6we9st3hjNEQ7kNvwH84yGP&_nc_oc=Ado-koJ_SeaQPaFOri6VjRa8lPpku4KbXM4zhNJ6tWOI-B7aXSWcYEkmN9DW_W9ZN4g&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=DwuccAGe6B2f5n5bCKnWbg&_nc_tpa=Q5bMBQJ_ZtmI6p732qzaR7ptGexLJYu24LtIjO8igABMTTqQgkU5mZs4MCyi3oqV8xXiz5b_OPb7HYwYGw&oh=00_AQKDKhg__dTR5BS36Jm5TJuO9QVccGlhiW5ylj-X9sUo8Q&oe=6AA21292",
         "data": "2026-09-03",
         "tipo": "Reel",
-        "likes": 196,
-        "comentarios": 138,
-        "reach": 3319,
+        "likes": 202,
+        "comentarios": 139,
+        "reach": 3370,
         "shares": 15,
         "saved": 1,
-        "interacoes": 373,
+        "interacoes": 380,
         "legenda": "A energia de quem veste a camisa e acredita em um futuro melhor para São Paulo não tem preço! 🚀✨\r \r Trabalho sério, uniã"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc3xZnihcXR/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/794196752_18615059890015757_2480905754542546691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGFKsVm_BZ-ISHzTFTIi1rBEne_5sRVVZ4Sd7_mxFVVnrNnb7s6ZImDDID-JBL_XJJfgPOaFeeeWpXEZhwS0NCf&_nc_ohc=mofA1pKO760Q7kNvwGF3vNP&_nc_oc=Ado9a43BynR-tUnWjqOD201Dk0k8_AiS1Mz1K1MTrUI11slX5JF9EXwYF0AUy3H5Lc0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=02ik008Sm1JHCLk0-ZWrPw&_nc_tpa=Q5bMBQIDjxuDst4X_oibfsItmQNq-lQlyRVDCXNHzO_82DkpnJDdQshuUJTn_t3Qj463i6dalHkupZ8X5g&oh=00_AQKzonV98jtKmp9UuhvKg_Sbs8JeJ0SbHWpvpx58tyAaUg&oe=6AA1DB98",
+        "thumb": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/794196752_18615059890015757_2480905754542546691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGFKsVm_BZ-ISHzTFTIi1rBEne_5sRVVZ4Sd7_mxFVVnrNnb7s6ZImDDID-JBL_XJJfgPOaFeeeWpXEZhwS0NCf&_nc_ohc=mofA1pKO760Q7kNvwGKWVxd&_nc_oc=Adq1Ggg7wzlFtg9KqHC-m1Kuo6GpqD-rAmAeJDP6sd01NDUdkz6Jl-PwEUmUcltusgA&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=DwuccAGe6B2f5n5bCKnWbg&_nc_tpa=Q5bMBQIYqkQxlpio2AXxNWl9Q_FwlbIMngbEynxGnR8OmFGQ48-I04yTxDwZvG54m9SgLzq1ztaiHPtdow&oh=00_AQIdyrBbP3am7g-kLj9jcoD6AlB_7-zN0SodL1P9ztVhHw&oe=6AA213D8",
         "data": "2026-09-04",
         "tipo": "Reel",
-        "likes": 205,
-        "comentarios": 135,
-        "reach": 2696,
+        "likes": 209,
+        "comentarios": 136,
+        "reach": 2831,
         "shares": 4,
         "saved": 1,
-        "interacoes": 365,
+        "interacoes": 371,
         "legenda": "Hoje quem pagou o café foi meu amigo @samueljmarques de Itapevi"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/Dc1gSh-JbnT/",
+        "thumb": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/793721400_18614731576015757_238367729271739950_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGV6nBwocVxJpGMj_5KCv06ZPUDabhQiSJk9QNpuFCJIjvLJMTTCsfLNoAUZBmF5kX7rLjr_9_WE3ADmeHRnIUB&_nc_ohc=6T8husbJQC8Q7kNvwHTBZUo&_nc_oc=AdqcAqCQsemFTre3jtF2sjMD5ZMQUHnJI1IIJPXDzfqdU3SNS0VZMQ-0LP9mlEXz-fk&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=DwuccAGe6B2f5n5bCKnWbg&_nc_tpa=Q5bMBQLd1CAYd_de5sjo2U7uNB-ZZemmup725-sLbxHQh3TG_6XNoKytxV6iVEpq66OT1cUVLboc8RcMfQ&oh=00_AQKLjQkAB1fYVlNxruVqSAcV_bVBiNbwAlPqjNO0rBp_WQ&oe=6AA2218F",
+        "data": "2026-09-03",
+        "tipo": "Reel",
+        "likes": 172,
+        "comentarios": 84,
+        "reach": 3996,
+        "shares": 9,
+        "saved": 0,
+        "interacoes": 282,
+        "legenda": "Tempo precioso em Mogi das bençãos, com meu amigo Pr. @pastorgilbertodepaula na tarde da benção da @adbrasmogidascruzes"
       }
     ]
   },
