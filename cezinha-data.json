@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-05T02:53:09-03:00",
+  "atualizado_em": "2026-09-05T06:37:05-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 107483,
-    "ig_atual": 198085,
+    "ig_atual": 198082,
     "ig_posts": 616,
     "serie": [
       {
@@ -416,71 +416,71 @@
       {
         "data": "2026-09-05",
         "fb": 107483,
-        "ig": 198085
+        "ig": 198082
       }
     ],
     "ig_follows": 4839
   },
   "publico": {
-    "atualizado_em": "2026-09-05T02:53:09-03:00",
+    "atualizado_em": "2026-09-05T06:37:05-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
         {
           "k": "U",
-          "v": 76627
+          "v": 76732
         },
         {
           "k": "M",
-          "v": 44155
+          "v": 44181
         },
         {
           "k": "F",
-          "v": 41981
+          "v": 42011
         }
       ],
       "idade": [
         {
           "k": "35-44",
-          "v": 44887
+          "v": 44906
         },
         {
           "k": "25-34",
-          "v": 37830
+          "v": 37915
         },
         {
           "k": "45-54",
-          "v": 37429
+          "v": 37449
         },
         {
           "k": "18-24",
-          "v": 20106
+          "v": 20125
         },
         {
           "k": "55-64",
-          "v": 15266
+          "v": 15282
         },
         {
           "k": "65+",
-          "v": 5534
+          "v": 5541
         },
         {
           "k": "13-17",
-          "v": 1711
+          "v": 1706
         }
       ],
       "cidades": [
         {
           "k": "São Paulo, São Paulo (state)",
-          "v": 16334
+          "v": 16345
         },
         {
           "k": "Rio de Janeiro, Rio de Janeiro (state)",
-          "v": 2397
+          "v": 2395
         },
         {
           "k": "Guarulhos, São Paulo (state)",
-          "v": 1808
+          "v": 1816
         },
         {
           "k": "Saint Petersburg, Saint Petersburg",
@@ -492,7 +492,7 @@
         },
         {
           "k": "Osasco, São Paulo (state)",
-          "v": 899
+          "v": 900
         },
         {
           "k": "Goiânia, Goiás",
@@ -500,7 +500,7 @@
         },
         {
           "k": "New York, New York",
-          "v": 885
+          "v": 887
         },
         {
           "k": "Belo Horizonte, Minas Gerais",
@@ -512,7 +512,7 @@
         },
         {
           "k": "Delhi, Delhi",
-          "v": 816
+          "v": 817
         },
         {
           "k": "Salvador, Bahia",
@@ -586,12 +586,12 @@
         }
       ]
     },
-    "alcance_30d": 635622,
-    "views_30d": 2284340,
+    "alcance_30d": 637158,
+    "views_30d": 2288308,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/p/Dc1PxT5lCHL/",
-        "thumb": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/791942904_18614699329015757_2347753699690011585_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGhc2SWS-11mFgULowHvYjw8nQlQfz-2tTydCVB_P7a1Bsw4RFn8EdNkqn2HVuMALWdS4DG4HB5H45R1l9yjoIg&_nc_ohc=Z4_NyLYXwcIQ7kNvwGf_jRH&_nc_oc=AdqW0Z4VboAMNayEYLHOW7nMzvKTDxkHnaYRqOAY7mt8ewUFVWVgvDkKVI519JO0_00&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=g3fyG_EWz-thFswjfFMdDw&oh=00_AQJJJHEJxgyDWv2K67uoDshLo8zK9M-TcrZsKR1lF-4ZOw&oe=6AA17CD2",
+        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/791942904_18614699329015757_2347753699690011585_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGhc2SWS-11mFgULowHvYjw8nQlQfz-2tTydCVB_P7a1Bsw4RFn8EdNkqn2HVuMALWdS4DG4HB5H45R1l9yjoIg&_nc_ohc=Z4_NyLYXwcIQ7kNvwEV7MtU&_nc_oc=AdqfydiPWPRvM-7tjLG8aadIQbzY2GdYFBA7FKsDrL_qKpII0poy3_j_d5-xr5KMok8&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=o4WQHQGh8EdP79V-XxWoDA&oh=00_AQJpBOK1xCBu49s4toJ2lfL4xlXpgSmA3kKe1rAJ6tF8vA&oe=6AA1B512",
         "data": "2026-09-03",
         "tipo": "Foto",
         "likes": 361,
@@ -604,12 +604,12 @@
       },
       {
         "permalink": "https://www.instagram.com/p/Dc32MHMF7C9/",
-        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/793640379_18615013495015757_7369798256053899794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGEO01KC-z2kvurHi-3JTIAS6WkRwG2oydLpaRHAbajJyZKiESlOwYIfx68MZ7CTzAmYID2VR8Tivk_UByuzYYv&_nc_ohc=FhuP1NlBJ54Q7kNvwGFIB_e&_nc_oc=Adqk1C-k5uSEmLz3gyKUJIb5zpuf29EbxlGqfpfUJb2MaWmf47whdtbl8K7vpJHRkXE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=g3fyG_EWz-thFswjfFMdDw&oh=00_AQL3_35dHgizJ-2BETz-VYQ760kOeTLMxO6hPFGZvxOg3Q&oe=6AA182C9",
+        "thumb": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/793640379_18615013495015757_7369798256053899794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGEO01KC-z2kvurHi-3JTIAS6WkRwG2oydLpaRHAbajJyZKiESlOwYIfx68MZ7CTzAmYID2VR8Tivk_UByuzYYv&_nc_ohc=FhuP1NlBJ54Q7kNvwGo4JGe&_nc_oc=Adrsp-AyxlDrs07ENEwmEJZMRzxZrNb9iOrSg24UjKX4yLuxhMl853jAlS3Nb0AuJ3Q&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=o4WQHQGh8EdP79V-XxWoDA&oh=00_AQIHZ3BLo31p2g_giE_Yu3zzqp9bnAInk5ingLS_iYb4Zw&oe=6AA1BB09",
         "data": "2026-09-04",
         "tipo": "Carrossel",
         "likes": 78,
         "comentarios": 372,
-        "reach": 1556,
+        "reach": 1604,
         "shares": 39,
         "saved": 1,
         "interacoes": 507,
@@ -617,38 +617,38 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc4dXuXJHgU/",
-        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/797744947_18615128713015757_8950776798639578604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFdEOdBh0KqjOL5-1P2Saw6LoNpYmKsBmEug2liYqwGYXOfDrPx-m14v05YWX-OSwEf-et_7CVESTLg0QGZsi9l&_nc_ohc=OLy6XQ-y9wgQ7kNvwEr9C9Y&_nc_oc=AdqGuewTOuGsP6K6tIvGEDvOQxRJx_lE_cgJZk-HS6Ji2ut-OA6oE0icLkSw0fkxfy0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=g3fyG_EWz-thFswjfFMdDw&_nc_tpa=Q5bMBQKLvj_k449Gt5Y1MGntTw5_vcCt-LU9EZQXvLhXfPG9nhv70iWSEQ3eHlky1RYaVYua2rrCVTHFmw&oh=00_AQLQQmvfEOFGFfVAx1qTANyDrTDcOMPnMdyvG59zRpH2CA&oe=6AA183ED",
+        "thumb": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/797744947_18615128713015757_8950776798639578604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFdEOdBh0KqjOL5-1P2Saw6LoNpYmKsBmEug2liYqwGYXOfDrPx-m14v05YWX-OSwEf-et_7CVESTLg0QGZsi9l&_nc_ohc=OLy6XQ-y9wgQ7kNvwEf4HBN&_nc_oc=Adrd24aTfYIw7Dtmd_hyyDu2bNqMqChEQqt9VWSLQE6YLSOeDf11ebx_0EqBy0TV5BM&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=o4WQHQGh8EdP79V-XxWoDA&_nc_tpa=Q5bMBQK5DmxP0draVFhwRUO6t3tPmL-G5bkDXMJWMgwb2jWZJoERE1WlKQbn7Tu505wSLsGZL6-dXw1iSQ&oh=00_AQLFTpsNFIfK3oocb_s5Nmu_cDwIsuQOPZlVdrIUNw1y3Q&oe=6AA1BC2D",
         "data": "2026-09-04",
         "tipo": "Reel",
-        "likes": 210,
+        "likes": 213,
         "comentarios": 137,
-        "reach": 3538,
+        "reach": 3678,
         "shares": 33,
         "saved": 1,
-        "interacoes": 414,
+        "interacoes": 417,
         "legenda": "Obrigado pelas palavras minha amiga @depbrunafurlan, vamos juntos por Barueri, por São Paulo e pelo Brasil…🚀  #cezinhade"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc1lfEADg6f/",
-        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=1XkgGoh2K20Q7kNvwHIqv8e&_nc_oc=Ado3-_U3kPid6BijLVGQMhmW1k7B3d0GUWNAUeEP-cScDPImr8aQDzoRtoSJQkdIacM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=g3fyG_EWz-thFswjfFMdDw&_nc_tpa=Q5bMBQIj7dXOHtf0KkS-pXN_iejZtJ0epjAQDvFMkHFJAGYcTUlIKFEToVrW2RfSjZ1Vb2nqncGyU17WmA&oh=00_AQKpGDeEzB-PlXhw524Zqyn5uz7DPQu0QMytHQzvFO3R3Q&oe=6AA169D2",
+        "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=1XkgGoh2K20Q7kNvwEBvsdg&_nc_oc=AdprGbBe6Go6lyh-9vP247LAxkwe_sY-Zdqgj-W2rj1TiIUOeWlyoUs48dcCEOK1dn4&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=o4WQHQGh8EdP79V-XxWoDA&_nc_tpa=Q5bMBQJFzURLR5dBR9lwXFaAqHq0FqKZ1KO0a-IoAaKLrOXKGOIUfi6hF8k0EX4Nbqo5LgzmO_7lEf3GOg&oh=00_AQLTqZ6x1ki0PkskWPWR5GpES_zbKeqLhoZf7S7jGqaeIQ&oe=6AA1A212",
         "data": "2026-09-03",
         "tipo": "Reel",
-        "likes": 191,
+        "likes": 192,
         "comentarios": 131,
-        "reach": 3269,
+        "reach": 3274,
         "shares": 15,
         "saved": 1,
-        "interacoes": 361,
+        "interacoes": 362,
         "legenda": "A energia de quem veste a camisa e acredita em um futuro melhor para São Paulo não tem preço! 🚀✨\r \r Trabalho sério, uniã"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc1ggUjCXqy/",
-        "thumb": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/793028504_18614744575015757_3898523425491817025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE77UAA5a-aczm2BjkrYKU0oLD9dKl4RyKgsP10qXhHIkKfgjNq2NmpITT2HVwziMPWfVepSsdEk19B38_fwhLk&_nc_ohc=L4OJdhnbgKAQ7kNvwHujRH5&_nc_oc=AdqjhU0axOMgCo-xaoW-9syz1F4AgWrgaFv3ykoCn3-RthIP78pzYdHE7cBIr3OkY4I&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=g3fyG_EWz-thFswjfFMdDw&_nc_tpa=Q5bMBQKQ9ALaB5TBVwpKYBACxmflvL6pUXYTbNn297HF5Go5ebzI_VJKAi25UgHk_wBxlQxvbhwPA3n-Dw&oh=00_AQLDipF9zvjGuhgPGpBD2HOU_-RTQ18ayzsTES0pxltoLA&oe=6AA199B4",
+        "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/793028504_18614744575015757_3898523425491817025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeE77UAA5a-aczm2BjkrYKU0oLD9dKl4RyKgsP10qXhHIkKfgjNq2NmpITT2HVwziMPWfVepSsdEk19B38_fwhLk&_nc_ohc=L4OJdhnbgKAQ7kNvwFzDFG0&_nc_oc=AdpatdXH0RWxRR-yYjor2nDRHeFCW-JJMsDPmxYRPFyn2LzCrVhdA7xn1AwKIJkyWAA&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=o4WQHQGh8EdP79V-XxWoDA&_nc_tpa=Q5bMBQLQx9MxTjU1P3tXR-ynXTlVQVkGq-4EmSAvLJgDHFFPHnGZ23HXjXi66_AAlal0Ewjssn9klqFkpg&oh=00_AQLwpStnR9KY_y-ddl-nOAv0ZFWMMgi6UEFCCAtVE8wq1A&oe=6AA199B4",
         "data": "2026-09-03",
         "tipo": "Reel",
         "likes": 230,
         "comentarios": 86,
-        "reach": 2538,
+        "reach": 2556,
         "shares": 14,
         "saved": 2,
         "interacoes": 360,
@@ -656,12 +656,12 @@
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc3xZnihcXR/",
-        "thumb": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/794196752_18615059890015757_2480905754542546691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGFKsVm_BZ-ISHzTFTIi1rBEne_5sRVVZ4Sd7_mxFVVnrNnb7s6ZImDDID-JBL_XJJfgPOaFeeeWpXEZhwS0NCf&_nc_ohc=mofA1pKO760Q7kNvwEoxca9&_nc_oc=AdoPEMI4iDDWT6qOCUlT_Cbi4tOZdj4_k994bYVgCrjOP93RenlGRsbybXFojyQaeMg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=g3fyG_EWz-thFswjfFMdDw&_nc_tpa=Q5bMBQJWPn1JCAmstURRgNOOTCKZc-PfOYK0exijWsHZfv9YZK-Pja-Vfd6nD870AupT0Y_VDwyGg-Rs0Q&oh=00_AQIRLeiHsfwbidfXrnQaWfVqYoE9Ak9nJX_gFhUF7DVLCw&oe=6AA16B18",
+        "thumb": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/794196752_18615059890015757_2480905754542546691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGFKsVm_BZ-ISHzTFTIi1rBEne_5sRVVZ4Sd7_mxFVVnrNnb7s6ZImDDID-JBL_XJJfgPOaFeeeWpXEZhwS0NCf&_nc_ohc=mofA1pKO760Q7kNvwEzs_mk&_nc_oc=AdqvjpMJQkGHU2o0KINdBe9b8NDJBeE3ZJq1GAkMM_xP2OIWOiuAUo-NRFA0xfcJ2hk&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=o4WQHQGh8EdP79V-XxWoDA&_nc_tpa=Q5bMBQLkKH_5wMPomn_T5EGbT0IjGYtHyq4rCmBES8CLJp3Y9Hyr-sWmPxHnsS16mF3H5Ito5Hgi1-kjfg&oh=00_AQJA6zL6a50cUwqPgiwHjxaWT85Ld8crjokcV6WAg5jvTA&oe=6AA1A358",
         "data": "2026-09-04",
         "tipo": "Reel",
         "likes": 197,
         "comentarios": 131,
-        "reach": 2570,
+        "reach": 2591,
         "shares": 4,
         "saved": 1,
         "interacoes": 351,
