@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-06T09:24:12-03:00",
+  "atualizado_em": "2026-09-06T12:43:44-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,9 +9,9 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 107483,
-    "ig_atual": 198117,
-    "ig_posts": 623,
+    "fb_atual": 107485,
+    "ig_atual": 198140,
+    "ig_posts": 627,
     "serie": [
       {
         "data": "2026-06-17",
@@ -420,14 +420,14 @@
       },
       {
         "data": "2026-09-06",
-        "fb": 107483,
-        "ig": 198117
+        "fb": 107485,
+        "ig": 198140
       }
     ],
-    "ig_follows": 4852
+    "ig_follows": 4851
   },
   "publico": {
-    "atualizado_em": "2026-09-06T09:24:12-03:00",
+    "atualizado_em": "2026-09-06T12:43:44-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -592,85 +592,85 @@
       ]
     },
     "alcance_30d": 928698,
-    "views_30d": 2802360,
+    "views_30d": 2802435,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/reel/Dc6PCQ1E4aS/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/795981773_1393846672075842_8363428990562329024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHNlhDJeoAplBHLIrAWlDmYIvu2vzlzJmUi-7a_OXMmZUTgIR3OQR6-le15nvdkxcFhRdho1uonKSbi5iO32585&_nc_ohc=d-Mw6JCY2OkQ7kNvwEYXuzS&_nc_oc=Adr82AU0ZS-lIoRb6QssCQeLTmdHdClVbJXlLw748jUBX4hCxRvX2pWWvUSHjD9Hvds&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=No0GVwGQ5afCuJlecq5wOQ&_nc_tpa=Q5bMBQL23eh3iHKZ75Mrr0OAtu3__b3FZGo_LGJHAOLxzhBVkbCsyYj-r7_I1WA5qDk-2Yz-JT5iaRMP0w&oh=00_AQK5d7l5W8JTQhPFHOaeHQh0g7R3kKNg3_C1PkM3sYUuJg&oe=6AA34556",
+        "thumb": "https://scontent-gru2-2.cdninstagram.com/v/t51.71878-15/795981773_1393846672075842_8363428990562329024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHNlhDJeoAplBHLIrAWlDmYIvu2vzlzJmUi-7a_OXMmZUTgIR3OQR6-le15nvdkxcFhRdho1uonKSbi5iO32585&_nc_ohc=d-Mw6JCY2OkQ7kNvwGWpiix&_nc_oc=AdrSwmQFiWsifuF75buDpKQ4wwmUaSBhOJL6n3ccreWInNvysXJrWLUf5H6M0JzSAJE&_nc_zt=23&_nc_ht=scontent-gru2-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=p4x9uWfrwkGdFHu0kJfQqg&_nc_tpa=Q5bMBQLrP5Efik_uiiKMGi_nIwhKHOXuFZ87zJsVgNu9v75FXVGtP2L32NGOH1BHs-AcWEk7n6DPiEng8g&oh=00_AQLsEHBdylsQCJKeOpStHKfwFcMucti70ClbOI5p5P6Zww&oe=6AA34556",
         "data": "2026-09-05",
         "tipo": "Reel",
-        "likes": 378,
-        "comentarios": 138,
-        "reach": 4451,
-        "shares": 48,
+        "likes": 391,
+        "comentarios": 175,
+        "reach": 4645,
+        "shares": 50,
         "saved": 7,
-        "interacoes": 619,
+        "interacoes": 675,
         "legenda": "Trabalho forte e alinhado com quem faz acontecer em Sorocaba! 🚀🔥\r \r Estou com o nosso prefeito Rodrigo Manga (@rodrigoma"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc7I75mJI54/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/797517887_18615454900015757_5157102704068671838_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeH8e1rczDPe2Mockeow6Wjlw_A2yFMI4lLD8DbIUwjiUtN3Zxi9XAhHpVDtJing2Rv-w92uxxH_5d9YGm5--J_b&_nc_ohc=IbhbT7rSymgQ7kNvwELdlO_&_nc_oc=AdqMON1mRJ3zQe3DHSSNUiWYUk1o6PZjnB0bjyq_vMRktiJTmn72rhSnYujlp-FOyio&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=No0GVwGQ5afCuJlecq5wOQ&_nc_tpa=Q5bMBQLm57JfYmA85t-Z_y3UElCBUcfsmuQ9le6soMCFHxxIWCPcbB5RTNwBaItpatm2lcIt9pdwi6K0WA&oh=00_AQILm_le0fc_1333zDpiv6x6eOtRh6fpsCp3Wr5TIEx0yA&oe=6AA348A5",
+        "thumb": "https://scontent-gru2-1.cdninstagram.com/v/t51.82787-15/797517887_18615454900015757_5157102704068671838_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeH8e1rczDPe2Mockeow6Wjlw_A2yFMI4lLD8DbIUwjiUtN3Zxi9XAhHpVDtJing2Rv-w92uxxH_5d9YGm5--J_b&_nc_ohc=IbhbT7rSymgQ7kNvwFxU0CQ&_nc_oc=AdpZMc7DIoSJTv34Kjz23XBohSRXFLHO_RPUS5y0rgCDvLFcQ6mvJ7PA_t6j00PCt9g&_nc_zt=23&_nc_ht=scontent-gru2-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=p4x9uWfrwkGdFHu0kJfQqg&_nc_tpa=Q5bMBQLKqYquY7exts3H7aZ8fdv4U7A_pUsktISziM4CTq0wthKo5sK1buY__EytmHW4JUB31elKolO0cA&oh=00_AQILYgWapf3eTPD3Uoljpp7MsZ3dhlAzM0Vxo3aXl3N3jw&oe=6AA348A5",
         "data": "2026-09-05",
         "tipo": "Reel",
-        "likes": 326,
-        "comentarios": 213,
-        "reach": 5822,
-        "shares": 16,
-        "saved": 5,
-        "interacoes": 581,
+        "likes": 339,
+        "comentarios": 237,
+        "reach": 6176,
+        "shares": 17,
+        "saved": 6,
+        "interacoes": 621,
         "legenda": "Não tem nada melhor do que adorar a Deus! Deus abençoe meu amigo querido Pr. @deiroandrade @adsm_oficial"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc4dXuXJHgU/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/797744947_18615128713015757_8950776798639578604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFdEOdBh0KqjOL5-1P2Saw6LoNpYmKsBmEug2liYqwGYXOfDrPx-m14v05YWX-OSwEf-et_7CVESTLg0QGZsi9l&_nc_ohc=NW6-Oc-i5PEQ7kNvwEi848g&_nc_oc=Ado1PCXlIB5Ech21vCu_RIlidckWmKVClQm2lW7231zFHPBJJvhmJkd06m4rvmSkxVM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=No0GVwGQ5afCuJlecq5wOQ&_nc_tpa=Q5bMBQKia4fkCA0mGKP3ICJin5KVzxzjKpNj8Y-tljtBRx-OPkEyu03ZgQk3lIL6TCV7Be_YJrywZJ94HA&oh=00_AQJa6u49X0Zn3Jy6TnE7UVt2e47e7qkHRVl7I3dogyNBmg&oe=6AA345ED",
+        "thumb": "https://scontent-gru1-1.cdninstagram.com/v/t51.82787-15/797744947_18615128713015757_8950776798639578604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFdEOdBh0KqjOL5-1P2Saw6LoNpYmKsBmEug2liYqwGYXOfDrPx-m14v05YWX-OSwEf-et_7CVESTLg0QGZsi9l&_nc_ohc=NW6-Oc-i5PEQ7kNvwFWccPX&_nc_oc=AdrNcMH19VY-YGeEfFGFC9zuuDJO4Gf_9djo0vs_ZEHJrfZUY26lNWVtyTs9oYJgj0A&_nc_zt=23&_nc_ht=scontent-gru1-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=p4x9uWfrwkGdFHu0kJfQqg&_nc_tpa=Q5bMBQJHxtePoD-0liEcImWYJcCTLKnXysOD8nFviE4kWw3EcydtUfD1j_zBlywy3mL4WIbuMrKz4wuU6g&oh=00_AQKo8k6Ts3kvkb7QmRhv9ZbtekJqeg4Z4Lv8dGp9800LpA&oe=6AA345ED",
         "data": "2026-09-04",
         "tipo": "Reel",
-        "likes": 300,
-        "comentarios": 176,
-        "reach": 6354,
-        "shares": 53,
+        "likes": 302,
+        "comentarios": 178,
+        "reach": 6443,
+        "shares": 54,
         "saved": 3,
-        "interacoes": 580,
+        "interacoes": 584,
         "legenda": "Obrigado pelas palavras minha amiga @depbrunafurlan, vamos juntos por Barueri, por São Paulo e pelo Brasil…🚀  #cezinhade"
       },
       {
         "permalink": "https://www.instagram.com/p/Dc32MHMF7C9/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/793640379_18615013495015757_7369798256053899794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGEO01KC-z2kvurHi-3JTIAS6WkRwG2oydLpaRHAbajJyZKiESlOwYIfx68MZ7CTzAmYID2VR8Tivk_UByuzYYv&_nc_ohc=FhuP1NlBJ54Q7kNvwGWEPR_&_nc_oc=AdpqaNn1CBPPCt9EXNDrr4lKwFiVeeiytwJwoz-Be_hNb0lh8qvdVpPdf55O2WHawhk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=No0GVwGQ5afCuJlecq5wOQ&oh=00_AQJPVh8C2DakgeHnQom4Hp_3SjI_VSPUZkklt0caCYRonA&oe=6AA344C9",
+        "thumb": "https://scontent-gru1-1.cdninstagram.com/v/t51.82787-15/793640379_18615013495015757_7369798256053899794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGEO01KC-z2kvurHi-3JTIAS6WkRwG2oydLpaRHAbajJyZKiESlOwYIfx68MZ7CTzAmYID2VR8Tivk_UByuzYYv&_nc_ohc=FhuP1NlBJ54Q7kNvwFalw3c&_nc_oc=AdqTpUSVGd_xzNF4-6SOJgsCUPdbgXr5TI3bH-sEp6PvJQqXWanpLFghk9b-orZm4oQ&_nc_zt=23&_nc_ht=scontent-gru1-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=p4x9uWfrwkGdFHu0kJfQqg&oh=00_AQIFqR00Z77Yr08e-e0M6a0IWoYwC7cL4fU7uOIh__L20Q&oe=6AA344C9",
         "data": "2026-09-04",
         "tipo": "Carrossel",
         "likes": 87,
-        "comentarios": 414,
-        "reach": 2255,
+        "comentarios": 416,
+        "reach": 2270,
         "shares": 39,
         "saved": 1,
-        "interacoes": 560,
+        "interacoes": 562,
         "legenda": "O debate sobre o fim da escala 6x1 mexe diretamente com a rotina de quem trabalha e de quem empreende nas ruas de São Pa"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc6jsAvpFjL/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/798414997_18615358717015757_2268324470169823106_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEo82N1m6N0sp9NVV3do6La9ytvUOzsAQ_3K29Q7OwBDwt06Xe_xm_n0lNgDYbg05IceZWBOCLyDlRRioUQw6fg&_nc_ohc=Xv0C8RE8xO0Q7kNvwGWkvnc&_nc_oc=AdrxVaXBAUo14bxzhxS_RhNDs-povmgV1IaD2WZpVJ3eWbgnwmOUkDN9Zf0sQsPGA-o&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=No0GVwGQ5afCuJlecq5wOQ&_nc_tpa=Q5bMBQL9KSjnuGYVMQnbWyMrNWXlOrNbhB8yZ12HnzhkWAlkMVqDkS0gre8Z84F1vL7-d7coBRToYSD7qg&oh=00_AQKsHbnhPSjvlBtyIM-fZ_sTclTVHojjMhlT2trJlFVvlA&oe=6AA344B5",
+        "thumb": "https://scontent-gru2-2.cdninstagram.com/v/t51.82787-15/798414997_18615358717015757_2268324470169823106_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEo82N1m6N0sp9NVV3do6La9ytvUOzsAQ_3K29Q7OwBDwt06Xe_xm_n0lNgDYbg05IceZWBOCLyDlRRioUQw6fg&_nc_ohc=Xv0C8RE8xO0Q7kNvwGsm_yJ&_nc_oc=AdoYfjLcHYknRCU9Ac0_2VgcIWXhWN-pRAoWGvmVn2Vyj6KQ8-CpD00SirAnfgafBEQ&_nc_zt=23&_nc_ht=scontent-gru2-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=p4x9uWfrwkGdFHu0kJfQqg&_nc_tpa=Q5bMBQIx9Shjc6rOQmr02SF8shIg0aDIPDKGv6bW7DxOImSDPxVyaBASph8-rDN36V1vBcjhUiupDSMfoA&oh=00_AQJLUsGMYQbGRbkq10ycYBsyykv-jZIKX7c32Iwcc4fIag&oe=6AA344B5",
         "data": "2026-09-05",
         "tipo": "Reel",
-        "likes": 294,
-        "comentarios": 119,
-        "reach": 2942,
-        "shares": 25,
+        "likes": 307,
+        "comentarios": 145,
+        "reach": 3145,
+        "shares": 29,
         "saved": 3,
-        "interacoes": 476,
+        "interacoes": 520,
         "legenda": "Amai-vos cordialmente uns aos outros com amor fraternal, preferindo-vos em honra uns aos outros. Romanos 12:10"
       },
       {
-        "permalink": "https://www.instagram.com/reel/Dc1lfEADg6f/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/795583427_18614744917015757_5242023537835177188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFC5wBcj7TmyeSAkTmBaqoBip0Y4LoRPAOKnRjguhE8A9REGtW_NT86hn00hO7o14pNINPACt9mPyyNwKOMk5OT&_nc_ohc=6we9st3hjNEQ7kNvwH3mZsz&_nc_oc=AdojCbfQKf3z7Sq8gP2d9W2Z17Zkbq8HqtcyDQnF25AI7-11iCFcIV5igS_Np_knaVY&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=No0GVwGQ5afCuJlecq5wOQ&_nc_tpa=Q5bMBQKLXMZGVlVV65iTJyCAJ5W2iEH0ck0JzL_fgAsZBIJmk8gxYCPAZZb6WPOxoJSCwPNDauGH_nkODg&oh=00_AQL_sZ1gGahP4KaN0b_lWyf9KVWK3nzwdAghlzWW9MpJVw&oe=6AA32BD2",
-        "data": "2026-09-03",
+        "permalink": "https://www.instagram.com/reel/Dc6RpuNhcOB/",
+        "thumb": "https://scontent-gru1-2.cdninstagram.com/v/t51.82787-15/797418606_18615401962015757_3229796190242586899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEfwL_IJ0sw_A29IjtPhXhvxE9JXkN82kTET0leQ3zaRCt9nrZgvi850wTqgbfqwFsrOjCGw6eaEzz8zkGtoaxp&_nc_ohc=F9_ahp14x8AQ7kNvwHGgXnl&_nc_oc=AdrbfJzDgWhGR5eZTa1vTyH_aUZhXyUtl2TWAW32c6ewmH4DPsiOdrg9I3Fv0CzQMOQ&_nc_zt=23&_nc_ht=scontent-gru1-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=p4x9uWfrwkGdFHu0kJfQqg&_nc_tpa=Q5bMBQKpo7YHyigt9p_SE9nw-eVbQIOvvh5qiN-YmV4YYuifPQLRB0MVSdn2VBqQDToFiZU-a_xQGRsaCg&oh=00_AQLvSyAuG-SgrvTFxVQ-Ib815lsHbHoRK_ekx4r5KQba2g&oe=6AA363F6",
+        "data": "2026-09-05",
         "tipo": "Reel",
-        "likes": 218,
-        "comentarios": 140,
-        "reach": 3488,
-        "shares": 15,
+        "likes": 143,
+        "comentarios": 239,
+        "reach": 1959,
+        "shares": 9,
         "saved": 1,
-        "interacoes": 400,
-        "legenda": "A energia de quem veste a camisa e acredita em um futuro melhor para São Paulo não tem preço! 🚀✨\r \r Trabalho sério, uniã"
+        "interacoes": 410,
+        "legenda": "Bastidores da nossa equipe no escritório! 🏢🤝  É essa união, dedicação e garra de cada um dos nossos colaboradores no dia"
       }
     ]
   },
