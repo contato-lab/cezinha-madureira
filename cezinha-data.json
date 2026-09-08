@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-08T02:56:00-03:00",
+  "atualizado_em": "2026-09-08T08:10:12-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -10,7 +10,7 @@
   },
   "seguidores": {
     "fb_atual": 107476,
-    "ig_atual": 198271,
+    "ig_atual": 198264,
     "ig_posts": 638,
     "serie": [
       {
@@ -431,71 +431,71 @@
       {
         "data": "2026-09-08",
         "fb": 107476,
-        "ig": 198271
+        "ig": 198264
       }
     ],
-    "ig_follows": 4897
+    "ig_follows": 4898
   },
   "publico": {
-    "atualizado_em": "2026-09-08T02:56:00-03:00",
+    "atualizado_em": "2026-09-08T08:10:12-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
         {
           "k": "U",
-          "v": 76698
+          "v": 76598
         },
         {
           "k": "M",
-          "v": 44256
+          "v": 44300
         },
         {
           "k": "F",
-          "v": 42101
+          "v": 42147
         }
       ],
       "idade": [
         {
           "k": "35-44",
-          "v": 44937
+          "v": 44940
         },
         {
           "k": "25-34",
-          "v": 37931
+          "v": 37947
         },
         {
           "k": "45-54",
-          "v": 37513
+          "v": 37492
         },
         {
           "k": "18-24",
-          "v": 20088
+          "v": 20082
         },
         {
           "k": "55-64",
-          "v": 15330
+          "v": 15316
         },
         {
           "k": "65+",
-          "v": 5556
+          "v": 5571
         },
         {
           "k": "13-17",
-          "v": 1700
+          "v": 1697
         }
       ],
       "cidades": [
         {
           "k": "São Paulo, São Paulo (state)",
-          "v": 16383
+          "v": 16399
         },
         {
           "k": "Rio de Janeiro, Rio de Janeiro (state)",
-          "v": 2400
+          "v": 2396
         },
         {
           "k": "Guarulhos, São Paulo (state)",
-          "v": 1827
+          "v": 1825
         },
         {
           "k": "Saint Petersburg, Saint Petersburg",
@@ -503,11 +503,11 @@
         },
         {
           "k": "Campinas, São Paulo (state)",
-          "v": 1134
+          "v": 1132
         },
         {
           "k": "Osasco, São Paulo (state)",
-          "v": 909
+          "v": 915
         },
         {
           "k": "New York, New York",
@@ -515,15 +515,15 @@
         },
         {
           "k": "Goiânia, Goiás",
-          "v": 884
+          "v": 880
         },
         {
           "k": "Belo Horizonte, Minas Gerais",
-          "v": 841
+          "v": 840
         },
         {
           "k": "Piracicaba, São Paulo (state)",
-          "v": 828
+          "v": 826
         },
         {
           "k": "Delhi, Delhi",
@@ -531,7 +531,7 @@
         },
         {
           "k": "Salvador, Bahia",
-          "v": 811
+          "v": 810
         }
       ]
     },
@@ -601,85 +601,85 @@
         }
       ]
     },
-    "alcance_30d": 1738952,
-    "views_30d": 4757763,
+    "alcance_30d": 1743603,
+    "views_30d": 4763460,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/p/Dc_lSj4iTow/",
-        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/799854174_18615980764015757_1108281446767599517_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGQcY83-tNqhPk7hbZ0rYiRUl26Z1Ib_KxSXbpnUhv8rCFymjNiowzQdbfxpgptvHMXDIhll6h7FbZ9o-MZOCgt&_nc_ohc=KvSLiI-W_ecQ7kNvwH2UTbR&_nc_oc=Ado3DDNBQoKkjCQ2K_i7UJWMeSx-PrYOJG-cFcdsp6wfYmoF9-mxAKTC1Kl71Inie_U&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&oh=00_AQJYqBXEIt0YQxqnvWw4US-zZ1xvWK_E-SSvlqjKe0dezg&oe=6AA57268",
+        "thumb": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/799854174_18615980764015757_1108281446767599517_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGQcY83-tNqhPk7hbZ0rYiRUl26Z1Ib_KxSXbpnUhv8rCFymjNiowzQdbfxpgptvHMXDIhll6h7FbZ9o-MZOCgt&_nc_ohc=KvSLiI-W_ecQ7kNvwHeKDUm&_nc_oc=Adqpq_KNcX_ztSPPmos6GQKX9YXdN_hC5xCPo4jh25CwzuiDnmmYAk6oprHKWUurtoc&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=VcC0OFaHBu5Dgs_pP8xsiQ&oh=00_AQKLFFK3pnOzmNgHARCYXvBaNIZFgcrbsGOmnG2rw2-6Sw&oe=6AA5AAA8",
         "data": "2026-09-07",
         "tipo": "Foto",
-        "likes": 326,
-        "comentarios": 725,
-        "reach": 4003,
+        "likes": 335,
+        "comentarios": 728,
+        "reach": 4219,
         "shares": 238,
-        "saved": 1,
-        "interacoes": 1356,
+        "saved": 3,
+        "interacoes": 1371,
         "legenda": "7 de Setembro: o dia em que celebramos a soberania da nossa pátria e a força de um povo que não desiste nunca! 🇧🇷✨  O fu"
       },
       {
         "permalink": "https://www.instagram.com/p/Dc_tEPKCbaq/",
-        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/799543817_18615998422015757_3143432872913162039_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeHzwXghZpDbOht8orX-q4hKHIxYc_ppGnEcjFhz-mkacSYW9pt2VHm6sc-udkk3UXbx76QFj-dEKRNWIGnN1S2x&_nc_ohc=n281tm3BkPoQ7kNvwG4OO5Q&_nc_oc=AdoDDL_EaYNAe9GLvKOxmuMEvS109Yv1t2dGvnE4zVYHVpZiU813-WZIWg_KqaNuJm0&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&oh=00_AQI8aSh0wOPEQv_8vRHI7q0kLssz_dVd9zeK6DqcG6IlRw&oe=6AA58962",
+        "thumb": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/799543817_18615998422015757_3143432872913162039_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeHzwXghZpDbOht8orX-q4hKHIxYc_ppGnEcjFhz-mkacSYW9pt2VHm6sc-udkk3UXbx76QFj-dEKRNWIGnN1S2x&_nc_ohc=n281tm3BkPoQ7kNvwHmE8Un&_nc_oc=Adpzm1Yj1419Zx-gCK8wr3b_7ahKUXWs3YJ4Oo34fNnZuSqkDpxI06bLbpuudvBvkgI&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=VcC0OFaHBu5Dgs_pP8xsiQ&oh=00_AQIqQBhY7BTdBdQOxhQLJuyswn8yiF40d6q0jSQLOfW9Qg&oe=6AA5C1A2",
         "data": "2026-09-07",
         "tipo": "Carrossel",
-        "likes": 320,
+        "likes": 336,
         "comentarios": 640,
-        "reach": 5751,
-        "shares": 8,
+        "reach": 6273,
+        "shares": 11,
         "saved": 1,
-        "interacoes": 987,
+        "interacoes": 1006,
         "legenda": "Manhã de consagração no Brás, ao lado dos nossos líderes de jovens e adolescentes.   Juntos com o Bispo @oficialbisposam"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc_4AYSpC89/",
-        "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/799869097_18616027000015757_4233431974342284988_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHKd6UGufcxsCSLfRsLQ8zfsIX8u5Q9KySwhfy7lD0rJC9Wm4CsXkq_kl5tyO4pYg5GQYwXgssQ5ziDZB_cqE7v&_nc_ohc=JrlJrBnpA2AQ7kNvwGLOwdc&_nc_oc=AdpJ-hwLs9qT52HkczsD9laUDyF7yiOY7jcVUEvrxcSsd0Zvlak7RXQuzET_xzGtiO8&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQIifNAE3Cp18-dXOgf5ClDIaPEQfCx7pNmw3qFZvYye58yjrFihBXEHNeCnYmck8-y7jsCwC3EqMw&oh=00_AQLTnxBsvIQmUwLAyNcW0dD9LwcMBAyVtG2vOxmvmP4LIg&oe=6AA55CDE",
+        "thumb": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/799869097_18616027000015757_4233431974342284988_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHKd6UGufcxsCSLfRsLQ8zfsIX8u5Q9KySwhfy7lD0rJC9Wm4CsXkq_kl5tyO4pYg5GQYwXgssQ5ziDZB_cqE7v&_nc_ohc=JrlJrBnpA2AQ7kNvwHlveEw&_nc_oc=AdohyFxZEY77c7Ar1YwEsb8WI8Lj9RXfI9-B-mpdWZMrU15Qdjbx8toEvVjo076kGz4&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=VcC0OFaHBu5Dgs_pP8xsiQ&_nc_tpa=Q5bMBQLi1IHhwYa19ho-GGGmW10K3TUm22Ts48ommkLl34jbSuyBOvwCr2WvMXLHB6qPR4LYv3pdrj4iOA&oh=00_AQLCUU7WM8XAedPHd6bwiYde_cE7x7IlItiAaxRuWIOdww&oe=6AA5CD5E",
         "data": "2026-09-07",
         "tipo": "Reel",
-        "likes": 182,
+        "likes": 187,
         "comentarios": 700,
-        "reach": 1933,
+        "reach": 2046,
         "shares": 11,
-        "saved": 2,
-        "interacoes": 912,
+        "saved": 3,
+        "interacoes": 919,
         "legenda": "Manhã de consagração no Brás, ao lado dos nossos lideres se jovens e adolescentes.  Junto com o Bispo @oficialbisposamue"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc805dIu_y2/",
-        "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/798315737_18615647548015757_1170107924467533435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEZPPPQBrlERJMNeOXs1tVD2phMUa55WV3amExRrnlZXW6s3mvx__QnvwkeAmAflLrci_F8y_l36GUkzhFRXCEN&_nc_ohc=FI3b907_enQQ7kNvwHPFa5I&_nc_oc=AdpnthnjG4fQwiciK3J0Bhr5oPxPvpYV2xUrMl8oDwqWF4un-jVmCqKhId-vh5Y8NXM&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQLPpEI8-N_xN6Sh2NAD0Y8rMO3NR2Hpudc_xgEG1x7xYCjuz2ibOFzg82_onYv9GJnP3P-8qaDMkg&oh=00_AQKP8KKJhDmLiK-aOAvaYoRwmS-mJ5A8nyweDxEK8UC5AA&oe=6AA5654A",
+        "thumb": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/798315737_18615647548015757_1170107924467533435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEZPPPQBrlERJMNeOXs1tVD2phMUa55WV3amExRrnlZXW6s3mvx__QnvwkeAmAflLrci_F8y_l36GUkzhFRXCEN&_nc_ohc=FI3b907_enQQ7kNvwEPvAha&_nc_oc=Adr1PJQIEde9DC3d_0pahPbrZk7mElf5LcXBpsIcdzr5fiHZJIRM119X5NBqNAHGdmc&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=VcC0OFaHBu5Dgs_pP8xsiQ&_nc_tpa=Q5bMBQK7lgOFBAtqQzQAEovLQxPYXopdB5RPeLAUPWLKEnE_S_UPa9ZcdLQCZXBluigtTSzOA8teXe2eZQ&oh=00_AQKacTdEtQ56k4DPPaRJ-EVU7GTJHI6HnEIjD-iPb4SHHg&oe=6AA5D5CA",
         "data": "2026-09-06",
         "tipo": "Reel",
-        "likes": 342,
+        "likes": 345,
         "comentarios": 297,
-        "reach": 3418,
+        "reach": 3423,
         "shares": 69,
         "saved": 0,
-        "interacoes": 771,
+        "interacoes": 774,
         "legenda": "Seguimos firmes nossa jornada. 2️⃣2️⃣2️⃣3️⃣🗳️  Conto com as orações de vocês. Que Deus continue nos guiando, guardando e"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc_Z9NVtl3C/",
-        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/799543808_18615952474015757_3902416495526710497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEzbgPLnFl1wR9LM-f4OogiWhQHCEhi6VVaFAcISGLpVT0a0p2MJ4723DcrVznGr685hlWy7iJEwcqh_shgQOXF&_nc_ohc=83c95c_TF5oQ7kNvwG2jQYL&_nc_oc=Adrnk8W2nqHQEbzrfu0wLP7NeZjBaBpJzfBUY3vkXrLH4BO1Hs7EoGm0OYht2TwAyvk&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQJYQmGFxafDXL9NBeNodXMQvcB2qrg9BUyG2TtLnfQDzsxw2H9CzF2idC_HereZN8leS8Av40KT8A&oh=00_AQKBrpVou49rimTTX16HnHrqpeekutfTG6Seyu0kWdDOWQ&oe=6AA56B73",
+        "thumb": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/799543808_18615952474015757_3902416495526710497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEzbgPLnFl1wR9LM-f4OogiWhQHCEhi6VVaFAcISGLpVT0a0p2MJ4723DcrVznGr685hlWy7iJEwcqh_shgQOXF&_nc_ohc=83c95c_TF5oQ7kNvwFxtQDK&_nc_oc=AdoFxUn_hmPphNT9J8zNpm84dG6IJ6J4pnMHAPTk4yPYvaj29HdrzslVrM1pqdKM7Cs&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=VcC0OFaHBu5Dgs_pP8xsiQ&_nc_tpa=Q5bMBQKCedo0bHOKLRdQEMasiwpeIdR1B4WW6ZQRUbLiRB5kFky1PRLKV-09wIzmRxz54A_1pKZ7O6PXVA&oh=00_AQLydKrEmZsTXBi8BJ5d_Lky2JGR943LyUGIeHUB3gsFqA&oe=6AA5A3B3",
         "data": "2026-09-07",
         "tipo": "Reel",
-        "likes": 115,
-        "comentarios": 500,
-        "reach": 2395,
+        "likes": 118,
+        "comentarios": 502,
+        "reach": 2504,
         "shares": 93,
         "saved": 3,
-        "interacoes": 738,
+        "interacoes": 744,
         "legenda": "Trabalho forte e alinhado com quem faz acontecer em Sorocaba! 🚀🔥  Estou com o nosso prefeito Rodrigo Manga @rodrigomanga"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc9hvtOp0Al/",
-        "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/798797946_18615748081015757_5038845298810274374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGpXUY4pwLdpX1F2rBRqRbggA8kVkOZ0qOADyRWQ5nSo0WUXmZfTjtzhXwDDFZNASpM_2Feirq8BquvfZb6kUeO&_nc_ohc=dkrxh7nftbUQ7kNvwEemz3z&_nc_oc=AdpFS5kFZS6jCrvHpugeeyc7NMgqhBO6ZXv4QqpYSMSiE-5rZ7fIK_HyZAyRHOCFNmw&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQKo7JoHhrOCxxTuPF2TV3ZiR2yWFLkPAAmDqVIFbEZ-MQNvM8wFqFhD4VaPXpS9QuovYGPL7nXo6w&oh=00_AQI5HgwNOzcTgLzLmFjDc4b_KkoipiXQTicaUphNpnhuxQ&oe=6AA56E1A",
+        "thumb": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/798797946_18615748081015757_5038845298810274374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGpXUY4pwLdpX1F2rBRqRbggA8kVkOZ0qOADyRWQ5nSo0WUXmZfTjtzhXwDDFZNASpM_2Feirq8BquvfZb6kUeO&_nc_ohc=dkrxh7nftbUQ7kNvwFYwNLH&_nc_oc=AdrEGze5VQWjdoO2BtT3d2pdRtURUzjKbzsNZ4MTe9wFouScd9DsLE0ZumBNCuRUyF4&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=VcC0OFaHBu5Dgs_pP8xsiQ&_nc_tpa=Q5bMBQKKDm48JGJLUeqT2phmtfpd5L6H4Nn9MFJj5FpPJHnjEqgD3cqYIP7a6WpRYzezvwr9GF0elHzC7g&oh=00_AQJUo9yxmlZ0GBA4-ceFOUrwHnN4sfGYJAKBjA6uj4rS4Q&oe=6AA5A65A",
         "data": "2026-09-06",
         "tipo": "Reel",
-        "likes": 220,
+        "likes": 224,
         "comentarios": 401,
-        "reach": 2807,
+        "reach": 2843,
         "shares": 7,
         "saved": 3,
-        "interacoes": 654,
+        "interacoes": 658,
         "legenda": "Vista a nossa camisa — e a sua foto de perfil!  A nossa caminhada ganha força com a participação de cada um de vocês.   "
       }
     ]
