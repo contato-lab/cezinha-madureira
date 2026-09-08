@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-07T22:07:54-03:00",
+  "atualizado_em": "2026-09-08T02:56:00-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,9 +9,9 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 107479,
-    "ig_atual": 198264,
-    "ig_posts": 637,
+    "fb_atual": 107476,
+    "ig_atual": 198271,
+    "ig_posts": 638,
     "serie": [
       {
         "data": "2026-06-17",
@@ -427,12 +427,17 @@
         "data": "2026-09-07",
         "fb": 107479,
         "ig": 198264
+      },
+      {
+        "data": "2026-09-08",
+        "fb": 107476,
+        "ig": 198271
       }
     ],
-    "ig_follows": 4873
+    "ig_follows": 4897
   },
   "publico": {
-    "atualizado_em": "2026-09-07T22:07:54-03:00",
+    "atualizado_em": "2026-09-08T02:56:00-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -596,86 +601,86 @@
         }
       ]
     },
-    "alcance_30d": 1312759,
-    "views_30d": 3654490,
+    "alcance_30d": 1738952,
+    "views_30d": 4757763,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/p/Dc_lSj4iTow/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/799854174_18615980764015757_1108281446767599517_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGQcY83-tNqhPk7hbZ0rYiRUl26Z1Ib_KxSXbpnUhv8rCFymjNiowzQdbfxpgptvHMXDIhll6h7FbZ9o-MZOCgt&_nc_ohc=KvSLiI-W_ecQ7kNvwGqs4HY&_nc_oc=AdoolwRMy6qvj17FWPF7bJB3_Wcmu5y8LbcYAwL0n3HBnCqfo6TST5RyU9tvwwAPfSM&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iEBcgJxCHdI6suvOH9l6Yg&oh=00_AQK_NGSQyNymHCoIg8TL3lmehrjLe4vtrRl8qfbDTNzBog&oe=6AA53A28",
+        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/799854174_18615980764015757_1108281446767599517_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeGQcY83-tNqhPk7hbZ0rYiRUl26Z1Ib_KxSXbpnUhv8rCFymjNiowzQdbfxpgptvHMXDIhll6h7FbZ9o-MZOCgt&_nc_ohc=KvSLiI-W_ecQ7kNvwH2UTbR&_nc_oc=Ado3DDNBQoKkjCQ2K_i7UJWMeSx-PrYOJG-cFcdsp6wfYmoF9-mxAKTC1Kl71Inie_U&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&oh=00_AQJYqBXEIt0YQxqnvWw4US-zZ1xvWK_E-SSvlqjKe0dezg&oe=6AA57268",
         "data": "2026-09-07",
         "tipo": "Foto",
-        "likes": 302,
-        "comentarios": 607,
-        "reach": 3360,
-        "shares": 157,
+        "likes": 326,
+        "comentarios": 725,
+        "reach": 4003,
+        "shares": 238,
         "saved": 1,
-        "interacoes": 1125,
+        "interacoes": 1356,
         "legenda": "7 de Setembro: o dia em que celebramos a soberania da nossa pátria e a força de um povo que não desiste nunca! 🇧🇷✨  O fu"
       },
       {
+        "permalink": "https://www.instagram.com/p/Dc_tEPKCbaq/",
+        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/799543817_18615998422015757_3143432872913162039_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeHzwXghZpDbOht8orX-q4hKHIxYc_ppGnEcjFhz-mkacSYW9pt2VHm6sc-udkk3UXbx76QFj-dEKRNWIGnN1S2x&_nc_ohc=n281tm3BkPoQ7kNvwG4OO5Q&_nc_oc=AdoDDL_EaYNAe9GLvKOxmuMEvS109Yv1t2dGvnE4zVYHVpZiU813-WZIWg_KqaNuJm0&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&oh=00_AQI8aSh0wOPEQv_8vRHI7q0kLssz_dVd9zeK6DqcG6IlRw&oe=6AA58962",
+        "data": "2026-09-07",
+        "tipo": "Carrossel",
+        "likes": 320,
+        "comentarios": 640,
+        "reach": 5751,
+        "shares": 8,
+        "saved": 1,
+        "interacoes": 987,
+        "legenda": "Manhã de consagração no Brás, ao lado dos nossos líderes de jovens e adolescentes.   Juntos com o Bispo @oficialbisposam"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/Dc_4AYSpC89/",
+        "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/799869097_18616027000015757_4233431974342284988_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHKd6UGufcxsCSLfRsLQ8zfsIX8u5Q9KySwhfy7lD0rJC9Wm4CsXkq_kl5tyO4pYg5GQYwXgssQ5ziDZB_cqE7v&_nc_ohc=JrlJrBnpA2AQ7kNvwGLOwdc&_nc_oc=AdpJ-hwLs9qT52HkczsD9laUDyF7yiOY7jcVUEvrxcSsd0Zvlak7RXQuzET_xzGtiO8&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQIifNAE3Cp18-dXOgf5ClDIaPEQfCx7pNmw3qFZvYye58yjrFihBXEHNeCnYmck8-y7jsCwC3EqMw&oh=00_AQLTnxBsvIQmUwLAyNcW0dD9LwcMBAyVtG2vOxmvmP4LIg&oe=6AA55CDE",
+        "data": "2026-09-07",
+        "tipo": "Reel",
+        "likes": 182,
+        "comentarios": 700,
+        "reach": 1933,
+        "shares": 11,
+        "saved": 2,
+        "interacoes": 912,
+        "legenda": "Manhã de consagração no Brás, ao lado dos nossos lideres se jovens e adolescentes.  Junto com o Bispo @oficialbisposamue"
+      },
+      {
         "permalink": "https://www.instagram.com/reel/Dc805dIu_y2/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/798315737_18615647548015757_1170107924467533435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEZPPPQBrlERJMNeOXs1tVD2phMUa55WV3amExRrnlZXW6s3mvx__QnvwkeAmAflLrci_F8y_l36GUkzhFRXCEN&_nc_ohc=FI3b907_enQQ7kNvwGkVX6V&_nc_oc=Adp6sV6Ot6Wg1UBrc7FAUppaRd6GhdjoCWd0wO5LO1vJr55yWbMHQOxJSaYvtQiTqX0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iEBcgJxCHdI6suvOH9l6Yg&_nc_tpa=Q5bMBQKoH7ert2EKU6NX-w1G-cIgU1pz09o4XVRaSvkr9QNeADvEXlXAkFCix3ewLHkcv7xG_6F2x1_wHA&oh=00_AQJ-uBFW8QQ0WF-V2Y6SN0ppyCfU8rINaGynbkdZ9--J6Q&oe=6AA52D0A",
+        "thumb": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/798315737_18615647548015757_1170107924467533435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEZPPPQBrlERJMNeOXs1tVD2phMUa55WV3amExRrnlZXW6s3mvx__QnvwkeAmAflLrci_F8y_l36GUkzhFRXCEN&_nc_ohc=FI3b907_enQQ7kNvwHPFa5I&_nc_oc=AdpnthnjG4fQwiciK3J0Bhr5oPxPvpYV2xUrMl8oDwqWF4un-jVmCqKhId-vh5Y8NXM&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQLPpEI8-N_xN6Sh2NAD0Y8rMO3NR2Hpudc_xgEG1x7xYCjuz2ibOFzg82_onYv9GJnP3P-8qaDMkg&oh=00_AQKP8KKJhDmLiK-aOAvaYoRwmS-mJ5A8nyweDxEK8UC5AA&oe=6AA5654A",
         "data": "2026-09-06",
         "tipo": "Reel",
-        "likes": 341,
+        "likes": 342,
         "comentarios": 297,
-        "reach": 3360,
+        "reach": 3418,
         "shares": 69,
         "saved": 0,
-        "interacoes": 769,
+        "interacoes": 771,
         "legenda": "Seguimos firmes nossa jornada. 2️⃣2️⃣2️⃣3️⃣🗳️  Conto com as orações de vocês. Que Deus continue nos guiando, guardando e"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc_Z9NVtl3C/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/799543808_18615952474015757_3902416495526710497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEzbgPLnFl1wR9LM-f4OogiWhQHCEhi6VVaFAcISGLpVT0a0p2MJ4723DcrVznGr685hlWy7iJEwcqh_shgQOXF&_nc_ohc=83c95c_TF5oQ7kNvwHD1W0H&_nc_oc=AdqBXg1NPfvfAwD48tlLU_rcfma0ewnZK1thujwiMNS8Fpi0a6fZ-qmzd2x_z1a8pz8&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iEBcgJxCHdI6suvOH9l6Yg&_nc_tpa=Q5bMBQL-gsf5l4WIqQAJ8ZVMjYu-xVBTTp83_u2C8__FKhAn7H691Z0_ZgTW5cJxi1xvx6tN4v8sLQr6Qw&oh=00_AQJWydLnEiC83YoaGKYSQq2taGeG9qnzXTTQsXuCm7epVA&oe=6AA53333",
+        "thumb": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/799543808_18615952474015757_3902416495526710497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEzbgPLnFl1wR9LM-f4OogiWhQHCEhi6VVaFAcISGLpVT0a0p2MJ4723DcrVznGr685hlWy7iJEwcqh_shgQOXF&_nc_ohc=83c95c_TF5oQ7kNvwG2jQYL&_nc_oc=Adrnk8W2nqHQEbzrfu0wLP7NeZjBaBpJzfBUY3vkXrLH4BO1Hs7EoGm0OYht2TwAyvk&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQJYQmGFxafDXL9NBeNodXMQvcB2qrg9BUyG2TtLnfQDzsxw2H9CzF2idC_HereZN8leS8Av40KT8A&oh=00_AQKBrpVou49rimTTX16HnHrqpeekutfTG6Seyu0kWdDOWQ&oe=6AA56B73",
         "data": "2026-09-07",
         "tipo": "Reel",
-        "likes": 111,
-        "comentarios": 498,
-        "reach": 2152,
-        "shares": 92,
+        "likes": 115,
+        "comentarios": 500,
+        "reach": 2395,
+        "shares": 93,
         "saved": 3,
-        "interacoes": 731,
+        "interacoes": 738,
         "legenda": "Trabalho forte e alinhado com quem faz acontecer em Sorocaba! 🚀🔥  Estou com o nosso prefeito Rodrigo Manga @rodrigomanga"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dc9hvtOp0Al/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/798797946_18615748081015757_5038845298810274374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGpXUY4pwLdpX1F2rBRqRbggA8kVkOZ0qOADyRWQ5nSo0WUXmZfTjtzhXwDDFZNASpM_2Feirq8BquvfZb6kUeO&_nc_ohc=dkrxh7nftbUQ7kNvwHxwS-Y&_nc_oc=AdriaDGweDipWfMwdztLlH6tGkpPo6YLAZPzBhLpC0VzJ0cp7FuNgfcp9WJsBSNIgbo&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iEBcgJxCHdI6suvOH9l6Yg&_nc_tpa=Q5bMBQLXal48aM2IH_s3qOGUbiiKza0kLOFcSm0KsUCQaRLM2c2jXyk2_Z75bX6qc6V1_Lp5PQk2GCqo3w&oh=00_AQJ4x_wLNv-vd9cXJnhQpJG-UBTsd323But5nepCAAGBfg&oe=6AA535DA",
+        "thumb": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/798797946_18615748081015757_5038845298810274374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGpXUY4pwLdpX1F2rBRqRbggA8kVkOZ0qOADyRWQ5nSo0WUXmZfTjtzhXwDDFZNASpM_2Feirq8BquvfZb6kUeO&_nc_ohc=dkrxh7nftbUQ7kNvwEemz3z&_nc_oc=AdpFS5kFZS6jCrvHpugeeyc7NMgqhBO6ZXv4QqpYSMSiE-5rZ7fIK_HyZAyRHOCFNmw&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=IvuY1Z_5YjhxArFicQDk7Q&_nc_tpa=Q5bMBQKo7JoHhrOCxxTuPF2TV3ZiR2yWFLkPAAmDqVIFbEZ-MQNvM8wFqFhD4VaPXpS9QuovYGPL7nXo6w&oh=00_AQI5HgwNOzcTgLzLmFjDc4b_KkoipiXQTicaUphNpnhuxQ&oe=6AA56E1A",
         "data": "2026-09-06",
         "tipo": "Reel",
-        "likes": 218,
-        "comentarios": 400,
-        "reach": 2704,
+        "likes": 220,
+        "comentarios": 401,
+        "reach": 2807,
         "shares": 7,
         "saved": 3,
-        "interacoes": 651,
+        "interacoes": 654,
         "legenda": "Vista a nossa camisa — e a sua foto de perfil!  A nossa caminhada ganha força com a participação de cada um de vocês.   "
-      },
-      {
-        "permalink": "https://www.instagram.com/reel/Dc9_gS3sCSj/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/799346370_18615802120015757_1720154021824356212_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFMB2CDasRSjHLofSfuo1jVj0-CaW98LG6PT4Jpb3wsbtof07lIvoYWhR9NtZNABeKzPnDl4FUvEh8chcGypDWB&_nc_ohc=qeT1XYxotu0Q7kNvwGizcOp&_nc_oc=AdozOIPcg6c1N2l1iHodhEo_lfx5tID985Qf1OSxlymg4Xv2An59oR2tX_9jhL0I9Qg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iEBcgJxCHdI6suvOH9l6Yg&_nc_tpa=Q5bMBQIxYpHl_YHHKrz_wqFJqCt4L7uMBFXzridQ3iwmhYgsLXGllY1pafmtNrQx3lGIBGXEQcTdFJajmw&oh=00_AQLCUS2cSTeJUfvyVay5LP8HVWvm_otME3hJBe2roOVdPQ&oe=6AA53584",
-        "data": "2026-09-07",
-        "tipo": "Reel",
-        "likes": 166,
-        "comentarios": 406,
-        "reach": 1875,
-        "shares": 20,
-        "saved": 0,
-        "interacoes": 621,
-        "legenda": "Encontro com amigos em São Caetano com o querido @professorpiomielo"
-      },
-      {
-        "permalink": "https://www.instagram.com/p/Dc9qfo5iUiI/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/798589476_18615762898015757_5009218824142625296_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeH8FUujTA1ItFEmNTFYfRAMe_NuqREvab57826pES9pvr0kIIenYnNtFgVAD-j02mNnFfanBqvjxDlxlP3Cn5lP&_nc_ohc=MrENjkttb6wQ7kNvwHtfGVz&_nc_oc=AdqIJKXpfrzPWvMuRXnWyqy734oQWuUWyygD_Dda4QkE-3FoLfW6KpqcIUm_KDA15yc&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iEBcgJxCHdI6suvOH9l6Yg&oh=00_AQKMWCykeKJpFkTcpFEs_EG_F9NLvZHwEVUm2P-YLU_9eQ&oe=6AA53396",
-        "data": "2026-09-06",
-        "tipo": "Carrossel",
-        "likes": 164,
-        "comentarios": 420,
-        "reach": 2776,
-        "shares": 4,
-        "saved": 0,
-        "interacoes": 600,
-        "legenda": "Noite de festa aqui na @adbrasbarrafunda , aniversário do meu amigo @marciochim"
       }
     ]
   },
