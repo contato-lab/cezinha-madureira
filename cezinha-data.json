@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-10T08:11:12-03:00",
+  "atualizado_em": "2026-09-10T12:02:54-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,9 +9,9 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 107493,
-    "ig_atual": 198519,
-    "ig_posts": 648,
+    "fb_atual": 107496,
+    "ig_atual": 198540,
+    "ig_posts": 650,
     "serie": [
       {
         "data": "2026-06-17",
@@ -440,14 +440,14 @@
       },
       {
         "data": "2026-09-10",
-        "fb": 107493,
-        "ig": 198519
+        "fb": 107496,
+        "ig": 198540
       }
     ],
     "ig_follows": 4916
   },
   "publico": {
-    "atualizado_em": "2026-09-10T08:11:12-03:00",
+    "atualizado_em": "2026-09-10T12:02:54-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
@@ -612,85 +612,85 @@
       ]
     },
     "alcance_30d": 3251529,
-    "views_30d": 9819476,
+    "views_30d": 9819783,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/reel/DdE82-vposC/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.71878-15/802108740_2601019106978068_2353036118646766225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEryKlO14Q5hqRFGSPyH_oYn-uXC5g5BMOf65cLmDkEw6P_seekXutvCwIXJ5eFmMnJPbY6q-tKBkM2dLzRdJwc&_nc_ohc=pRNrr4dEYbMQ7kNvwFQ94gs&_nc_oc=AdrDu6yb1T8kF9_elWRlPHHSzVlKOz7meg4XCXdPeEsT522z3O4mIFoBTTMrx_LAK1c&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=heaLH6Q0ir6JuQQgoP49LQ&_nc_tpa=Q5bMBQKuMQ8ChdCUd9nZgXjMSzxgrvf8IR8_H3sA8cPJOoP2x0qzAP5ccaS3-SRaeay6RBlM6lWcJsRxpw&oh=00_AQIF36l0XC7ICCe47Nz0NAzUN1iWs9ISefwX0utLvu4SEw&oe=6AA8721A",
+        "thumb": "https://scontent-sea1-1.cdninstagram.com/v/t51.71878-15/802108740_2601019106978068_2353036118646766225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEryKlO14Q5hqRFGSPyH_oYn-uXC5g5BMOf65cLmDkEw6P_seekXutvCwIXJ5eFmMnJPbY6q-tKBkM2dLzRdJwc&_nc_ohc=pRNrr4dEYbMQ7kNvwHGofRO&_nc_oc=AdrKWo0CZkpayylZ9YOFVuZ7hZf41_QTQGGLktZTrgGaAYRq5yZrVzAYvOczKYg0-Gk&_nc_zt=23&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7A3qfd2wYySodkX2kbMS8w&_nc_tpa=Q5bMBQIvPhshrpR3EH1FSs0f6tbuIOTzokGbqlJQ3Kjx4lTaTM5aRTxYkRp9NtmBEHuQ1skvActhMWnvKw&oh=00_AQLrln_uNZjv_vjjXr4iro0aYr__q4Pw-nJCcCjz4jfROg&oe=6AA8AA5A",
         "data": "2026-09-09",
         "tipo": "Reel",
-        "likes": 55,
-        "comentarios": 1444,
-        "reach": 1621,
+        "likes": 59,
+        "comentarios": 1488,
+        "reach": 1830,
         "shares": 7,
-        "saved": 0,
-        "interacoes": 1514,
+        "saved": 1,
+        "interacoes": 1563,
         "legenda": "Obrigado pelo carinho, meu querido amigo Pr. @pastorgilbertodepaula ! Minha gratidão a você, à sua família e a toda a ig"
       },
       {
-        "permalink": "https://www.instagram.com/reel/DdDOJ57h0Ti/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/801582370_18616427296015757_7265709956208202198_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFSX31WB4WmmRkcyaZ02DYivrLSV0zhg3K-stJXTOGDci2HkiHDqLkpsJfl0xjviLLmINTPsN54sMoPT0uAuMux&_nc_ohc=TQ80Ct5xp5oQ7kNvwHrC5zx&_nc_oc=AdquIwFbm1OJjsmVe4rg_Qp4cAM7JDCvALEzUpqcDNjD4PQIWkJdNNFaiVERaYljExE&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=heaLH6Q0ir6JuQQgoP49LQ&_nc_tpa=Q5bMBQJAuK9ftEQbtGGYmnU4fZxdTlLdqQ2iwiS7WGipCLOx15qNHjKQhgFfg4dO7E8pRxjOBaIzCRx-sg&oh=00_AQL9xRnwAH_-kLTEL9XnOObcvW4zjS6TKZTIZFx6f4y9Bg&oe=6AA871A3",
+        "permalink": "https://www.instagram.com/reel/DdEWTUyBsGH/",
+        "thumb": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-15/801667757_18616534573015757_2159197453228208069_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGG5_Qr9LmQ9YKhmxlYZCZ5uKTiUjt0efW4pOJSO3R59U7Rp6OM1i783RmQq4j61bCx1TikMfyxgMTjIiLZ-Lp9&_nc_ohc=IpSsHt0aSjEQ7kNvwHSn56D&_nc_oc=AdrP2GJvy1JgfE1ITxLl7lW_hBvY2zldhL6I_9rXr7ZYuJZTLAR-pD4lk-kinyrvReA&_nc_zt=23&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7A3qfd2wYySodkX2kbMS8w&_nc_tpa=Q5bMBQIG-2WYVirkGN5kDe7IMR9-pvUSym4KbGDjA3N4qPCQTiHXUMnKNgURN2Uhv5NcxJk6Uj3lzsOjNQ&oh=00_AQKiEg8vYRcknuamfqJsnpTW3o6Ti6HzxBo9wcfRwkNI3w&oe=6AA880BC",
         "data": "2026-09-09",
         "tipo": "Reel",
-        "likes": 360,
-        "comentarios": 811,
-        "reach": 5210,
+        "likes": 202,
+        "comentarios": 1232,
+        "reach": 3370,
+        "shares": 38,
+        "saved": 0,
+        "interacoes": 1515,
+        "legenda": "Uma multidão nas ruas celebrando a nossa liberdade e o futuro do Brasil! 🇧🇷🔥  Estivemos reunidos na Avenida Paulista nes"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/DdDOJ57h0Ti/",
+        "thumb": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/801582370_18616427296015757_7265709956208202198_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFSX31WB4WmmRkcyaZ02DYivrLSV0zhg3K-stJXTOGDci2HkiHDqLkpsJfl0xjviLLmINTPsN54sMoPT0uAuMux&_nc_ohc=TQ80Ct5xp5oQ7kNvwHAOtZr&_nc_oc=Adp6SmNNs4aFLRh9lWrGD3le1OB88Xa9A02-nxYYz8wQPoAPRMfqRMmVHih7m2ryvoE&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7A3qfd2wYySodkX2kbMS8w&_nc_tpa=Q5bMBQL-qqbk9XdjcVtDP34zJWgA_geaW1QshC0XRYq05waBAA7gEvGkJK7JGKlCi-zQeEDq8yozZHp3Cg&oh=00_AQKlyMeblQfEJxfs7nK_OgopolW3OM5XRAvhU9Jq3Z9S-w&oe=6AA8A9E3",
+        "data": "2026-09-09",
+        "tipo": "Reel",
+        "likes": 371,
+        "comentarios": 814,
+        "reach": 5357,
         "shares": 134,
         "saved": 2,
-        "interacoes": 1387,
+        "interacoes": 1402,
         "legenda": "Obrigado Barueri pelo apoio, gratidão ao meu amigo sempre prefeito @rubensfurlanoficialbarueri a minha amiga @depbrunafu"
       },
       {
         "permalink": "https://www.instagram.com/reel/DdDM9TLMdcy/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/801219944_18616424845015757_8578446614020170055_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEoZ4gZmEegfPHOJ1OF6lLPUL1fj4xYbY9QvV-PjFhtj6owrzrNqFtF3oOVsnP_4iHF_ZciN9iVT79QRVM_Yyyg&_nc_ohc=LA28kSB2USIQ7kNvwH-I893&_nc_oc=AdoY4ca2Xu9Yeu8cbkgHqxtYKHMzN7stICEkFHgjRTMypZERUplMQ2GMg0nsPptO6Qw&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=heaLH6Q0ir6JuQQgoP49LQ&_nc_tpa=Q5bMBQIkgpg3FWNaZhLtjkyGskMXko5che5QDFQUW2PjHOGjY4-tkOHhb3Nw8AW-LParEnC2CVS_s6aZlw&oh=00_AQJMoi4VMruX0ljRVGEeOl3VPNMF8TEZ0Wk2VyLS4GsQOA&oe=6AA85CA7",
+        "thumb": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/801219944_18616424845015757_8578446614020170055_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEoZ4gZmEegfPHOJ1OF6lLPUL1fj4xYbY9QvV-PjFhtj6owrzrNqFtF3oOVsnP_4iHF_ZciN9iVT79QRVM_Yyyg&_nc_ohc=LA28kSB2USIQ7kNvwH26uh0&_nc_oc=AdosiA4McHdzbYkDwIG9-Yxuwlldik__93nAXbD9r1YThvOKbQzjRv2kYiZN2CVa_8M&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7A3qfd2wYySodkX2kbMS8w&_nc_tpa=Q5bMBQL-VSp-ulkPtJVGWiVPffY41gtPzjU_n7Hw07BVI_RbTvPoYOd2Uk-vt5DHcg2jcOpqbTAILlJIyw&oh=00_AQINjF8aIiiibat5RpBQN4lajnKA2EZ9nMCQQjxuDyqlGw&oe=6AA894E7",
         "data": "2026-09-09",
         "tipo": "Reel",
-        "likes": 329,
-        "comentarios": 1002,
-        "reach": 7319,
-        "shares": 18,
+        "likes": 336,
+        "comentarios": 1003,
+        "reach": 7566,
+        "shares": 21,
         "saved": 6,
-        "interacoes": 1382,
+        "interacoes": 1395,
         "legenda": "Momento especial de comunhão ao lado do meu líder @oficialbisposamuelferreira e de grandes amigos, pastores e líderes de"
       },
       {
-        "permalink": "https://www.instagram.com/reel/DdEWTUyBsGH/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/801667757_18616534573015757_2159197453228208069_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGG5_Qr9LmQ9YKhmxlYZCZ5uKTiUjt0efW4pOJSO3R59U7Rp6OM1i783RmQq4j61bCx1TikMfyxgMTjIiLZ-Lp9&_nc_ohc=IpSsHt0aSjEQ7kNvwEuSzI8&_nc_oc=AdqL2SvHPGyQ6vTnOaim7FNqN7MgnChU6z5MV1h1vYnx_T3PrgdgvLZLPVCEnc4EauY&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=heaLH6Q0ir6JuQQgoP49LQ&_nc_tpa=Q5bMBQJ3Vv5LteRmnxSuP64LCSyNVxVQN08wMU6rUsIIN9VRB2e-gwAysIL31Isg0SkND9MkVMsGoqQLdA&oh=00_AQKy0yG6d9_CYclj82OoOjhJoNS_mteQKHWVqLNicKQgWA&oe=6AA8487C",
-        "data": "2026-09-09",
-        "tipo": "Reel",
-        "likes": 190,
-        "comentarios": 1063,
-        "reach": 1977,
-        "shares": 29,
-        "saved": 0,
-        "interacoes": 1320,
-        "legenda": "Uma multidão nas ruas celebrando a nossa liberdade e o futuro do Brasil! 🇧🇷🔥  Estivemos reunidos na Avenida Paulista nes"
-      },
-      {
         "permalink": "https://www.instagram.com/reel/DdDMj1CvX12/",
-        "thumb": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/801233146_18616422796015757_433983553758419983_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeH0i-XUSk6IuAzMiL3FYC7jwFRANULgl1XAVEA1QuCXVTl6o7nFP2H3R6RuTRlnHXdqGZBEIKkLH-ntAdNGJwD1&_nc_ohc=R9YKGDQzzTMQ7kNvwEAkjah&_nc_oc=AdrUePHzGVIl74ILLZtQkQFWOQTsDVC8L8N2gVFtlgJUCscO0CvQ5DwX9b7gBKd_HlU&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=heaLH6Q0ir6JuQQgoP49LQ&_nc_tpa=Q5bMBQK5MMqpFgDRVOsxznFDO5D1wr15fFNSySAIR3a3iiNniy18GNJ4Bgk3nbPfricW7XTF07cc66IsjQ&oh=00_AQLd-l_r-AVPcLQaS1X_p3mxuK6zeKdYDyPUO-QZmlTsuQ&oe=6AA87A00",
+        "thumb": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/801233146_18616422796015757_433983553758419983_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeH0i-XUSk6IuAzMiL3FYC7jwFRANULgl1XAVEA1QuCXVTl6o7nFP2H3R6RuTRlnHXdqGZBEIKkLH-ntAdNGJwD1&_nc_ohc=R9YKGDQzzTMQ7kNvwGJ3kLP&_nc_oc=AdqeKSrkmLHVeBWlehspVa9rbBe3TDNDw867OchfXS1q0VdIwr53RsJDvDos2EgBZFI&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7A3qfd2wYySodkX2kbMS8w&_nc_tpa=Q5bMBQIxweET8HPpMxmLGKpoqPSOYwL7ryR42iAdS8oJ_mi7u3LjQxg0wiol0_bpdUkyKTymlkFx9D-21g&oh=00_AQJOnbGXpYwiyJ5mFNVQ6JxLZCdaZrVIfLVOBFD83xficg&oe=6AA8B240",
         "data": "2026-09-09",
         "tipo": "Reel",
-        "likes": 199,
-        "comentarios": 997,
-        "reach": 2723,
-        "shares": 19,
+        "likes": 206,
+        "comentarios": 999,
+        "reach": 2788,
+        "shares": 20,
         "saved": 0,
-        "interacoes": 1253,
+        "interacoes": 1264,
         "legenda": "Obrigado pelas palavras minha amiga, juntos pelas mulheres❤️"
       },
       {
-        "permalink": "https://www.instagram.com/p/DdAt3Kxlkvk/",
-        "thumb": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/800715088_18616131280015757_6158343478043828798_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_eui2=AeFNr-pCD34fAqCRifSPTTTIJkxgjHCaLW8mTGCMcJotb8aHhdHAAGYR1EKjZCVuJFwdaBmRMH9wZw2jFaYZZrns&_nc_ohc=Qtl0BNIGongQ7kNvwGV54xc&_nc_oc=AdpEmeCuLQZH5XIB0oG0VUnTDFMD3NPDNvNZOoBS9XhCeameOWXsATfzgrMxl9SXyqo&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=heaLH6Q0ir6JuQQgoP49LQ&oh=00_AQKITWuq5DO20mN1KRZjDNhg0U6Y04vk-emEiFUesjMqDw&oe=6AA859F8",
-        "data": "2026-09-08",
-        "tipo": "Carrossel",
-        "likes": 320,
-        "comentarios": 812,
-        "reach": 6686,
-        "shares": 16,
-        "saved": 2,
-        "interacoes": 1178,
-        "legenda": "Ao lado de grandes amigos e no meio da nossa gente: mais um marco histórico na Paulista. Deus abençoe o Brasil"
+        "permalink": "https://www.instagram.com/reel/DdG1Fg4ABjx/",
+        "thumb": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/785282133_18616826875015757_4549926500347328320_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEhnrex3fzP1hL4ZJ4xVfmOByVnc1crw6cHJWdzVyvDp15waToPt95jYrmR0PFdCBiHtUol64gjk7bzDhuBemad&_nc_ohc=8RvmbcXRTwQQ7kNvwHIdFNI&_nc_oc=Ado5vp5q30XhzYKZeiMK9zOxVPsQDEeGlBYqrrSPrZEZiO7WIdMieQBwxyWGqG1UNLs&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=7A3qfd2wYySodkX2kbMS8w&_nc_tpa=Q5bMBQL5ZOtw0jWI7fO1h1jltemVTllVsFjaLOOSbl7hr2mUXDiQ1URL9AqlxbpjTiUsjsM5xXYXKPoHiQ&oh=00_AQJH6PJny0Kc8E6I996PRHN2bimP0qP-AijGQzyLqNA4wQ&oe=6AA8A48B",
+        "data": "2026-09-10",
+        "tipo": "Reel",
+        "likes": 119,
+        "comentarios": 1088,
+        "reach": 959,
+        "shares": 19,
+        "saved": 0,
+        "interacoes": 1249,
+        "legenda": "Uma honra muito grande receber essa homenagem como amigo da Santa Casa, continuaremos lutando pelas Santas Casas do Esta"
       }
     ]
   },
