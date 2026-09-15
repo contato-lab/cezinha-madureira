@@ -22,7 +22,7 @@ TOKEN       = os.environ.get('META_TOKEN_CEZINHA', '')
 
 FB_PAGE_ID = '1401978510018003'
 IG_ID      = '17841400472685855'
-AD_ACCOUNTS = ['act_3515790661909032', 'act_1395564544098811']  # atual + a 8811 (voltou)
+AD_ACCOUNTS = ['act_27962096873443286', 'act_3515790661909032', 'act_1395564544098811']  # ELEICAO 2026 (portfolio Cezinha De Madureira 2026, desde set/2026) + 3515 + 8811
 CONS_SINCE  = '2026-06-01'  # operacao atual; evita misturar historico antigo da 8811 (desde 2023)
 
 BRT = timezone(timedelta(hours=-3))
@@ -224,7 +224,7 @@ def _tag_of(nome):
     return tag
 
 
-DOBRADAS_ACCOUNTS = ['act_1395564544098811']  # so a conta com o padrao de nome "[TAG][LM] ..."
+DOBRADAS_ACCOUNTS = ['act_27962096873443286', 'act_1395564544098811']  # contas com o padrao de nome "[TAG][LM] ..."
                                                # (a act_3515790661909032 e outra operacao, sem esse padrao)
 
 
