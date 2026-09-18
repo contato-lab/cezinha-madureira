@@ -1,6 +1,6 @@
 {
   "cliente": "Cezinha de Madureira",
-  "atualizado_em": "2026-09-17T22:37:08-03:00",
+  "atualizado_em": "2026-09-18T03:37:40-03:00",
   "fonte": "Meta Marketing API + Graph API",
   "contas": {
     "ad_account": "act_1395564544098811",
@@ -9,8 +9,8 @@
     "ig_username": "cezinhademadureira"
   },
   "seguidores": {
-    "fb_atual": 107468,
-    "ig_atual": 199079,
+    "fb_atual": 107465,
+    "ig_atual": 199080,
     "ig_posts": 683,
     "serie": [
       {
@@ -477,52 +477,57 @@
         "data": "2026-09-17",
         "fb": 107468,
         "ig": 199079
+      },
+      {
+        "data": "2026-09-18",
+        "fb": 107465,
+        "ig": 199080
       }
     ],
-    "ig_follows": 4957
+    "ig_follows": 4961
   },
   "publico": {
-    "atualizado_em": "2026-09-17T22:37:08-03:00",
+    "atualizado_em": "2026-09-18T03:37:40-03:00",
     "timeframe": "last_30_days",
     "seguidores": {
       "genero": [
         {
           "k": "U",
-          "v": 76973
+          "v": 76954
         },
         {
           "k": "M",
-          "v": 44595
+          "v": 44593
         },
         {
           "k": "F",
-          "v": 42579
+          "v": 42575
         }
       ],
       "idade": [
         {
           "k": "35-44",
-          "v": 45121
+          "v": 45112
         },
         {
           "k": "25-34",
-          "v": 38418
+          "v": 38402
         },
         {
           "k": "45-54",
-          "v": 37688
+          "v": 37693
         },
         {
           "k": "18-24",
-          "v": 20120
+          "v": 20103
         },
         {
           "k": "55-64",
-          "v": 15447
+          "v": 15453
         },
         {
           "k": "65+",
-          "v": 5675
+          "v": 5681
         },
         {
           "k": "13-17",
@@ -532,7 +537,7 @@
       "cidades": [
         {
           "k": "São Paulo, São Paulo (state)",
-          "v": 16521
+          "v": 16523
         },
         {
           "k": "Rio de Janeiro, Rio de Janeiro (state)",
@@ -540,7 +545,7 @@
         },
         {
           "k": "Guarulhos, São Paulo (state)",
-          "v": 1848
+          "v": 1849
         },
         {
           "k": "Saint Petersburg, Saint Petersburg",
@@ -552,7 +557,7 @@
         },
         {
           "k": "Osasco, São Paulo (state)",
-          "v": 948
+          "v": 949
         },
         {
           "k": "New York, New York",
@@ -564,7 +569,7 @@
         },
         {
           "k": "Barueri, São Paulo (state)",
-          "v": 855
+          "v": 858
         },
         {
           "k": "Belo Horizonte, Minas Gerais",
@@ -572,7 +577,7 @@
         },
         {
           "k": "Piracicaba, São Paulo (state)",
-          "v": 832
+          "v": 831
         },
         {
           "k": "Delhi, Delhi",
@@ -646,111 +651,111 @@
         }
       ]
     },
-    "alcance_30d": 7214098,
-    "views_30d": 30347981,
+    "alcance_30d": 7435764,
+    "views_30d": 31651063,
     "top_posts": [
       {
         "permalink": "https://www.instagram.com/reel/DdUlDiyuRCc/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/812903711_18618650155015757_1827553609184877375_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEfp0auzjbYh9Bo9AlPsZmZYLFstAF1jgJgsWy0AXWOAhPmSfn2zO8Io7KIzOBlTEzQIJKLde6amQSGjbVTG5Uo&_nc_ohc=O8gkCdhXDiAQ7kNvwF83QE_&_nc_oc=AdrU-FOCJkV-2iY7dnJHiJOw5zrzFw3_cxPQ-Ik-_xAZ76GQxqTGgGf7mRMbZv_jrxU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=lc-nlk1NTEBSaPT5f3Vnvg&_nc_tpa=Q5bMBQJIJGrdMThbqFuh8NfPxTBykvAEaxonFWfjbAmG6K7H2DNsnFPLPeGVxtLbuCplqKglMsUc_czotA&oh=00_AQJDXSBc0Ypwpk4pIyfZtNdErLZNcg6o8sOfP0lkmeNBiA&oe=6AB25663",
+        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/812903711_18618650155015757_1827553609184877375_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeEfp0auzjbYh9Bo9AlPsZmZYLFstAF1jgJgsWy0AXWOAhPmSfn2zO8Io7KIzOBlTEzQIJKLde6amQSGjbVTG5Uo&_nc_ohc=O8gkCdhXDiAQ7kNvwHTwjjw&_nc_oc=AdqXiKbL7vPTTtycXL4L_3hiET2f1bIGrP8AsSauLkaxNAyz0fcrfu1genT1cxxyYGs&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=2PZi9Kljmm_67TR146QMkw&_nc_tpa=Q5bMBQLBbt0iwFXMzaiQRooDRgZxtuVbRBWbS9CA4K9kdn0j_CGR2q8xEr2HRCdSSp9rn4aVXRFDF6sIgQ&oh=00_AQK2gNsIpBLjbW1WyNt5cE0gxpLHk0g7QQGftsiQDNgQyw&oe=6AB2C6E3",
         "data": "2026-09-15",
         "tipo": "Reel",
-        "likes": 686,
+        "likes": 688,
         "comentarios": 296,
-        "reach": 10216,
+        "reach": 10262,
         "shares": 211,
         "saved": 14,
-        "interacoes": 1302,
+        "interacoes": 1304,
         "legenda": "A fé, a firmeza e a verdade sempre vencem qualquer obstáculo! 🙏🇧🇷  Neste momento decisivo, seguimos firmes de cabeça erg"
       },
       {
         "permalink": "https://www.instagram.com/reel/DdTpYlGTSSS/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/811792078_18618481354015757_3513522076172474491_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFgw6G5J0QvtMze-X-SNfsE2blTSeKpHIPZuVNJ4qkcg9w5yFakTbJ8GtxxMWNJlnOer1mrrnnvpRoXmbUypHnx&_nc_ohc=9tZ2MqvpRQoQ7kNvwES3l_o&_nc_oc=AdqM8Ky42GXUuXM214V0KSE6xYzJ7WkoJst3fRWfuzS_51OBmHTodBuac1iKweH1Y3A&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=lc-nlk1NTEBSaPT5f3Vnvg&_nc_tpa=Q5bMBQL7iP_JaJ8EUJT410ddHfjsia3JCH1hVuH769001prV4tFmXDUHJVwZdcobFB890ttg1SCKqZjb8Q&oh=00_AQJ1Zcp34_kdLUIhCgv1iCIjqPjv8u2ndzpyDBR6E8QpeQ&oe=6AB265E4",
+        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/811792078_18618481354015757_3513522076172474491_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFgw6G5J0QvtMze-X-SNfsE2blTSeKpHIPZuVNJ4qkcg9w5yFakTbJ8GtxxMWNJlnOer1mrrnnvpRoXmbUypHnx&_nc_ohc=9tZ2MqvpRQoQ7kNvwGt6G4r&_nc_oc=AdpvA14oXGjWjAsXJyi6L1KROQsXREJGYfLPg3-Kgey6JF7SnXjKtJV99WnjuXxAeXY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=2PZi9Kljmm_67TR146QMkw&_nc_tpa=Q5bMBQINJ3HG0wxTJFgXn7hE63nrfCeeeBOnvjkmd8yn6hTosGtNgGHlSTe9ex2XK7mU6r41iwQUEsyEXA&oh=00_AQL9UH5ZGxSPOlgeBW_Slpepo1ELcKi95i2dnzyYTLor9w&oe=6AB29E24",
         "data": "2026-09-15",
         "tipo": "Reel",
-        "likes": 770,
-        "comentarios": 174,
-        "reach": 16814,
-        "shares": 136,
+        "likes": 776,
+        "comentarios": 176,
+        "reach": 16927,
+        "shares": 137,
         "saved": 23,
-        "interacoes": 1156,
+        "interacoes": 1166,
         "legenda": "Momento precioso de comunhão com meus líderes, na Cidade de Guarulhos, amo muito.   Gratidão, Deus seja louvado!"
       },
       {
         "permalink": "https://www.instagram.com/reel/DdZYpGGJnpy/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/813872192_18619202773015757_6933180920481057186_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGISYPzQveAdNIRiaWnsshqajgIrxM0Wt1qOAivEzRa3b933hUr26oTfJ0NwZxFGAvqw2B-76G1l0_VyCjqJQIN&_nc_ohc=i14ctv2c0xsQ7kNvwEH9MIF&_nc_oc=AdrD9uUtasAAkKdJBTxekQzq8jE2NVujSL_pPMzm_Vp2hpaowf_MdREbXTMPyt1aFpA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=lc-nlk1NTEBSaPT5f3Vnvg&_nc_tpa=Q5bMBQIT2tfF24_JUjOZGE1N2bRCEpslOjZ4439ipxAq7p-g7AWs-X7dafsmYjr5lFhoLy13pkSO6aIlUg&oh=00_AQLD96lI6P0_sKS6iEtFMcaIDVhVvB8nEDGeNT7gJVl3hQ&oe=6AB24E2F",
+        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/813872192_18619202773015757_6933180920481057186_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeGISYPzQveAdNIRiaWnsshqajgIrxM0Wt1qOAivEzRa3b933hUr26oTfJ0NwZxFGAvqw2B-76G1l0_VyCjqJQIN&_nc_ohc=br2rIl0gNo8Q7kNvwERDseo&_nc_oc=AdqJo64l6swx8lCpHJ3nkEdXxKdcMfW8_-MblUSDGMVnlmwy5nhlxr2WGP8LY9sIVsc&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=2PZi9Kljmm_67TR146QMkw&_nc_tpa=Q5bMBQJKZNBYZ3J4jM0nzj1TtY9coHCnwgNp4p_njPhgpcviIzjIqlI670MoijgNWBgZtEfwf7cTYnuUbQ&oh=00_AQKM4wDXXJFrbZFWgKhEmc3_pfNd4IcPjX5X_z4zsg5fkA&oe=6AB2BEAF",
         "data": "2026-09-17",
         "tipo": "Reel",
-        "likes": 365,
-        "comentarios": 263,
-        "reach": 5561,
-        "shares": 75,
-        "saved": 11,
-        "interacoes": 755,
+        "likes": 393,
+        "comentarios": 272,
+        "reach": 6125,
+        "shares": 78,
+        "saved": 13,
+        "interacoes": 803,
         "legenda": "Salmo 133 O Salmo da Nação Madureira. #teamopaizao"
       },
       {
         "permalink": "https://www.instagram.com/reel/DdXTu2TCZgo/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/812991262_18618919684015757_2889957273194818844_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHG-94wr-c2GuBfGAO5-cWDH9w9lGjaN28f3D2UaNo3b8uUc1tXVXSXLVPDW0oV5b5o4hdoAepYFISoNX4ROz5h&_nc_ohc=14Y8guyNPqMQ7kNvwHVjKj-&_nc_oc=AdrPhhjonN0T4DYh_mt9poOiHQhI2xVYunKCtd31pxIqadANdzwC2IhHFw99n2vOoII&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=lc-nlk1NTEBSaPT5f3Vnvg&_nc_tpa=Q5bMBQIHZP8fyBQqwNdzQC2aEi6XtrSDhDxHr1wft48rTXVtMTvhQLETuLW-YsxM7lU3PofZQI6snPUkxA&oh=00_AQLJGKWnqCGE5lEkB9noL24fNKm9Qw2kzIiInjJW-f0ckw&oe=6AB28384",
+        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/812991262_18618919684015757_2889957273194818844_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeHG-94wr-c2GuBfGAO5-cWDH9w9lGjaN28f3D2UaNo3b8uUc1tXVXSXLVPDW0oV5b5o4hdoAepYFISoNX4ROz5h&_nc_ohc=14Y8guyNPqMQ7kNvwFxqJpe&_nc_oc=Adpb8qu9Rh0XD1GBlzrkQVOg4xTH0IyvWNJasfpYgLCHXHMS3SmdfZ1RpSypK4IAn90&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=2PZi9Kljmm_67TR146QMkw&_nc_tpa=Q5bMBQJQ9_MqoBCTKgBZIiyApqDxCD-dQx7xB001bgqY5VsTNDI8UQ_IWKODAL2LuIRiH2OGumsf01mVbA&oh=00_AQIAnz1thycgOM62P3wBl7_JP6o_BgcHs7_j_1FK6J8a2A&oe=6AB2BBC4",
         "data": "2026-09-16",
         "tipo": "Reel",
-        "likes": 364,
-        "comentarios": 264,
-        "reach": 3961,
+        "likes": 371,
+        "comentarios": 265,
+        "reach": 4025,
         "shares": 21,
         "saved": 4,
-        "interacoes": 704,
+        "interacoes": 714,
         "legenda": "Um abraço muito especial para todos os meus irmãos e amigos da Zona Sul de São Paulo! 🙏✨  Obrigado por estarem sempre ju"
       },
       {
         "permalink": "https://www.instagram.com/reel/DdZmlgZp06S/",
-        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/813923184_18619230448015757_847071719344112473_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFI_zXlQpRaO0d9kibyuSxeNK9Znqbtrdk0r1mepu2t2cA9i-ptQGYoIlNY0yFGozg07WPiZFaOp59irhD3WMbn&_nc_ohc=95rp1p4znFoQ7kNvwEk7f5M&_nc_oc=AdpqEP2p9kg3uR57VwQs-QFPFB58Clr2xH9pk-JvrfZq_HtQmqqeIHobaW-Zhug5LA0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=lc-nlk1NTEBSaPT5f3Vnvg&_nc_tpa=Q5bMBQIqT5Ni6fF1HNT_Y6qL8IZ9iPuzNdPVuwInXfCfsinCNTOtgsRgiYHXenxaBVuyoyWN8m9M_JJ7-g&oh=00_AQLiRP2ochjj0rjVmB7EsgYxHKBVih_EFvrjAg_S-k_8pw&oe=6AB25E26",
+        "thumb": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/813923184_18619230448015757_847071719344112473_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFI_zXlQpRaO0d9kibyuSxeNK9Znqbtrdk0r1mepu2t2cA9i-ptQGYoIlNY0yFGozg07WPiZFaOp59irhD3WMbn&_nc_ohc=95rp1p4znFoQ7kNvwHnqcoj&_nc_oc=AdqCQkC2o7IU5OwaLujJrSkzEDf38c9c3CkMY8nn9Rd1FRZuG5WlxGRkUEZaDu3yJYE&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=2PZi9Kljmm_67TR146QMkw&_nc_tpa=Q5bMBQI1_dPP3skcB2VUiKwdhusFjlKDNZYk9inZDonnL-qYlFVGGWrpSrNjwhwaIKRrwpMSAJ_CmzSumQ&oh=00_AQIpG3VXovhB7xrSPeabKknS0093AIagryGxdd9brpKBkw&oe=6AB29666",
         "data": "2026-09-17",
         "tipo": "Reel",
-        "likes": 223,
-        "comentarios": 239,
-        "reach": 5853,
-        "shares": 41,
-        "saved": 4,
-        "interacoes": 521,
+        "likes": 248,
+        "comentarios": 243,
+        "reach": 6770,
+        "shares": 46,
+        "saved": 6,
+        "interacoes": 560,
         "legenda": "Juntos em um só propósito!  Gratidão ao meu Paizão, Bispo @oficialbisposamuelferreira aos amigos queridos e à minha amad"
       },
       {
         "permalink": "https://www.instagram.com/reel/DdYzsDOO5i-/",
-        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/813966589_18619114132015757_3301550011474345560_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFTnDchAFPlS9AGnMe-vDgDM0vSlg0H_fIzS9KWDQf98syLvg-33cqfRXYEjC01tzWbHYatVHndtCbtVAgE4pAJ&_nc_ohc=i5UT0xgs5oIQ7kNvwFdlINc&_nc_oc=AdrGkZsFF3oUETrH_QNoGEqrha9PunDbGvNM1TY8cP-PZ1hsF79RdCvJ2nKey087KNs&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=lc-nlk1NTEBSaPT5f3Vnvg&_nc_tpa=Q5bMBQIjdJtv9giedpNkJ_-AwdeldSAo3rg85dmr5VCYbftTF_GgTNUnkDVccL78Zh9S7oXuqohmQOM6Ag&oh=00_AQLvRABh1a2mo2FgluKrND_kDrbeA2c8Ul-OKKFXRFoLug&oe=6AB25830",
+        "thumb": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/813966589_18619114132015757_3301550011474345560_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_eui2=AeFTnDchAFPlS9AGnMe-vDgDM0vSlg0H_fIzS9KWDQf98syLvg-33cqfRXYEjC01tzWbHYatVHndtCbtVAgE4pAJ&_nc_ohc=i5UT0xgs5oIQ7kNvwFS9lI-&_nc_oc=Ado-Q7_oo5mJ_SADUBEab6Os3QknDLahfhLqUXVG9evVMP9LOEB26dYDdPJCC-1SgnE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=2PZi9Kljmm_67TR146QMkw&_nc_tpa=Q5bMBQKJ5sUgkM6ar8D-cTqWQajFDqwpkElLy7sTGCwhWmsqKD7F91R5W_2xq9Krd_oelj-8_ZWMY7LjDQ&oh=00_AQIcqPCTZzGv9qi7tqHN9dhX6YtF0KWh-vltOb5PNHOeSQ&oe=6AB2C8B0",
         "data": "2026-09-17",
         "tipo": "Reel",
-        "likes": 104,
-        "comentarios": 272,
-        "reach": 1260,
+        "likes": 109,
+        "comentarios": 274,
+        "reach": 1364,
         "shares": 18,
         "saved": 1,
-        "interacoes": 413,
+        "interacoes": 421,
         "legenda": "De ontem à noite com em Ribeirão Pires com Saulo, irmãos e amigos queridos."
       }
     ]
   },
   "consolidado": {
     "totais": {
-      "impressions": 42405865,
-      "reach": 11961907,
-      "clicks": 257088,
-      "link_clicks": 178556,
-      "engajamentos": 3759991,
-      "reacoes": 82296,
-      "comentarios": 3313,
-      "salvamentos": 828,
+      "impressions": 42698600,
+      "reach": 12013082,
+      "clicks": 257278,
+      "link_clicks": 178571,
+      "engajamentos": 3775312,
+      "reacoes": 82395,
+      "comentarios": 3321,
+      "salvamentos": 832,
       "compartilhamentos": 2316,
-      "video_plays": 38143096,
-      "video_views": 3492672,
-      "thruplays": 604494,
+      "video_plays": 38437493,
+      "video_views": 3507867,
+      "thruplays": 605786,
       "ad_recallers": 0,
-      "spend": 149989.75,
-      "cpm": 3.537,
-      "cpc": 0.5834,
-      "ctr": 0.6063,
-      "frequency": 3.5451,
+      "spend": 150712.98,
+      "cpm": 3.5297,
+      "cpc": 0.5858,
+      "ctr": 0.6025,
+      "frequency": 3.5543,
       "custo_engajamento": 0.0399,
-      "custo_link_click": 0.84,
+      "custo_link_click": 0.844,
       "ad_recall_rate": 0.0
     },
     "serie": [
@@ -2603,28 +2608,52 @@
         "data": "2026-09-16"
       },
       {
-        "impressions": 1307547,
-        "reach": 956541,
-        "clicks": 1230,
-        "link_clicks": 83,
-        "engajamentos": 72716,
-        "reacoes": 443,
-        "comentarios": 42,
-        "salvamentos": 5,
+        "impressions": 1449453,
+        "reach": 1072655,
+        "clicks": 1337,
+        "link_clicks": 93,
+        "engajamentos": 81632,
+        "reacoes": 494,
+        "comentarios": 44,
+        "salvamentos": 7,
         "compartilhamentos": 2,
-        "video_plays": 1237903,
-        "video_views": 72141,
-        "thruplays": 6378,
+        "video_plays": 1388071,
+        "video_views": 80992,
+        "thruplays": 7083,
         "ad_recallers": 0,
-        "spend": 3329.58,
-        "cpm": 2.5464,
-        "cpc": 2.707,
-        "ctr": 0.0941,
-        "frequency": 1.367,
-        "custo_engajamento": 0.0458,
-        "custo_link_click": 40.1154,
+        "spend": 3662.1,
+        "cpm": 2.5265,
+        "cpc": 2.739,
+        "ctr": 0.0922,
+        "frequency": 1.3513,
+        "custo_engajamento": 0.0449,
+        "custo_link_click": 39.3774,
         "ad_recall_rate": 0.0,
         "data": "2026-09-17"
+      },
+      {
+        "impressions": 150829,
+        "reach": 143299,
+        "clicks": 83,
+        "link_clicks": 5,
+        "engajamentos": 6405,
+        "reacoes": 48,
+        "comentarios": 6,
+        "salvamentos": 2,
+        "compartilhamentos": 0,
+        "video_plays": 144229,
+        "video_views": 6344,
+        "thruplays": 587,
+        "ad_recallers": 0,
+        "spend": 390.71,
+        "cpm": 2.5904,
+        "cpc": 4.7073,
+        "ctr": 0.055,
+        "frequency": 1.0525,
+        "custo_engajamento": 0.061,
+        "custo_link_click": 78.142,
+        "ad_recall_rate": 0.0,
+        "data": "2026-09-18"
       }
     ],
     "campanhas": {
@@ -2643,52 +2672,76 @@
   "dobradas": {
     "SP": {
       "totais": {
-        "impressions": 2589,
-        "reach": 1535,
-        "clicks": 250,
-        "link_clicks": 83,
-        "engajamentos": 1371,
-        "reacoes": 177,
-        "comentarios": 31,
-        "salvamentos": 1,
+        "impressions": 3227,
+        "reach": 1872,
+        "clicks": 300,
+        "link_clicks": 98,
+        "engajamentos": 1693,
+        "reacoes": 212,
+        "comentarios": 39,
+        "salvamentos": 2,
         "compartilhamentos": 0,
-        "video_plays": 2303,
-        "video_views": 1079,
-        "thruplays": 368,
+        "video_plays": 2911,
+        "video_views": 1342,
+        "thruplays": 461,
         "ad_recallers": 0,
-        "spend": 100.45,
-        "cpm": 38.7988,
-        "cpc": 0.4018,
-        "ctr": 9.6562,
-        "frequency": 1.6866,
-        "custo_engajamento": 0.0733,
-        "custo_link_click": 1.2102,
+        "spend": 122.1,
+        "cpm": 37.837,
+        "cpc": 0.407,
+        "ctr": 9.2966,
+        "frequency": 1.7238,
+        "custo_engajamento": 0.0721,
+        "custo_link_click": 1.2459,
         "ad_recall_rate": 0.0
       },
       "serie": [
         {
-          "impressions": 2589,
-          "reach": 1535,
-          "clicks": 250,
-          "link_clicks": 83,
-          "engajamentos": 1371,
-          "reacoes": 177,
-          "comentarios": 31,
+          "impressions": 2958,
+          "reach": 1742,
+          "clicks": 282,
+          "link_clicks": 93,
+          "engajamentos": 1560,
+          "reacoes": 194,
+          "comentarios": 34,
           "salvamentos": 1,
           "compartilhamentos": 0,
-          "video_plays": 2303,
-          "video_views": 1079,
-          "thruplays": 368,
+          "video_plays": 2653,
+          "video_views": 1238,
+          "thruplays": 425,
           "ad_recallers": 0,
-          "spend": 100.45,
-          "cpm": 38.7988,
-          "cpc": 0.4018,
-          "ctr": 9.6562,
-          "frequency": 1.6866,
-          "custo_engajamento": 0.0733,
-          "custo_link_click": 1.2102,
+          "spend": 113.23,
+          "cpm": 38.2792,
+          "cpc": 0.4015,
+          "ctr": 9.5335,
+          "frequency": 1.698,
+          "custo_engajamento": 0.0726,
+          "custo_link_click": 1.2175,
           "ad_recall_rate": 0.0,
           "data": "2026-09-17"
+        },
+        {
+          "impressions": 269,
+          "reach": 224,
+          "clicks": 18,
+          "link_clicks": 5,
+          "engajamentos": 133,
+          "reacoes": 18,
+          "comentarios": 5,
+          "salvamentos": 1,
+          "compartilhamentos": 0,
+          "video_plays": 258,
+          "video_views": 104,
+          "thruplays": 36,
+          "ad_recallers": 0,
+          "spend": 8.87,
+          "cpm": 32.974,
+          "cpc": 0.4928,
+          "ctr": 6.6914,
+          "frequency": 1.2009,
+          "custo_engajamento": 0.0667,
+          "custo_link_click": 1.774,
+          "ad_recall_rate": 0.0,
+          "data": "2026-09-18"
         }
       ],
       "conjuntos_ativos": 1,
